@@ -72,3 +72,11 @@ Reference Architecture Diagram:  [https://user-images.githubusercontent.com/5879
     *   Data Engineering with Python and AWS Lambda:  [https://learning.oreilly.com/videos/data-engineering-with/9780135964330](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
     *   Building AI & ML Applications on Google Cloud Platform:  [https://learning.oreilly.com/videos/building-ai-applications/9780135973462](https://learning.oreilly.com/videos/building-ai-applications/9780135973462)
     *   AWS Certified Machine Learning: _[https://learning.oreilly.com/videos/aws-certified-machine/9780135556597](https://learning.oreilly.com/videos/aws-certified-machine/9780135556597)
+    
+    
+## (Optional, but recommended:)
+
+* The video should be at least 1080p with 16:9 aspect ratio.
+* Consider recording with a  low-cost mic like follows:  https://www.amazon.com/Samson-Mic-Portable-Condenser-Microphone/dp/B001R76D42/ or equivalent at 48 kHz to 96 kHz.
+* Build this into public Github portfolio with links to your videos in YouTube.
+    
