@@ -1,6 +1,8 @@
-## Data Analysis in the Cloud at Scale
-## Spring 2020
-## Duke MIDS
+# Data Analysis in the Cloud at Scale
+
+**Spring 2020**
+
+**Duke MIDS** 
 
 ### Course Description
 
