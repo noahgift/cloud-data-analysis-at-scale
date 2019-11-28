@@ -15,8 +15,8 @@ Upon successful completion of this course, you will be able to:
 1. Summarize the fundamentals of cloud computing
 2. Evaluate the economics of cloud computing
 3. Accurately evaluate distributed computing challenges and opportunities and apply this knowledge to real-world projects.
-4.  
-
+4. Develop non-linear life-long learning skills
+5. Build, share and present compelling portfolios using:  Github, YouTube, and Linkedin.
 
 #### Conceptual Topics
 
