@@ -113,3 +113,4 @@ This course will make sure of several free resources that allow students to use 
 *   [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
 *   [Python in One Hour](https://github.com/noahgift/functional_intro_to_python/blob/master/README.md#python-in-one-hour)
 *   [AWS Cloud Practitioner Study Guide](https://noahgift.github.io/aws-cloud-practitioner-exam/)
+*   [The Lesson to Unlearn](http://paulgraham.com/lesson.html)
