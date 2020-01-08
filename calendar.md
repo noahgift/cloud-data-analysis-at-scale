@@ -10,7 +10,7 @@
 *   Economics of Cloud Computing
 *   Develop non-linear life-long learning skills
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -46,7 +46,8 @@
 *   What are the problems solved technically by cloud computing vs traditional infrastructure?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 2:  Cloud Computing Foundations-Part 2**
+## [Week 2](#week-2)
+## Cloud Computing Foundations-Part 2
 
 **Topics**
 
@@ -56,7 +57,7 @@
 *   IaC (Infrastructure as Code) w/ Terraform
 *   Continuous Delivery
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -84,11 +85,9 @@
 *   How should a company decide on what level of cloud abstraction to use for a project:   SaaS, PaaS, IaaS, MaaS, Serverless?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week: Virtualization & Containerization**
 
-**Learning Objectives **
-
-**Week 3: Virtualization and Containers-Part 1**
+## [Week 3](#week-3)
+##Week 3: Virtualization and Containers-Part 1
 
 **Topics**
 
@@ -98,7 +97,7 @@
 *   SDN (Software Defined Networks)
 *   SDS (Software Defined Storage)
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -128,7 +127,8 @@
 *   What problem do AWS Spot instances solve and how could you use them in your projects?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 4: Virtualization and Containers-Part 2**
+## [Week 4](#week-4)
+## Virtualization and Containers-Part 2
 
 **Topics**
 
@@ -138,7 +138,7 @@
 *   Hosted Services: EKS (Elastic Kubernetes Service), Google Kubernetes Engine, 
 *   Container Registries:  Dockerhub, ECR, Google Container Registry
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -168,7 +168,8 @@
 *   What is the relationship between Kubernetes and containers?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 5 : Challenges and Opportunities in Distributed Computing -Part 1**
+## [Week 5](#week-5)
+## Challenges and Opportunities in Distributed Computing -Part 1
 
 **Topics**
 
@@ -177,7 +178,7 @@
 *   Eventual Consistency
 *   Amdahl's law
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 *   Accurately evaluate distributed computing challenges and opportunities and apply this knowledge to real-world projects.
@@ -206,7 +207,8 @@
 *   What are the implications of Amdahl's law for Machine Learning projects?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 6: Challenges and Opportunities in Distributed Computing-Part 2**
+## [Week 6](#week-6)
+## Challenges and Opportunities in Distributed Computing-Part 2**
 
 **Topics**
 
@@ -215,7 +217,7 @@
 *   End of Moore’s Law
 *   ASICS:  GPUs, TPUs, FPGAs
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -242,7 +244,8 @@
 *   How could ASICs play an important role in Machine Learning going forward?
 *   Find, run and extend a notebook in seedbank and share along with your comments on what you learned.
 
-**Week 7 : Cloud Storage-Part 1**
+## [Week 7](#week-7)
+## Cloud Storage-Part 1
 
 **Topics**
 
@@ -250,7 +253,7 @@
 
 *   Cloud Databases:  HBase, MongoDB, Cassandra, DynamoDB, Google BigQuery
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -270,6 +273,7 @@
 
 *   [BigQuery for Data Analysis](https://www.qwiklabs.com/quests/55?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373471)
 *   (Optional if Available) AWS Academy Data Analytics Lab:  Query Data in Amazon Athena, Analyze Data with Amazon Redshift
+
 **Discussions/Assignments**
 
 
@@ -279,7 +283,8 @@
 *   What problem does a "serverless" database like Athena solve?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 8: Cloud Storage-Part 2**
+## [Week 8](#week-8)
+## Week 8: Cloud Storage-Part 2
 
 **Topics**
 
@@ -288,7 +293,7 @@
 *   Cloud Object Storage:  Amazon S3, GCP Cloud Storage, Amazon Glacier, Data Lakes, OpenStack Swift
 *   Distributed File Systems: Red Hat Ceph, Amazon EFS (Elastic File System), HDFS 
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -318,7 +323,8 @@
 *   What are the key problems do a Data Lake solve?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week-9: Serverless-Part1**
+## [Week 9](#week-9)
+## Serverless-Part1
 
 **Topics**
 
@@ -328,7 +334,7 @@
 *   FaaS (Function as a Service): AWS Lambda, GCP Cloud Functions, Azure Functions
 *   Cloud-Native Primitives: AWS Step Machines, AWS SQS, AWS SNS, AWS Cognito, AWS API Gateway
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -357,7 +363,8 @@
 *   How are the advantages to developing with Cloud9 ?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week-10: Serverless-Part2**
+## [Week 10](#week-10)
+Week-10: Serverless-Part2
 
 **Topics**
 
@@ -393,7 +400,8 @@
 *   What problems does the Cloud Shell environment solve?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 11: Big Data Platforms**
+## [Week 11](#week-11)
+## Big Data Platforms
 
 **Topics**
 
@@ -432,7 +440,8 @@
 *   What are the key differences between Hadoop and Spark?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 12:  Managed Machine Learning Systems**
+## [Week 12](#week-12)
+## Managed Machine Learning Systems
 
 **Topics**
 
@@ -471,7 +480,8 @@
 *   What are competitive offerings to Sagemaker?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
-**Week 13:  Edge Computing**
+## [Week 13](#week-13)
+## Edge Computing
 
 **Topics**
 
@@ -507,4 +517,5 @@
 *   What are the ML frameworks most widely used with edge inference?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.** **
 
-**Week 14:  Final Project Demo**
+## [Week 14](#week-14)
+## Final Project Demo
