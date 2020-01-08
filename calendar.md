@@ -35,7 +35,7 @@
 
 
 *   [GCP Essentials Qwiklabs](https://www.qwiklabs.com/quests/23?catalog_rank=%7B"rank"%3A2%2C"num_filters"%3A0%2C"has_search"%3Afalse%7D)
-*   AWS Academy CloudFoundations Lab 1-3:  Introduction to EC2, Working with EBS, Build your VPC and Launch a Web Server
+*   (Optional if Available) AWS Academy CloudFoundations Lab 1-3:  Introduction to EC2, Working with EBS, Build your VPC and Launch a Web Server
 
 **Discussions/Assignments**
 
@@ -118,7 +118,7 @@
 
 
 *  AWS Educate Lab: Launch Spot Virtual Machine using AWS Deep Learning AMI into VPC and ssh to instance via Cloud9]
-*  AWS Academy CloudFoundations Lab 4, 6: Build a Database Servers, Introduction to AWS IAM
+*  (Optional if Available) AWS Academy CloudFoundations Lab 4, 6: Build a Database Servers, Introduction to AWS IAM
 
 **Discussions/Assignments**
 
@@ -153,11 +153,11 @@
 *   [Python for DevOps: Docker Container Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html#containers-docker)
 *   [Python for DevOps:  Container Orchestration](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html)
 *   [TBD:  Video Build Container on AWS Cloud9]
+
 **Lab**
 
-
 *   [Kubernetes in the Cloud](https://www.qwiklabs.com/quests/29?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3372991)
-*   Academy Cloud Developing Lab:  Module 7 - Lab 4:  Working with Docker Containers
+*   (Optional if Available) Academy Cloud Developing Lab:  Module 7 - Lab 4:  Working with Docker Containers
 
 **Discussions/Assignments**
 
@@ -173,13 +173,11 @@
 **Topics**
 
 
-
 *   CAP Theorem
 *   Eventual Consistency
 *   Amdahl's law
 
 **Learning Objectives **
-
 
 
 *   Accurately evaluate distributed computing challenges and opportunities and apply this knowledge to real-world projects.
@@ -198,7 +196,7 @@
 
 
 
-*   AWS Academy Cloud Foundations Lab 5: Scale & Load Balance your Architecture
+*   (Optional if Available) AWS Academy Cloud Foundations Lab 5: Scale & Load Balance your Architecture
 
 **Discussions/Assignments**
 
@@ -271,7 +269,7 @@
 
 
 *   [BigQuery for Data Analysis](https://www.qwiklabs.com/quests/55?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373471)
-*   AWS Academy Data Analytics Lab:  Query Data in Amazon Athena, Analyze Data with Amazon Redshift
+*   (Optional if Available) AWS Academy Data Analytics Lab:  Query Data in Amazon Athena, Analyze Data with Amazon Redshift
 **Discussions/Assignments**
 
 
@@ -309,7 +307,7 @@
 
 
 
-*   AWS Academy Data Analytics Lab:  Store data in Amazon S3, Query data in Amazon S3 with Amazon Athena and AWS Glue
+*   (Optional if Available) AWS Academy Data Analytics Lab:  Store data in Amazon S3, Query data in Amazon S3 with Amazon Athena and AWS Glue
 *   [Use the Cloud SDK Command Line](https://www.qwiklabs.com/quests/95?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373512)
 
 **Discussions/Assignments**
@@ -345,16 +343,15 @@
 *   [https://github.com/noahgift/awslambda](https://github.com/noahgift/awslambda)
 *   [https://github.com/noahgift/web_scraping_python](https://github.com/noahgift/web_scraping_python)
 *   Learn to write AWS Lambda Functions in Python:  https://youtu.be/AlRUeNFuObk
+
 **Lab**
 
 
 
 *   [AWS Educate Lab:  Build timed AWS lambda in Python with Cloud9]
-*   AWS Academy Cloud Developing Lab:  Module 10 - Lab 5: Developing with AWS Lambda and Amazon API Gateway
+*   (Optional if Available) AWS Academy Cloud Developing Lab:  Module 10 - Lab 5: Developing with AWS Lambda and Amazon API Gateway
 
 **Discussions/Assignments**
-
-
 
 *   What are the tradeoffs with a serverless architecture?
 *   How are the advantages to developing with Cloud9 ?
@@ -426,7 +423,7 @@
 *   [Introduction to Cloud Dataproc](https://www.qwiklabs.com/focuses/672?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=3373752)
 *   [Provisioning and Using a Managed Hadoop/Spark Cluster with Cloud Dataproc (Command Line)](https://www.qwiklabs.com/focuses/3398?catalog_rank=%7B"rank"%3A3%2C"num_filters"%3A0%2C"has_search"%3Atrue%7D&parent=catalog&search_id=3373752)
 *   [Dataproc: Qwik Start - Command Line](https://www.qwiklabs.com/focuses/585?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=3373752)
-*   Academy Data Analytics Lab: Analyze Streaming Data with Amazon Kinesis Firehose, Amazon Elasticsearch and Kibana
+*   (Optional if Available) Academy Data Analytics Lab: Analyze Streaming Data with Amazon Kinesis Firehose, Amazon Elasticsearch and Kibana
 **Discussions/Assignments**
 
 
@@ -465,7 +462,7 @@
 
 
 *   [AWS Educate:  [County Census Project in Sagemaker](https://aws.amazon.com/blogs/machine-learning/analyze-us-census-data-for-population-segmentation-using-amazon-sagemaker/)]
-*   Academy Data Analytics Lab:  Analyze Data with Amazon Sagemaker, Jupyter Notebooks and Bokeh
+*   (Optional if Available) Academy Data Analytics Lab:  Analyze Data with Amazon Sagemaker, Jupyter Notebooks and Bokeh
 **Discussions/Assignments**
 
 
@@ -501,7 +498,7 @@
 
 
 *   [Classifying Images with Vision and Core ML](https://developer.apple.com/documentation/vision/classifying_images_with_vision_and_core_ml)
-*   Academy Data Analytics Lab: Analyze Iot Data with AWS IoT Analytics
+*   (Optional if Available) Academy Data Analytics Lab: Analyze Iot Data with AWS IoT Analytics
 **Discussions/Assignments**
 
 
