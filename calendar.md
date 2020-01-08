@@ -1,6 +1,7 @@
 # Course Calendar
 
 ## Week 1:  Cloud Computing Foundations-Part 1
+[Week 1](#week-1--cloud-computing-foundations-part-1)
 
 **Topics**
 
@@ -28,6 +29,7 @@
 *   [Introduction to AWS Economics](https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
 *   [AWS Slides Introduction to Cloud Computing and Cloud Economics](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
 *   [AWS Resources available to students and teacher](https://www.youtube.com/watch?v=VeWGNn_qHJQ)
+
 **Lab**
 
 
