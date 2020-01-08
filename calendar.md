@@ -373,7 +373,7 @@ Week-10: Serverless-Part2
 *   Google Cloud Shell Development Environment
 *   Google App Engine
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -411,8 +411,7 @@ Week-10: Serverless-Part2
 *   ETL (Extract Transform Load):  AWS Glue, AWS Athena
 *   Stream Processing:  EMR/Spark, AWS Kinesis, Kafka
 
-**Learning Objectives **
-
+**Learning Objectives**
 
 
 *   Recommend Big Data technology and design Big Data technology solutions to real-world problems.
@@ -449,7 +448,7 @@ Week-10: Serverless-Part2
 
 *   AWS Sagemaker
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
@@ -490,7 +489,7 @@ Week-10: Serverless-Part2
 *   IoT:  AWS Greengrass, Raspberry Pi
 *   Edge Machine Learning: Tensorflow lite, Intel Movidius, Apple X12
 
-**Learning Objectives **
+**Learning Objectives**
 
 
 
