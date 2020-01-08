@@ -1,7 +1,7 @@
 # Course Calendar
 
-## Week 1:  Cloud Computing Foundations-Part 1
-[Week 1](#week-1--cloud-computing-foundations-part-1)
+## [Week 1](#week-1)
+## Cloud Computing Foundations-Part 1
 
 **Topics**
 
