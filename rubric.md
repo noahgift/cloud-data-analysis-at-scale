@@ -1,5 +1,5 @@
 ## [discussions-rubric](#discussions-rubric)
-## Subtitle:  Weekly Async Discussion & Assignment Rubric **
+## Subtitle:  Weekly Async Discussion & Assignment Rubric
 
 *   Initial Post (50%):
     *   Demonstrates judgment: Full credit
