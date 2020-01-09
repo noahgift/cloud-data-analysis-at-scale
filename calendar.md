@@ -87,7 +87,7 @@
 
 
 ## [Week 3](#week-3)
-##Week 3: Virtualization and Containers-Part 1
+## Virtualization and Containers-Part 1
 
 **Topics**
 
@@ -284,7 +284,7 @@
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
 ## [Week 8](#week-8)
-## Week 8: Cloud Storage-Part 2
+## Cloud Storage-Part 2
 
 **Topics**
 
