@@ -3,8 +3,9 @@
 
 *   Initial Post (50%):
     *   Demonstrates judgment: Full credit
+    *   Creates approximately 500 words
 *   Followup Post (50%):
-    *    Responds to two users and demonstrates judgement:  Full credit
+    *    Responds to **two users** and demonstrates judgement:  Full credit
 
 ## [ic-project-rubric](#ic-project-rubric)
 ## Subtitle:  Individual Projects Rubric
