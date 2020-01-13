@@ -94,7 +94,8 @@ This course will make sure of several free resources that allow students to use 
 **Required Readings and Media**
 
 *   [Berkeley View of Cloud Computing](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf)
-*   [Google Cloud Adoption Framework](https://services.google.com/fh/files/misc/adoption_framework_whitepaper_nov12_final.pdf)
+*   [Google Cloud Adoption Framework (Read Whitepaper)](https://cloud.google.com/adoption-framework/)
+*   [AWS Cloud Adopation Framework (optional)](https://d1.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf)
 *   [The Economics of the Cloud-Microsoft](http://download.microsoft.com/download/6/e/4/6e4cb3d1-5004-4024-8d90-6c66c83c17aa/the_economics_of_the_cloud_white_paper.pdf)
 *   [Introduction to AWS Economics](https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
 *   [Gartner AI Hype Cycle](https://www.gartner.com/smarterwithgartner/top-trends-on-the-gartner-hype-cycle-for-artificial-intelligence-2019/)
