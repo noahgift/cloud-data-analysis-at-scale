@@ -89,8 +89,10 @@ Building software or doing data science is not about setting aside a period of t
 * Topic: Create technical posts
 * Directions:  
 
-    - Part A:  Use the techniques described above and create one or more "technical" posts in a chat channel like "Slack".  Express your idea in code using one or many of the techniques described above.
+    - Part A:  Use the techniques described above and create one or more "technical" posts in a chat channel like [Slack](https://slack.com/), [Piazza](https://piazza.com/) or [Canvas](https://canvas.instructure.com/).  Express your idea in code using one or many of the techniques described above.
 
     - Part B:  Comment and reply to at least one person where you learned a new technique.
 
     - Part C:  Later after the "dust" has settled in a day or two, write down and document what you learned so you can use it.
+
+    - Part D:  "Demo"  your post
