@@ -26,3 +26,7 @@
 *   Demonstrates ability to design solutions (25%):  Full Credit
 *   Summarizes project articulately in written and video form (25%):  Full Credit
 *   Summarizes project articulately via an in-person presentation to the class (25%):  Full Credit
+
+### References
+
+* [Effective Async Technical Discussions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
