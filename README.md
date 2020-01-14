@@ -12,7 +12,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 ### Getting Started
 * [Effective Async Technical Discussions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
-* [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/(https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
+* [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
 
 ## References:
 
