@@ -21,7 +21,7 @@ Another powerful feature of Github is a [gist](https://gist.github.com/).  What 
 ![sharegist](https://user-images.githubusercontent.com/58792/72302636-aefb6180-3638-11ea-8b4a-118f94c5933d.png)
 
 3.  Here is the url to share:
-https://gist.github.com/noahgift/b6eec243c70ba4f71033954c4da75dd3
+[Gist Example](https://gist.github.com/noahgift/b6eec243c70ba4f71033954c4da75dd3)
 Many chat programs will automatically render out the code snippit.
 
 #### Hosted Jupyter Notebooks
@@ -30,7 +30,7 @@ In theory, Jupyter Notebooks solve a huge problem in creating reproducable code,
 
 Fortunately there is an easy solution.  Jupyter notebooks that have a portable runtime are the ones that are actually reproducible.  Portable runtimes include [docker](https://www.docker.com/) and [colab](https://colab.research.google.com/).  Docker format files can specify exactly what the runtime should be like, including the packages that need to be installed.  
 
-One example of a hosted runtime can be found in this project:  https://github.com/noahgift/container-revolution-devops-microservices.
+One example of a hosted runtime can be found in this project:  [Container Microservices project](https://github.com/noahgift/container-revolution-devops-microservices).
 
 For a user to recreate the code and run it locally they can do the following:
 
