@@ -80,6 +80,10 @@ If you produce high-quality technical notes you can use these notes and code sam
 
 One substantional advantage to technical discussions is they serve as a form of active learning.  Writing software in a professional setting with modern software development practices often involves many team interactions (i.e. [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)).  This is a form of "super-charged" learning that enables software engineers to learn an extraordinary pace..
 
+### Conclusions
+
+Building software or doing data science is not about setting aside a period of time and building something and stopping.  It is an iterative from of group communication.  In turning in homework assignments or finish a ticket for a commercial project, the communication is where the most value is created versus just the raw software code.
+
 ### Exercises 
 
 * Topic: Create technical posts
