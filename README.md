@@ -16,8 +16,11 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 ## References:
 
-[Cloud Computing for Data Analysis Book](https://leanpub.com/cloud4data)
+### [Cloud Computing for Data Analysis Book](https://leanpub.com/cloud4data)
+This book is being written just in time.
 
+### Public Trello Board
+Public status of tickets for course/book:  https://trello.com/b/wh69p8jr/cloud4data-course
 
 ### Text and Code License
 The text and code content of notebooks and documents is released under the [CC-BY-NC-ND license](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/license.md)
