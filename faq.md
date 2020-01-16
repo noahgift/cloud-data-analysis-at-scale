@@ -4,8 +4,11 @@
 
 **Answer**: 
 
+Effective use of Cloud Computing requires use of DevOps principles.  Agile (iterative) software development is part of the DevOps workflow.  
+
 References:
 
 * https://aws.amazon.com/devops/what-is-devops/
 
+* [Python for DevOps-ProQuest Online Access](https://ebookcentral.proquest.com/lib/duke/detail.action?docID=5993982)
 ----
