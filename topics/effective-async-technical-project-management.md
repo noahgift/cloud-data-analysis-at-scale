@@ -1,6 +1,6 @@
-# Effective Async Technical Project Management
+## Effective Async Technical Project Management
 
-## Why Software Projects Fail
+### Why Software Projects Fail
 
 It is common for software projects to fail.  Working in the Bay Area over a decade I saw more failed projects than successful projects.  Here is what most likely goes wrong:
 
@@ -13,7 +13,7 @@ It is common for software projects to fail.  Working in the Bay Area over a deca
 * Failing in love with complexity of any kind
 * Lack of teamwork
 
-## How to ship high quality software that works and is on-time
+### How to ship high quality software that works and is on-time
 
 One method of hitting a deadline is creating a plan to hit the deadline.  Here is a checklist:
 
@@ -29,7 +29,7 @@ One method of hitting a deadline is creating a plan to hit the deadline.  Here i
 7.  Create an effective team which values process over ego.  You can read more about teamwork generally in [Teamwork:  What Must Go Right/What Can Go Wrong](https://www.amazon.com/Teamwork-Right-Wrong-Interpersonal-Communication/dp/0803932901) and the last chapter of [Python for DevOps](https://www.amazon.com/dp/149205769X/).
 8.  Embrace YAGNI (You Ain't Gonna Need It).
 
-## Other examples of high failure undertakings
+### Other examples of high failure undertakings
 
 The same software project management principles can  
 
