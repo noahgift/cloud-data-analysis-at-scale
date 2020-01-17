@@ -23,7 +23,7 @@ This book is being written "just in time", with a weekly release schedule.
 
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
 
-### TOC (Table of Contents Book)
+### TOC (Table of Contents) Book
 
 * Chapter One: Getting Started
   - Effective Async Technical Discussions
