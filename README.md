@@ -23,6 +23,31 @@ This book is being written "just in time", with a weekly release schedule.
 
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
 
+### TOC (Table of Contents Book)
+
+* Chapter One: Getting Started
+  - Effective Async Technical Discussions
+  - Effective Async Technical Project Management
+  - Cloud Onboarding
+* Chapter 2: Cloud Computing Foundations
+  - Overview of Cloud Computing
+* Chapter3: Virtualization & Containerization
+  - CPU, Memory, I/O
+* Chapter 4: Challenges and Opportunities in Distributed Computing
+  - CAP Theorem
+* Chapter 5: Cloud Storage
+  - Cloud Databases: HBase, MongoDB, Cassandra, DynamoDB, Google BigQuery
+* Chapter 6: Serverless
+  - Cloud 9 Development Environment
+* Chapter7: Big Data Platforms
+  - Batch Processing: EMR/Hadoop, AWS Batch
+  - Chapter 8: Managed Machine Learning Systems and Platforms
+  - AWS Sagemaker
+* Chapter9: Edge Computing
+  - IoT: AWS Greengrass, Raspberry Pi
+* Chapter 10: Case Studies
+  - Datascience meets intermittent fasting
+  
 ### Public Trello Board
 [Public status of tickets for course/book](https://trello.com/b/wh69p8jr/cloud4data-course)
 
