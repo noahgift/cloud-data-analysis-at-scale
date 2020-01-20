@@ -137,8 +137,13 @@ all: install lint test
 
 This example is from a tutorial repository called [`myrepo`](https://github.com/noahgift/myrepo).  There is also an article about how to use it from [CircleCI](https://circleci.com/blog/increase-reliability-in-data-science-and-machine-learning-projects-with-circleci/).
 
+
+<!---
 {type: video, poster: "http://img.youtube.com/vi/xYX7n5bZw-w/mqdefault.jpg"}
-![Data Science Build Systems](https://www.youtube.com/watch?v=xYX7n5bZw-w)
+-->
+You can watch the following screencast on how to setup a Data Science build system:
+
+* [Data Science Build Systems](https://www.youtube.com/watch?v=xYX7n5bZw-w)
 
 The general idea is that a convention eliminates the need to think about what to do.  For every project, there is a common way to install software, a common way to test software and a common way to test and lint software.  Just like `vim`, a `Makefile` build system is often already on a Unix or Linux system.  Even Microsoft uses the [Linux operating system in Azure](https://azure.microsoft.com/en-us/overview/linux-on-azure/), and the result is that Linux is the preferred deployment target for most software.
 
