@@ -209,7 +209,7 @@
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
 ## [Week 6](#week-6)
-## Challenges and Opportunities in Distributed Computing-Part 2**
+## Challenges and Opportunities in Distributed Computing-Part 2
 
 **Topics**
 
