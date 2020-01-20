@@ -2,7 +2,7 @@
 
 ### AWS (Amazon Web Services)
 
-* Free Tier
+* AWS Free Tier
 * AWS Academy 
     - official certification training material
     - labs (Vocareum)
@@ -10,8 +10,22 @@
 
 ### GCP (Google Cloud Platform)
 
-* GCP Personal account
+* [GCP Cloud Free Tier](https://cloud.google.com/free/docs/gcp-free-tier)
+
+There is a 12-month free trial with $300 credit to use cloud services.  In addition, there are many cloud resources that are in an *Always Free* tier.
+
 * [Qwiklabs](https://www.qwiklabs.com/)
+
+Qwiklabs is a lab solution that is used by Google education and also AWS Education (less frequently though since Google purchased Qwiklabs). Both the faculty and students at Universities can request ["free" Qwiklab credits](https://edu.google.com/programs/credits/?modal_active=none).  For users without a ".edu" address, they can also purchase Qwiklab credits or often get them for free at a training event.
+
+#### Qwiklab Gotchas
+
+There are a few non-intuitive gotchas about Qwiklabs:
+
+* To get "free" Qwiklab credits from a university you will need to use the .edu address your university provided.
+* The credentials Qwiklabs generates when a lab is created are temporary and ephemeral.  These credentials
+* *DO NOT USE UNIVERSITY EMAIL* to log into GCP.  Typically the IT department has setup GCP to restrict any usage of GCP with a .edu address.     
+* You will need to keep Qwiklabs open and follow the lab instructions as you log into a new GCP login using the *temporary* credentials.
 
 ### Exercise
 
