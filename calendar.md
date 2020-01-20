@@ -69,8 +69,8 @@
 
 
 
-*   [Cloud Computer Chapter-Python For DevOps](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch07.html)
-*   [Infrastructure as Code Chapter-Python for DevOps](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch08.html#infra-as-code)
+*   [Cloud Computer Chapter 9-Python For DevOps](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html#CloudComputing)
+*   [Infrastructure as Code Chapter 10-Python for DevOps](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html#infra-as-code)
 
 **Lab**
 
