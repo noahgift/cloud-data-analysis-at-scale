@@ -21,7 +21,12 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 * [Cloud Service Model](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-service-model)
 * [IaC](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/iac)
-* [Continuous Delivery]
+* [Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/continuous-delivery)
+
+### General
+
+* [Key Terms](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/key-terms)
+* [(Q&A) Question Answer](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/Question-Answer)
 
 ## References:
 
