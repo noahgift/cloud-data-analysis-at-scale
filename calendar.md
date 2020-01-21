@@ -17,6 +17,13 @@
 *   Summarize the fundamentals of cloud computing
 *   Evaluate the economics of cloud computing
 
+**Lectures**
+
+* [Effective Async Technical Discussions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
+* [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-project-management)
+* [Cloud Onboarding](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-onboarding)
+
+
 **Readings/Media**
 
 
@@ -64,6 +71,12 @@
 
 *   Evaluate different cloud service paradigms (IaaS, MaaS,PaaS, SaaS, serverless) and choose the correct paradigm for the problem at hand.
 *   Compose IAC (Infrastructure as Code) solutions
+
+**Lectures**
+
+* [Cloud Service Model](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-service-model)
+* [IaC](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/iac)
+* [Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/continuous-delivery)
 
 **Readings/Media**
 
