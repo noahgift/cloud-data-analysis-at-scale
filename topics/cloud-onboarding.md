@@ -49,7 +49,41 @@ The **FIRST** thing that should be setup with any new cloud development project 
 
 ![Cloud based CI](https://user-images.githubusercontent.com/58792/72550405-aeddaa80-3860-11ea-9a9b-af264b115446.png)
 
+#### Helpful shell commands to know!
+
+There are few helpful shell commands that come in handy in this tutorial and will come in handy on many environments.  
+
+* The `cd` command.  This let's you change to a directory
+* The `pwd` command.  This prints out the full path of where you currently are.  For example the output of the command run in the Cloud9 environment shows.
+
+```bash
+ec2-user:~/environment $ pwd
+/home/ec2-user/environment
+```
+* The `echo $HOME` command shows what the path of `$HOME` variable is set to.  For example this is the output on AWS Cloud9.
+
+```bash
+ec2-user:~/environment $ echo $HOME
+/home/ec2-user
+```
+
+* The `ls -la .` command will list all files in the current working directory, including invisible files that start with a `.` as shown in AWS Cloud9
+
+```bash
+ec2-user:~/environment $ ls -la
+total 24
+drwxr-xr-x  5 ec2-user ec2-user 4096 Jan  8 16:50 .
+drwx------ 17 ec2-user ec2-user 4096 Jan 21 13:46 ..
+drwxr-xr-x  4 ec2-user ec2-user 4096 Jan  8 16:50 .c9
+drwxr-xr-x  5 ec2-user ec2-user 4096 Jan  8 16:50 jan8
+drwxrwxr-x  6 ec2-user ec2-user 4096 Jan 21 13:52 python-devops-course
+-rw-r--r--  1 ec2-user ec2-user  569 Dec 24 16:04 README.md
+ec2-user:~/environment $ 
+```
+
 #### Setup and use Github
+
+*NOTE:  FOR AWS CLOUD9 THE DIRECTORY WHERE THE CLOUD EDITOR SHOWS CODE IS ```~/environment``` or ```/home/ec2-user/environment```*
 
 To setup and use Github you need a Github account and internet access.  The minimal steps to start are:
 
@@ -129,6 +163,8 @@ Just like `vim`, mastering `Makefiles` can take years, but a minimialstic approa
 
 A typical Python project can be improved by adding a `Makefile` with the following steps:  `make setup`, `make install`, `make test`, `make lint` and `make all`.
 
+*NOTE:  YOUR ENVIRONMENT WILL BE DIFFERENT.  IN THIS EXAMPLE THE ```.myrepo``` WOULD BE REPLACED BY THE NAME OF THE VIRTUAL ENVIRONMENT YOU CREATED.  THE ```lint``` SECTION WOULD NOT HAVE ```myrepolib``` IT WOULD BE THE NAME OF YOUR LIBRARY OR CODE.*
+
 {caption: "Example Makefile"}
 ```bash
 setup:
@@ -151,6 +187,10 @@ all: install lint test
 
 This example is from a tutorial repository called [`myrepo`](https://github.com/noahgift/myrepo).  There is also an article about how to use it from [CircleCI](https://circleci.com/blog/increase-reliability-in-data-science-and-machine-learning-projects-with-circleci/).
 
+*TIP:  When editing a `Makefile` make sure you use tabs.  In AWS Cloud9 you can toggle the gear icon to do this.  For other cloud editors make sure to toggle to tabs.*
+
+![Toggle Tabs](https://user-images.githubusercontent.com/58792/72812198-0d26d680-3c2f-11ea-8d32-ccb3153b212e.png)
+
 
 <!---
 {type: video, poster: "http://img.youtube.com/vi/xYX7n5bZw-w/mqdefault.jpg"}
@@ -160,6 +200,32 @@ You can watch the following screencast on how to setup a Data Science build syst
 * [Data Science Build Systems](https://www.youtube.com/watch?v=xYX7n5bZw-w)
 
 The general idea is that a convention eliminates the need to think about what to do.  For every project, there is a common way to install software, a common way to test software and a common way to test and lint software.  Just like `vim`, a `Makefile` build system is often already on a Unix or Linux system.  Even Microsoft uses the [Linux operating system in Azure](https://azure.microsoft.com/en-us/overview/linux-on-azure/), and the result is that Linux is the preferred deployment target for most software.
+
+### Integrating a SaaS Build Provider
+
+There are many SaaS Build providers that can be used for Continuous Integration:  [CircleCI](https://circleci.com/blog/increase-reliability-in-data-science-and-machine-learning-projects-with-circleci/), [Github Actions](https://github.com/features/actions) and the build providers of the cloud platform itself like [AWS Code Pipeline](https://aws.amazon.com/codepipeline/).
+
+For public open source projects, like a student portfolio, using a free provider like CircleCI or Github Actions is a good idea for every single repository that is created.  
+
+#### Setup CircleCI
+
+The steps to setup [CircleCI](https://circleci.com/blog/increase-reliability-in-data-science-and-machine-learning-projects-with-circleci/) are outline here, but at a high level it is:
+
+1.  Authenticate to CircleCI with Github account credentials
+2.  "Add Project"
+3.  Copy and edit  ```.circleci/config.yml``` in development environment.
+4.  Run build from CircleCI manually to test (then it should be automatic)
+5.  Integrate build badge in Github README.md
+
+One tricky item is that you will need to "toggle" editing hidden files if you are using a cloud editor like AWS Cloud9 or Google Cloud Shell.  With AWS Cloud9 you right-click on the left pane folder here as shown here to **toggle hidden files**:
+
+
+![hidden files](https://user-images.githubusercontent.com/58792/72812197-0d26d680-3c2f-11ea-945a-ccc8e9903729.png)
+
+Afterwards you should be able to edit a hidden directory like ```.circleci```.
+
+![.circleci](https://user-images.githubusercontent.com/58792/72812196-0d26d680-3c2f-11ea-89d8-fe73b96acf1f.png)
+
 
 ### Extending a Makefile for use with Docker Containers
 
