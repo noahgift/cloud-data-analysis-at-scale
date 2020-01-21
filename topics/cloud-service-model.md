@@ -36,6 +36,17 @@ This is a step by step Demo of three websites getting built (AWS Static S3, AWS 
 
 * [Demo:  A Tale of Three Websites](https://www.youtube.com/watch?v=acmuuHhrmSs)
 
+#### Instructions AWS S3 Website
+
+1.  Follow [S3 Hosting Instructions here](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html), (as shown in screencast ["A Tale of Three Websites"](https://www.youtube.com/watch?v=acmuuHhrmSs)) 
+
+
+#### Instructions AWS Lambda Website
+
+1.  Use AWS Cloud9 and "right click" to a new lambda function (as shown in screencast ["A Tale of Three Websites"](https://www.youtube.com/watch?v=acmuuHhrmSs))
+
+2.  Paste the code below into the editor.
+
 The following example demonstrates the Python code necessary to build a Lambda function that returns HTML.
 
 ```python
@@ -52,6 +63,17 @@ def lambda_handler(event, context):
     }
     return response
 ```
+
+3.  "Right-click" deploy the lambda function
+4.  Log into AWS console and click on the API Gateway icon in the AWS Lambda section.  Verify that it returns "Hello website Lambda".
+
+#### Instructions AWS Lambda Website 
+
+*(Optional)*
+
+1. Follow tutorial on setting up [LAMP Site here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html)
+
+Feel free to improvise and follow the simpler guide shown (as shown in screencast ["A Tale of Three Websites"](https://www.youtube.com/watch?v=acmuuHhrmSs)) 
 
 ### Exercise
 
