@@ -12,9 +12,16 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 ## Lecture Topics:
 
 ### Getting Started
+
 * [Effective Async Technical Discussions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
 * [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-project-management)
 * [Cloud Onboarding](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-onboarding)
+
+### Cloud Computing Foundations
+
+* [Cloud Service Model](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-service-model)
+* [IaC](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/iac)
+* [Continuous Delivery]
 
 ## References:
 
@@ -30,9 +37,13 @@ This book is being written "just in time", with a weekly release schedule.
   - Effective Async Technical Project Management
   - Cloud Onboarding
 * Chapter 2: Cloud Computing Foundations
-  - Overview of Cloud Computing
+  - Overview of Cloud Computing (Cloud Service Model)
+  - IAC (Infrastructure as Code)
+  - Continuous Delivery
 * Chapter3: Virtualization & Containerization
   - CPU, Memory, I/O
+  - SDN (Software Defined Networks)
+  - SDS (Software Defined Storage)
 * Chapter 4: Challenges and Opportunities in Distributed Computing
   - CAP Theorem
 * Chapter 5: Cloud Storage
