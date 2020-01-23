@@ -121,4 +121,4 @@ If this was successful you should get something similar to the following output.
 
 ![hugo website](https://user-images.githubusercontent.com/58792/72945272-6420ce80-3d49-11ea-9ed1-5661218713cb.png)
 
-If you edit the markdown file it will render out the changes live.  This allows for a great development workflow.
+If you edit the markdown file it will render out the changes live.  This allows for a an interactive development workflow.
