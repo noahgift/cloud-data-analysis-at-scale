@@ -122,3 +122,71 @@ If this was successful you should get something similar to the following output.
 ![hugo website](https://user-images.githubusercontent.com/58792/72945272-6420ce80-3d49-11ea-9ed1-5661218713cb.png)
 
 If you edit the markdown file it will render out the changes live.  This allows for a an interactive development workflow.
+
+* **Step6:  Create Static Hosted Amazon S3 website and deploy to bucket**
+
+The next thing to do is to deploy this website directory to an AWS S3 bucket.  You can follow the instructions [here on how to create an s3 bucket and set it up for hosting](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/static-website-hosting.html).
+
+
+Note this also means setting a `bucket policy` via the bucket policy editor as shown below.  The name of your bucket *WILL NOT BE `cloud9-hugo-duke`* you must change this.
+
+```javascript
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadGetObject",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::cloud9-hugo-duke/*"
+            ]
+        }
+    ]
+}
+```
+
+The bucket policy editor workflow looks as follows.
+
+![bucket policy editor](https://user-images.githubusercontent.com/58792/72947411-e6ac8c80-3d4f-11ea-8842-137b276a86c7.png)
+
+
+
+* **Step7:  Deploy the website manually before it becomes fully automated**
+
+With automation it is very important to first manually write down the steps for a workflow before fully automating it.  The following items will need to be followed:
+
+
+1.  The `config.toml` will need to be edited as shown below.  Note that your s3 bucket url will be different.
+
+
+```bash
+baseURL = "http://cloud9-hugo-duke.s3-website-us-east-1.amazonaws.com"
+languageCode = "en-us"
+title = "My New Hugo Sit via AWS Cloud9"
+theme = "ananke"
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "awsbucket"
+URL = "s3://cloud9-hugo-duke/?region=us-east-1" #your bucket here
+```
+
+2.  Now you can deploy by using the built in `hugo deploy` command.  The deployment command output should look like this after you run `hugo deploy`:
+
+```bash
+ec2-user:~/environment/quickstart (master) $ hugo deploy                                                                                    
+Deploying to target "awsbucket" (s3://cloud9-hugo-duke/?region=us-east-1)                                                                   
+Identified 15 file(s) to upload, totaling 393 kB, and 0 file(s) to delete.                                                                  
+Success!
+```    
+
+The contents of the AWS S3 bucket should look similar to this.
+
+![bucket contents](https://user-images.githubusercontent.com/58792/72947506-31c69f80-3d50-11ea-92b0-87a7980ecce8.png)
+
+
+The website demonstrated in this tutorial is visible here:  [http://cloud9-hugo-duke.s3-website-us-east-1.amazonaws.com/](http://cloud9-hugo-duke.s3-website-us-east-1.amazonaws.com/)
