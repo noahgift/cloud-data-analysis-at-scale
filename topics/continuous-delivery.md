@@ -197,12 +197,199 @@ The website demonstrated in this tutorial is visible here:  [http://cloud9-hugo-
 
 ![add git repo](https://user-images.githubusercontent.com/58792/72995683-50b44880-3dc7-11ea-861e-26c98a4260e4.png)
 
-*([Optional but recommended](https://github.com/noahgift/hugo-continuous-delivery-demo/blob/master/.gitignore) add `/public` to `.gitignore)*
+*([Optional but recommended](https://github.com/noahgift/hugo-continuous-delivery-demo/blob/master/.gitignore) add `public` to `.gitignore)*
 
+2.  In AWS cloud9 in the quickstart directory create a `Makefile` with a `clean` command.  This will `rm -rf` the public html directory that `hugo` creates.  You don't want to check this into source control.
+
+![create Makefile](https://user-images.githubusercontent.com/58792/72996682-1e0b4f80-3dc9-11ea-852a-bfff144fb315.png)
+
+
+```bash
+clean:
+	echo "deleting generated HTML"
+	rm -rf public
+```
+3.  Now run `make clean` to delete the `public` directory and all of the source code `hugo` generated (don't worry it regenerates html anytime you run `hugo`).
+
+4.  Add Github repo as a "remote".  This will be the name of the Github repository you just created.  It will look something like this where you change change the name of your site.
+
+```git remote add origin git@github.com:<github_username>/my_hugo_site.git```
+
+My git remote add command looks like this (note I run `git remote -v` to verify afterwards):
+
+```bash
+ec2-user:~/environment/quickstart (master) $ git remote add origin git@github.com:noahgift/hugo-continuous-delivery-demo.git
+ec2-user:~/environment/quickstart (master) $ git remote -v
+origin  git@github.com:noahgift/hugo-continuous-delivery-demo.git (fetch)
+origin  git@github.com:noahgift/hugo-continuous-delivery-demo.git (push)
+```
+
+5.  Add the source code and push to Github.
+
+Typically I get the "lay of the land" before I commit.  I do this be running `git status`.  Here is my output.  You can see that I need to `Makefile` `archetypes` `config.toml` and `content/`.
+
+```bash
+ec2-user:~/environment/quickstart (master) $ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitmodules
+        new file:   themes/ananke
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        Makefile
+        archetypes/
+        config.toml
+        content/
+```
+
+I add them by typing the command `git add *`.  You can see below that this will add all of those files and directories:
+
+```bash
+ec2-user:~/environment/quickstart (master) $ git add *
+ec2-user:~/environment/quickstart (master) $ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitmodules
+        new file:   Makefile
+        new file:   archetypes/default.md
+        new file:   config.toml
+        new file:   content/posts/my-first-post.md
+        new file:   themes/ananke
+```
+
+Now push these files by doing the following commands:
+
+```bash
+git branch --set-upstream-to=origin/master
+git pull --allow-unrelated-histories
+git push
+```
+You can see what this looks like below:
+
+![git push hugo](https://user-images.githubusercontent.com/58792/73000067-55c8c600-3dce-11ea-9b3f-00f855b5adcf.png)
+
+The github repo looks like this now:
+
+![github repo](https://user-images.githubusercontent.com/58792/73000248-91fc2680-3dce-11ea-9c71-5728fbfc4a72.png)
+
+*NOTE:  Using `git` can be very challenging in edge cases.  If this workflow doesn't work you can also start over from scratch and clone your github repo and manually add `hugo` into it*
+
+*(Optional step:  If you want to verify your `hugo` site, check out this project on your laptop or another AWS Cloud9 instance and run hugo.)*
 
 
 * **Step9:  Continuous Delivery with AWS CodeBuild**
 
+Now it is time for the final part.  Let's setup continuous delivery using AWS CodeBuild.  This will allow changes that get pushed to Github to automatically deploy.
+
+1.  Go to [AWS CodeBuild](https://aws.amazon.com/codebuild/) and create a new project.  It is should look like this:
+
+![code build](https://user-images.githubusercontent.com/58792/73001043-d3410600-3dcf-11ea-8e70-eb6fec097c7f.png)
+
+*Note create a build in the same region you created your bucket:  i.e N. Virginia!*
+
+2. The source code section should look similar this screenshot.  *Note the `webhook`.  This will do continuous delivery on changes*
+
+![setup source](https://user-images.githubusercontent.com/58792/73007665-ec02e900-3dda-11ea-8102-43da8f562b10.png)
+
+
+3.  The codebuild environment should look similar to this.  Click the "create build" button:
+
+![codebuild environment](https://user-images.githubusercontent.com/58792/73002518-32077f00-3dd2-11ea-9b36-ba5e07cfca16.png)
+
+
+4.  After you create the build navigate to "Build details" section and select the service role.  This where the privilages to deploy to S3 will be setup:
+
+![codebuild service role](https://user-images.githubusercontent.com/58792/73002867-ac380380-3dd2-11ea-9347-18806a7fa47e.png)
+
+
+You will add an "admin" policy that looks like this:
+
+
+![admin policy](https://user-images.githubusercontent.com/58792/73008299-4badc400-3ddc-11ea-9654-f66c3c0ad08a.png)
+
+
+Now in AWS Cloud9 go back and create the final step.
+
+The following is a `buildspec.yml` file you can paste it.  You create the file with AWS Cloud9 by typing:  `touch buildspec.yml` then editing.
+
+```bash
+version: 0.2
+
+environment_variables:
+  plaintext:
+    HUGO_VERSION: "0.63.0"
+    
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+    commands:                                                                 
+      - cd /tmp
+      - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+      - tar -xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+      - mv hugo /usr/bin/hugo
+      - cd - 
+      - rm -rf /tmp/*
+  build:
+    commands:
+      - rm -rf public
+      - hugo
+      - hugo deploy
+  post_build:
+    commands:
+      - echo Build completed on `date`
+```
+
+Now check this file into git and push:
+
+```bash
+git add buildspec.yml 
+git commit -m "adding final build step"
+git push
+```
+
+It should look like this:
+
+![buildspec push](https://user-images.githubusercontent.com/58792/73005690-5f0a6080-3dd7-11ea-8c07-c26f25695c10.png)
+
+Now every time you make changes to content it will "auto-deploy" as shown:
+
+![auto-build](https://user-images.githubusercontent.com/58792/73008532-c1199480-3ddc-11ea-9351-8f5b9781892d.png)
+
+As you create new posts, etc, it will deploy:
+
+![auto deploy](https://user-images.githubusercontent.com/58792/73008737-2ec5c080-3ddd-11ea-90f4-b4d43591aa17.png)
+
+
+* **Post Setup (Optional Advanced Configurations)**
+
+#### Setting up SSL for CloudFront
+
+Go to  AWS Certificate Manager and click **Request a certificate** button.
+First, we need to add domain names, in our case (example.com). When you enter the domain name as `*.example.com`, click **Add another name to this certificate** button and add plain domain `example.com` too. On a next step select **DNS validation** option and click **Confirm and request** button in Review.
+To use DNS validation, you must be able to add a CNAME record to the DNS configuration for your domain.  Add CNAME record created on ACM to the DNS configuration for your domain on **Route 53**.
+
+#### CloudFront configurations
+
+Create a web distribution in the CloudFront section. In the **Origin Domain Name** field select Endpoint of your bucket. Select "Redirect HTTP to HTTPS" from the **Viewer Protocol Policy**. Add your domain names in the **Alternate Domain Name** filed and select the SSL certificate you have created in the ACM. In the **Default Root Object** type `index.html`. Once done please proceed and create the distribution.
+
+### Integrating Route53 with CloudFront distribution:
+
+Copy the domain name from the CloudFront distribution and edit A record in your Route53. Select **Alias**, in **Alias Target**, enter your CloudFront domain URL which is ******.cloudfront.net. Click **Save Record Set**. Now that you have created A record. The domain name example.com will route to your **CloudFront distribution**.
+We need to create a CNAME record to point other sub-domains like `www.example.com` to map to the created **A record** 
+Click  **Create Record Set**, enter `*` in name textbox. Select  **CNAME**  from Type. In value, type the A record, in our case, it will be  example.com. Click  **Save Record Set**. Now even  www.example.com will forward to  example.com  which in-turn will forward to CloudFront distribution.
 
 #### Building Hugo Sites Automatically Using AWS CodeBuild
 The first thing that we need is a set of instructions for building the Hugo site. Since the build server starts clean every time this includes downloading Hugo and all the dependencies that we require. One of the options that CodeBuild has for specifying the build instruction is the `buildspec.yaml` file.
@@ -223,7 +410,7 @@ Navigate to the CodeBuild console and create a new project using the following s
 -   **Cache:** `No cache`
 -   **Service role:**  `Create a service role in your account`
 
-#### Creating IAM user
+#### Creating IAM Role
 For building project, deploy to S3  and enable CloudFront Invalidation we need to create an individual  IAM role. Add IAM role and attach **CloudFrontFullAccess**  and **AmazonS3FullAccess** policies.  After that click **Add permissions** button again select "Attach existing policies directly" and click **Create policy** button. Select "JSON" and paste following user policy:
 ```js
 {
@@ -260,22 +447,3 @@ For building project, deploy to S3  and enable CloudFront Invalidation we need t
         }
     ]
 }
-```
-Also, you need to add a policy for the IAM role, which will be called *CodeBuildBasePolicy-**[codebuild-project-name]**-**[aws-region-name]***
-
-* **Post Setup (Optional)**
-
-#### Setting up SSL for CloudFront
-
-Go to  AWS Certificate Manager and click **Request a certificate** button.
-First, we need to add domain names, in our case (example.com). When you enter the domain name as `*.example.com`, click **Add another name to this certificate** button and add plain domain `example.com` too. On a next step select **DNS validation** option and click **Confirm and request** button in Review.
-To use DNS validation, you must be able to add a CNAME record to the DNS configuration for your domain.  Add CNAME record created on ACM to the DNS configuration for your domain on **Route 53**.
-
-#### CloudFront configurations
-
-Create a web distribution in the CloudFront section. In the **Origin Domain Name** field select Endpoint of your bucket. Select "Redirect HTTP to HTTPS" from the **Viewer Protocol Policy**. Add your domain names in the **Alternate Domain Name** filed and select the SSL certificate you have created in the ACM. In the **Default Root Object** type `index.html`. Once done please proceed and create the distribution.
-
-### Integrating Route53 with CloudFront distribution:
-Copy the domain name from the CloudFront distribution and edit A record in your Route53. Select **Alias**, in **Alias Target**, enter your CloudFront domain URL which is ******.cloudfront.net. Click **Save Record Set**. Now that you have created A record. The domain name example.com will route to your **CloudFront distribution**.
-We need to create a CNAME record to point other sub-domains like `www.example.com` to map to the created **A record** 
-Click  **Create Record Set**, enter `*` in name textbox. Select  **CNAME**  from Type. In value, type the A record, in our case, it will be  example.com. Click  **Save Record Set**. Now even  www.example.com will forward to  example.com  which in-turn will forward to CloudFront distribution.
