@@ -175,7 +175,7 @@ name = "awsbucket"
 URL = "s3://cloud9-hugo-duke/?region=us-east-1" #your bucket here
 ```
 
-2.  Now you can deploy by using the built in `hugo deploy` command.  The deployment command output should look like this after you run `hugo deploy`:
+2.  Now you can deploy by using the built in `hugo deploy` command.  The deployment command output should look like this after you run `hugo deploy`.  You can read more about the `deploy` command [in the official docs](https://gohugo.io/hosting-and-deployment/hugo-deploy/).
 
 ```bash
 ec2-user:~/environment/quickstart (master) $ hugo deploy                                                                                    
@@ -190,3 +190,92 @@ The contents of the AWS S3 bucket should look similar to this.
 
 
 The website demonstrated in this tutorial is visible here:  [http://cloud9-hugo-duke.s3-website-us-east-1.amazonaws.com/](http://cloud9-hugo-duke.s3-website-us-east-1.amazonaws.com/)
+
+* **Step8:  Check into Github**
+
+1.  Create a new Github repo (and add `.gitignore`)
+
+![add git repo](https://user-images.githubusercontent.com/58792/72995683-50b44880-3dc7-11ea-861e-26c98a4260e4.png)
+
+*([Optional but recommended](https://github.com/noahgift/hugo-continuous-delivery-demo/blob/master/.gitignore) add `/public` to `.gitignore)*
+
+
+
+* **Step9:  Continuous Delivery with AWS CodeBuild**
+
+
+#### Building Hugo Sites Automatically Using AWS CodeBuild
+The first thing that we need is a set of instructions for building the Hugo site. Since the build server starts clean every time this includes downloading Hugo and all the dependencies that we require. One of the options that CodeBuild has for specifying the build instruction is the `buildspec.yaml` file.
+
+Navigate to the CodeBuild console and create a new project using the following settings:
+
+-   **Project name:**  `somename-hugo-build-deploy`
+-   **Source provider:** `GitHub`
+-   **Repository:** `Use a repository in my account`
+-   **Choose a repository:** `Choose your GitHub repository`
+-   Click on **Webhook**  checkbox for rebuilding project  every time a code change is pushed to this repository
+-   **Environment image:**  `Use an image managed by AWS CodeBuild`
+-   **Operating System:** `Ubuntu` 
+-   **Runtime:** `Base`
+-   **Runtime version:** `Choose a runtime environment version`
+-   **Buildspec name:** `buildspec.yml`
+-   **Artifact type:**  `No artifact`
+-   **Cache:** `No cache`
+-   **Service role:**  `Create a service role in your account`
+
+#### Creating IAM user
+For building project, deploy to S3  and enable CloudFront Invalidation we need to create an individual  IAM role. Add IAM role and attach **CloudFrontFullAccess**  and **AmazonS3FullAccess** policies.  After that click **Add permissions** button again select "Attach existing policies directly" and click **Create policy** button. Select "JSON" and paste following user policy:
+```js
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "cloudfront:CreateInvalidation",
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:ListBucket",
+                "s3:DeleteObject",
+                "s3:PutObjectAcl"
+            ],
+            "Resource": [
+                "arn:aws:s3:::s3-<bucket-name>",
+                "arn:aws:s3:::s3-<bucket-name>/*"
+            ]
+        },
+        {
+            "Sid": "VisualEditor2",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::s3-<bucket-name>",
+                "arn:aws:s3:::s3-<bucket-name>/*"
+            ]
+        }
+    ]
+}
+```
+Also, you need to add a policy for the IAM role, which will be called *CodeBuildBasePolicy-**[codebuild-project-name]**-**[aws-region-name]***
+
+* **Post Setup (Optional)**
+
+#### Setting up SSL for CloudFront
+
+Go to  AWS Certificate Manager and click **Request a certificate** button.
+First, we need to add domain names, in our case (example.com). When you enter the domain name as `*.example.com`, click **Add another name to this certificate** button and add plain domain `example.com` too. On a next step select **DNS validation** option and click **Confirm and request** button in Review.
+To use DNS validation, you must be able to add a CNAME record to the DNS configuration for your domain.  Add CNAME record created on ACM to the DNS configuration for your domain on **Route 53**.
+
+#### CloudFront configurations
+
+Create a web distribution in the CloudFront section. In the **Origin Domain Name** field select Endpoint of your bucket. Select "Redirect HTTP to HTTPS" from the **Viewer Protocol Policy**. Add your domain names in the **Alternate Domain Name** filed and select the SSL certificate you have created in the ACM. In the **Default Root Object** type `index.html`. Once done please proceed and create the distribution.
+
+### Integrating Route53 with CloudFront distribution:
+Copy the domain name from the CloudFront distribution and edit A record in your Route53. Select **Alias**, in **Alias Target**, enter your CloudFront domain URL which is ******.cloudfront.net. Click **Save Record Set**. Now that you have created A record. The domain name example.com will route to your **CloudFront distribution**.
+We need to create a CNAME record to point other sub-domains like `www.example.com` to map to the created **A record** 
+Click  **Create Record Set**, enter `*` in name textbox. Select  **CNAME**  from Type. In value, type the A record, in our case, it will be  example.com. Click  **Save Record Set**. Now even  www.example.com will forward to  example.com  which in-turn will forward to CloudFront distribution.
