@@ -17,7 +17,7 @@ Go to the latest releases of hugo [https://github.com/gohugoio/hugo/releases](ht
 
 
 ```bash
-wget https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-32bit.tar.gz
+wget https://github.com/gohugoio/hugo/releases/download/v0.63.0/hugo_0.63.0_Linux-32bit.tar.gz
 ```
 
 *Note that you shouldn't just blindly cut and paste the code above!  Make sure you get the latest release or if not on Cloud9, use the appropriate version*
