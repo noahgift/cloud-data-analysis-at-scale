@@ -1,5 +1,6 @@
 ## What is Continuous Delivery and Continuous Deployment?
 
+Continuous Delivery builds upon several powerful tools continuous integration, IaC and Cloud Computing.  Continous Delivery lets the cloud infrastructure be defined as code and allows for near real-time changes of both code and new environments.
 
 ## Continuous Delivery for Hugo Static Site from Zero
 
@@ -7,9 +8,14 @@
 
 *Note these steps will be similar for other cloud environments or for your OS X laptop, but this particular tutorial is targeted at AWS Cloud9.*
 
+The steps described below are covered in detail in this screencast, **HUGO CONTINOUS DELIVER WITH AWS**:
+
+[![AWS Hugo Continuous Deliver!](https://img.youtube.com/vi/xiodvLdPnvI/0.jpg)](https://youtu.be/xiodvLdPnvI)
+
+
 * **Step 1:  Launch an AWS Cloud9 Environment**
 
-You can refer to this screencast if you haven't set it up already. *DEMO VIDEO HERE OF ENTIRE PROCESS:  [![CI PIPELINE AWS Cloud9!](https://img.youtube.com/vi/4SIFF1PAMbw/0.jpg)](https://youtu.be/4SIFF1PAMbw*
+Use the AWS Free Tier and a Cloud9 Environment with the defaults.
 
 * **Step2:  Download the `hugo` binary and put it in your Cloud9 path**
 
@@ -269,11 +275,11 @@ Changes to be committed:
         new file:   themes/ananke
 ```
 
-Now push these files by doing the following commands:
+Now push these files by doing the following commands (Note you will need to merge the files):
 
 ```bash
+git pull --allow-unrelated-histories origin master
 git branch --set-upstream-to=origin/master
-git pull --allow-unrelated-histories
 git push
 ```
 You can see what this looks like below:
@@ -324,6 +330,8 @@ Now in AWS Cloud9 go back and create the final step.
 
 The following is a `buildspec.yml` file you can paste it.  You create the file with AWS Cloud9 by typing:  `touch buildspec.yml` then editing.
 
+*NOTE: Something like the following  ```aws s3 sync public/ s3://hugo-duke-jan23/ --region us-east-1 --delete``` is an effective and explict way to deploy if `hugo deploy` is not working properly*
+
 ```bash
 version: 0.2
 
@@ -346,7 +354,7 @@ phases:
     commands:
       - rm -rf public
       - hugo
-      - hugo deploy
+      - aws s3 sync public/ s3://hugo-duke-jan23/ --region us-east-1 --delete
   post_build:
     commands:
       - echo Build completed on `date`
@@ -372,8 +380,15 @@ As you create new posts, etc, it will deploy:
 
 ![auto deploy](https://user-images.githubusercontent.com/58792/73008737-2ec5c080-3ddd-11ea-90f4-b4d43591aa17.png)
 
+### Hugo AWS Continuous Delivery Conclusion
 
-* **Post Setup (Optional Advanced Configurations)**
+Continuous Delivery is a powerful technique to master and in this situation it could immediately be put to use to build a portfolio website for a Data Scientist.
+
+* [Example Hugo AWS Repository](https://github.com/noahgift/hugo-duke-jan23)
+
+If you are having issues with the `git` workflow you can simply create the repo first, then `git clone` on Cloud9 to prevent the advanced `git` workflow.
+
+* **Post Setup (Optional Advanced Configurations & Notes)**
 
 #### Setting up SSL for CloudFront
 
@@ -394,7 +409,7 @@ Click  **Create Record Set**, enter `*` in name textbox. Select  **CNAME**  from
 #### Building Hugo Sites Automatically Using AWS CodeBuild
 The first thing that we need is a set of instructions for building the Hugo site. Since the build server starts clean every time this includes downloading Hugo and all the dependencies that we require. One of the options that CodeBuild has for specifying the build instruction is the `buildspec.yaml` file.
 
-Navigate to the CodeBuild console and create a new project using the following settings:
+Navigate to the CodeBuild console and create a new project using settings similar to this or that meet your project's demands:
 
 -   **Project name:**  `somename-hugo-build-deploy`
 -   **Source provider:** `GitHub`
@@ -447,3 +462,16 @@ For building project, deploy to S3  and enable CloudFront Invalidation we need t
         }
     ]
 }
+```
+
+### Case Studies 
+
+What are some logical next steps you could improve on?
+
+* Setup the build server to have a more granular security policy. 
+* Create an SSL certificate via AWS (for free).
+* Publish your content to the AWS Cloudfront CDN.
+* Enhance the `Makefile` to use a `deploy` command you also use in the build server instead of the verbose `aws sync` command.
+* Try to "deploy" from many spots:  Laptop, editing Github pages directly, a different cloud.
+
+Take some or all of these case study items and complete them.
