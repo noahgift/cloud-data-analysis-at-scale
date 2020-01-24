@@ -1,2 +1,8 @@
 theme: minima
-
+minima:
+  social_links:
+    github: noahgift
+    linkedin: noahgift
+    youtube: noahgift
+    youtube_channel: UCNDfiL0D1LUeKWAkRE1xO5Q
+    youtube_channel_name: Pragmatic AI Labs
