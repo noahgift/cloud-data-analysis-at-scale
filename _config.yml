@@ -1,1 +1,12 @@
 theme: jekyll-theme-minimal
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/noahgift"
+    - label: "NoahGift"
+      icon: "fab fa-fw fa-browser"
+      url: "https://noahgift"
+    - label: "Book"
+      icon: "fas fa-book"
+      url: "https://leanpub.com/cloud4data"
