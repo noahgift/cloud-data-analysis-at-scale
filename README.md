@@ -69,3 +69,5 @@ This book is being written "just in time", with a weekly release schedule.
 
 ### Text and Code License
 The text and code content of notebooks and documents is released under the [CC-BY-NC-ND license](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/license.md)
+
+
