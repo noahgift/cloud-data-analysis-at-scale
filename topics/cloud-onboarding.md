@@ -39,7 +39,7 @@ There are a few non-intuitive gotchas about Qwiklabs:
 
 ### Setup Cloud Environment Continuous Integration from Zero
 
-*DEMO VIDEO HERE OF ENTIRE PROCESS:  [![CI PIPELINE AWS Cloud9!](https://img.youtube.com/vi/4SIFF1PAMbw/0.jpg)](https://youtu.be/4SIFF1PAMbw*
+*DEMO VIDEO HERE OF ENTIRE PROCESS:  [![CI PIPELINE AWS Cloud9!](https://img.youtube.com/vi/4SIFF1PAMbw/0.jpg)](https://youtu.be/4SIFF1PAMbw)*
 
 
 Using cloud based development environments solves many significant problems:
