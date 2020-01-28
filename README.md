@@ -11,17 +11,22 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 ## Lecture Topics:
 
-### Getting Started
+### Getting Started: [Week1]
 
 * [Effective Async Technical Discussions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
 * [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-project-management)
 * [Cloud Onboarding](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-onboarding)
 
-### Cloud Computing Foundations
+### Cloud Computing Foundations: [Week2]
 
 * [Cloud Service Model](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-service-model)
 * [IaC](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/iac)
 * [Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/continuous-delivery)
+
+### Virtualization and Containers: [Week3 & Week 4]
+
+* [Elastic Resources](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/elastic-resources)
+* [Using APIs](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/using-apis)
 
 ### General
 
