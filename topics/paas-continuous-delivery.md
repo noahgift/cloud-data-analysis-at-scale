@@ -2,6 +2,11 @@
 
 ### Google App Engine and Cloud Build Continuous Delivery
 
+SCREENCAST of Tutorial Here:
+
+[![GCP Continuous Delivery!](https://img.youtube.com/vi/_TfWdOvQXwU/0.jpg)](https://youtu.be/_TfWdOvQXwU)
+
+
 1.  Create a Github repo
 2.  Create a project in GCP UI (your project name will be different)
 
