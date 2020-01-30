@@ -9,6 +9,7 @@ SCREENCAST of Tutorial Here:
 
 1.  Create a Github repo
 2.  Create a project in GCP UI (your project name will be different)
+2A [Setup API as well](https://cloud.google.com/appengine/docs/standard/python3/quickstart)
 
 ![Project UI](https://user-images.githubusercontent.com/58792/58592055-8430da00-821c-11e9-976e-f9c832532a08.png)
 
