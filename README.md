@@ -27,7 +27,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 * [Elastic Resources](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/elastic-resources)
 * [Using APIs](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/using-apis)
-
+* [GCP App Engine Paas Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/paas-continuous-delivery)
 ### General
 
 * [Key Terms](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/key-terms)
