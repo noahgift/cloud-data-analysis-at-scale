@@ -1,5 +1,3 @@
-## Docker Format Containers
-
 ### Getting started with Docker
 
 There are two main components of Docker:  [Docker Desktop](https://www.docker.com/products/docker-desktop) and [Docker Hub](https://www.docker.com/products/docker-hub).
@@ -9,7 +7,7 @@ There are two main components of Docker:  [Docker Desktop](https://www.docker.co
 
 #### Docker Desktop Overview
 
-The desktop application contains the container runtime which allows containers to execute.  The Docker App itself orchestrates the local development workflow including the ability to use [Kubernetes](https://github.com/kubernetes/kubernetes), which is an open source system for managing containerized applications that came out of Google.
+The desktop application contains the container runtime which allows containers to execute.  The Docker App itself orchestrates the local development workflow including the ability to use [Kubernetes](https://github.com/kubernetes/kubernetes), which is an open-source system for managing containerized applications that came out of Google.
 
 #### Docker Hub Overview
 
@@ -17,7 +15,8 @@ So what is Docker Hub and what problem does it solve?  Just as the [`git`](https
 
 When collaborating with `git` outside of the local environment, developers often use platforms like [Github](https://github.com/) or [Gitlab](https://about.gitlab.com/) to communicate with other parties and share code.  [Docker Hub](https://hub.docker.com/) works in a similar way.  Docker Hub allows developers to share docker containers that can serve as a base image for building new solutions.  
 
-These base images can be built by experts and certified to be high quality:  i.e. the [official Python developers have a base image](https://hub.docker.com/_/python).  This allows a developer to leverage the expertise of the true expert on a particular software component and improve the overall qualilty of their container.  This is a similar concept to using a library developed by another developer versus writing it yourself.
+These base images can be built by experts and certified to be high quality:  i.e. the [official Python developers have a base image](https://hub.docker.com/_/python).  This allows a developer to leverage the expertise of the true expert on a particular software component and improve the overall quality of their container.  This is a similar concept to using a library developed by another developer versus writing it yourself.
+
 
 #### Why Docker Containers vs Virtual Machines?
 
