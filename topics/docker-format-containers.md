@@ -253,8 +253,26 @@ Installing to /usr/local/bin
 ```
 
 14.  Setup [Docker Hub Account](https://docs.docker.com/docker-hub/) and deploy it!
+15.  To deploy you will need something like this (bash script)
+
+#!/usr/bin/env bash
+# This tags and uploads an image to Docker Hub
+
+```bash
+#Assumes this is built
+#docker build --tag=flasksklearn .
 
 
+dockerpath="noahgift/flasksklearn"
+
+# Authenticate & Tag
+echo "Docker ID and Image: $dockerpath"
+docker login &&\
+    docker image tag flasksklearn $dockerpath
+
+# Push Image
+docker image push $dockerpath
+```
 ### Exercise
 
 * Topic:  Create Hello World Container in AWS Cloud9 and Publish to Docker Hub
