@@ -239,6 +239,8 @@ docker run -it app bash
 
 12.  test app in shell
 
+**REMEMBER Virtualenv**:  ```python3 -m venv ~/.dockerproj && source ~/.dockerproj/bin/activate```
+
 ```python app.py --hello```
 
 13.  Test local circleci and local make lint and then configure circleci.
