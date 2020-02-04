@@ -243,6 +243,15 @@ docker run -it app bash
 
 13.  Test local circleci and local make lint and then configure circleci.
 
+```bash
+ec2-user:~/environment $ sudo su -
+[root@ip-172-31-65-112 ~]# curl -fLSs https://circle.ci/cli | bash
+Starting installation.
+Installing CircleCI CLI v0.1.5879
+Installing to /usr/local/bin
+/usr/local/bin/circleci
+```
+
 14.  Setup [Docker Hub Account](https://docs.docker.com/docker-hub/) and deploy it!
 
 
