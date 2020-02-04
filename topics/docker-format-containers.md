@@ -258,22 +258,30 @@ Installing to /usr/local/bin
 #!/usr/bin/env bash
 # This tags and uploads an image to Docker Hub
 
+**Change to your repo**
+
 ```bash
+#!/usr/bin/env bash
+# This tags and uploads an image to Docker Hub
+
 #Assumes this is built
-#docker build --tag=flasksklearn .
+#docker build --tag=app .
 
 
-dockerpath="noahgift/flasksklearn"
+dockerpath="noahgift/app"
 
 # Authenticate & Tag
 echo "Docker ID and Image: $dockerpath"
 docker login &&\
-    docker image tag flasksklearn $dockerpath
+    docker image tag app $dockerpath
 
 # Push Image
-docker image push $dockerpath
+docker image push $dockerpath 
 ```
-An advanced version is here:  https://github.com/noahgift/container-revolution-devops-microservices/tree/master/demos/flask-sklearn
+
+Any person can "pull now"
+
+#### An advanced version is here:  https://github.com/noahgift/container-revolution-devops-microservices/tree/master/demos/flask-sklearn
 
 ### Exercise
 
