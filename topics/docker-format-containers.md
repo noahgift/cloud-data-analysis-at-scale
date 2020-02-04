@@ -114,6 +114,133 @@ This tells this container to use at max only 25% of the CPU every second.
 
 ## Container Registries
 
+### Build containerized application from Zero on AWS Cloud9
+
+
+[![Docker Python from Zero in Cloud9!](https://img.youtube.com/vi/WVifwRIwSmo/0.jpg)](https://youtu.be/WVifwRIwSmo)
+
+1.  Launch AWS Cloud9
+2.  Create Github repo
+3.  Create ssh keys and upload to Github
+4.  Git clone
+5.  Create structure
+
+* `Makefile`
+
+```bash
+FROM python:3.7.3-stretch
+
+# Working Directory
+WORKDIR /app
+
+# Copy source code to working directory
+COPY . app.py /app/
+
+# Install packages from requirements.txt
+# hadolint ignore=DL3013
+RUN pip install --upgrade pip &&\
+    pip install --trusted-host pypi.python.org -r requirements.txt
+```
+
+
+* `requirements.txt`
+* `Dockerfile`
+* `app.py`
+
+6.  Install hadolint
+
+```bash
+wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 &&\
+                chmod +x /bin/hadolint
+```
+
+7. Create cirleci config
+
+```yaml
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+    # Use the same Docker base as the project
+      - image: python:3.7.3-stretch
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            make install
+            # Install hadolint
+            wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 &&\
+                chmod +x /bin/hadolint
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+
+      # run lint!
+      - run:
+          name: run lint
+          command: |
+            . venv/bin/activate
+            make lint           
+```
+
+8.  Install [local circleci](https://circleci.com/docs/2.0/local-cli/) (optional)
+9. setup requirements.txt
+
+```bash
+pylint
+click
+```
+10.  Create app.py
+
+```python
+#!/usr/bin/env python
+import click
+
+@click.command()
+def hello():
+    click.echo('Hello World!')
+
+if __name__ == '__main__':
+    hello()
+```
+
+11. Run in container
+
+```bash
+docker build --tag=app .
+```
+```
+docker run -it app bash 
+```
+
+12.  test app in shell
+
+```python app.py --hello```
+
+13.  Test local circleci and local make lint and then configure circleci.
+
+14.  Setup [Docker Hub Account](https://docs.docker.com/docker-hub/) and deploy it!
+
 
 ### Exercise
 
