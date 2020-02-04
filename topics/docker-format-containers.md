@@ -129,7 +129,7 @@ This tells this container to use at max only 25% of the CPU every second.
 4.  Git clone
 5.  Create structure
 
-* `Makefile`
+* `Dockerfile`
 
 ```bash
 FROM python:3.7.3-stretch
@@ -148,10 +148,40 @@ RUN pip install --upgrade pip &&\
 
 
 * `requirements.txt`
-* `Dockerfile`
+* `Makefile`
+
+```bash
+setup:
+	python3 -m venv ~/.dockerproj
+
+install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
+
+test:
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
+
+validate-circleci:
+	# See https://circleci.com/docs/2.0/local-cli/#processing-a-config
+	circleci config process .circleci/config.yml
+
+run-circleci-local:
+	# See https://circleci.com/docs/2.0/local-cli/#running-a-job
+	circleci local execute
+
+
+lint:
+	hadolint Dockerfile 
+	pylint --disable=R,C,W1203 app.py
+
+all: install lint test
+```
+
+
 * `app.py`
 
-6.  Install hadolint
+6.  Install hadolint (you may want to become root: i.e. ```sudo su -``` run this command then exit by typing ```exit```.
 
 ```bash
 wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 &&\
