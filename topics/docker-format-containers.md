@@ -292,6 +292,8 @@ Installing to /usr/local/bin
 
 **Change to your repo**
 
+This is a sample script you could change do this or something like this:  ```touch push-docker.sh && chmod +x push-docker.sh && ./push-docker.sh```.
+
 ```bash
 #!/usr/bin/env bash
 # This tags and uploads an image to Docker Hub
