@@ -280,6 +280,10 @@ docker image push $dockerpath
 ```
 
 Any person can "pull now"
+```docker pull noahgift/app```
+
+![Screen Shot 2020-02-04 at 3 51 15 PM](https://user-images.githubusercontent.com/58792/73785934-50706180-4766-11ea-80cc-b7faaf6f4d9f.png)
+
 
 #### An advanced version is here:  https://github.com/noahgift/container-revolution-devops-microservices/tree/master/demos/flask-sklearn
 
