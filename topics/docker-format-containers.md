@@ -1,3 +1,5 @@
+## Containers:  Docker
+
 ### Getting started with Docker
 
 There are two main components of Docker:  [Docker Desktop](https://www.docker.com/products/docker-desktop) and [Docker Hub](https://www.docker.com/products/docker-hub).
@@ -105,3 +107,24 @@ docker run -it --cpus=".25" ubuntu /bin/bash
 ```
 
 This tells this container to use at max only 25% of the CPU every second.
+
+
+#### [TO DO:  Docker GPU example]
+
+
+## Container Registries
+
+
+### Exercise
+
+* Topic:  Create Hello World Container in AWS Cloud9 and Publish to Docker Hub
+* Estimated time:  20-30 minutes
+* People:  Individual or Final Project Team
+* Slack Channel:  #noisy-exercise-chatter
+* Directions:
+    * Part A:  Build a hello world Docker container in AWS Cloud9 that uses the official Python base image.  You can use the [sample command-line tools](https://github.com/noahgift/python-devops-course) in this repository for ideas.
+    * Part B:  Create an account on Docker Hub and publish there
+    * Part C:  Share your Docker Hub container in slack
+    * Part D:  Pull down another students container and run it
+    * (Optional for the ambitious):  Containerize a flask application and publish
+
