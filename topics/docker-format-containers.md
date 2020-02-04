@@ -241,7 +241,7 @@ docker run -it app bash
 
 **REMEMBER Virtualenv**:  ```python3 -m venv ~/.dockerproj && source ~/.dockerproj/bin/activate```
 
-```python app.py --hello```
+```python app.py``` or ```chmod +x && ./app.py```
 
 13.  Test local circleci and local make lint and then configure circleci.
 
