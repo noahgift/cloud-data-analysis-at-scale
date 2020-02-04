@@ -273,6 +273,8 @@ docker login &&\
 # Push Image
 docker image push $dockerpath
 ```
+An advanced version is here:  https://github.com/noahgift/container-revolution-devops-microservices/tree/master/demos/flask-sklearn
+
 ### Exercise
 
 * Topic:  Create Hello World Container in AWS Cloud9 and Publish to Docker Hub
