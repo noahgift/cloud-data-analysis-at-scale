@@ -30,6 +30,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [GCP App Engine Paas Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/paas-continuous-delivery)
 * [Docker Format Containers](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/docker-format-containers)
 * [Kubernetes](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/kubernetes)
+* [Operationalizing Microservice](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/operationalizing-microservice)
 
 ### General
 
