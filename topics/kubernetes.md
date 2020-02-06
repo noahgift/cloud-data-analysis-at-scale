@@ -123,3 +123,16 @@ There are many compelling reasons to use Kubernetes.  Let's summarize them:
 * Secrets and configuration management
 
 Another advantage is that Kubernetes is cloud agnostic and it could be a solution for companies that are willing to take on the additional complexity to protect against "vendor lockin".
+
+
+
+### Exercise
+
+* Topic:  Go through Kubernetes Engine: [Qwik Start Lab](https://www.qwiklabs.com/focuses/878?parent=catalog)
+* Estimated time:  20-30 minutes
+* People:  Individual or Final Project Team
+* Slack Channel:  #noisy-exercise-chatter
+* Directions:
+    * Part A:  Complete Lab
+    * Part B:  Try to convert Docker project to Kubernetes (In class or at home)
+
