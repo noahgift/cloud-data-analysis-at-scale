@@ -128,6 +128,7 @@ This tells this container to use at max only 25% of the CPU every second.
 3.  Create ssh keys and upload to Github
 4.  Git clone
 5.  Create structure
+6.  Create a local python virtual environment and source *MUST HAVE!*:  ```python 3 -m venv ~/.dockerproj && source ~/.dockerproj/bin/activate```
 
 * `Dockerfile`
 
