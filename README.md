@@ -32,6 +32,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [Kubernetes](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/kubernetes)
 * [Operationalizing Microservice](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/operationalizing-microservice)
 * [loadtest-flask](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/loadtest-flask)
+* [flask-sklearn-kubernetes](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/flask-sklearn-kubernetes)
 
 ### General
 
