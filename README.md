@@ -66,7 +66,7 @@ This book is being written "just in time", with a weekly release schedule.
 *   **Chapter3: Virtualization & Containerization**
     *   CPU, Memory, I/O
     *   [Elastic Resources](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/elastic-resources)
-    *   [Containers: Docker])(https://noahgift.github.io/cloud-data-analysis-at-scale/topics/docker-format-containers)
+    *   [Containers: Docker](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/docker-format-containers)
     *   Container Registries
     *   [Kubernetes in the Cloud](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/kubernetes)
     *   Hybrid and Multi-cloud Kubernetes
