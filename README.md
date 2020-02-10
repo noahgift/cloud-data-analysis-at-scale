@@ -42,7 +42,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 ## References:
 
-### [Cloud Computing for Data Analysis Book](https://leanpub.com/cloud4data)
+### [Cloud Computing for Data Analysis Book](http://leanpub.com/cloud4data/c/CMwSpMi7HIr5)
 
 #### *A practical guide to Data Science, Machine Learning Engineering and Data Engineering*
 
