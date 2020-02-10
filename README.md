@@ -1,7 +1,6 @@
 # Data Analysis at Scale in the Cloud
 
 Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 2020 by [Noah Gift](https://www.noahgift.com/).  
-
 * This is the [course syllabus](https://noahgift.github.io/cloud-data-analysis-at-scale/syllabus).
 * These are the [projects in the course](https://noahgift.github.io/cloud-data-analysis-at-scale/projects)
 * This the [week by week calendar](https://noahgift.github.io/cloud-data-analysis-at-scale/calendar)
@@ -44,6 +43,10 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 ## References:
 
 ### [Cloud Computing for Data Analysis Book](https://leanpub.com/cloud4data)
+
+#### *A practical guide to Data Science, Machine Learning Engineering and Data Engineering*
+
+
 This book is being written "just in time", with a weekly release schedule.
 
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
@@ -123,7 +126,7 @@ This book is being written "just in time", with a weekly release schedule.
     *   Apple X12
     
 *   **Chapter 10: Data Science Case Studies and Projects**
-    *   Case Study: Datascience meets intermittent fasting
+    *   [Case Study: Datascience meets intermittent fasting](https://noahgift.com/articles/datascience-meets-intermittent-fasting/)
     *   Case Study: Coronavirus Epidemic
     *   Applied Computer Vision Overview
     *   Project: AWS DeepLense Edge Computer Vision
@@ -136,11 +139,12 @@ This book is being written "just in time", with a weekly release schedule.
     *   Project: Cloud Machine Learning with Kubernetes
     
 *   **Chapter 11: Essays**
-    *   Why There Will Be No Data Science Job Titles By 2029
+    *   [Why There Will Be No Data Science Job Titles By 2029](https://noahgift.com/articles/why-there-will-be-no-data-science-job-titles-by-2029/)
     *   Exploiting The Unbundling Of Education
     *   How Vertically Integrated AI Stacks Will Affect IT Organizations
     *   Here Come The Notebooks
     *   Cloud Native Machine Learning And AI
+    *   The "missing technical sememester" for MBA programs
     
 *   **Chapter 12: Cloud Certifications**
     *   AWS Certification Guide Overview
@@ -156,6 +160,7 @@ This book is being written "just in time", with a weekly release schedule.
     *   Getting a job by becoming a Triple Threat
     *   How to build a Portfolio
     *   How to learn
+    *   [Pear Revenue Strategy](https://noahgift.com/articles/pear-revenue-strategy/)
   
 ### Public Trello Board
 [Public status of tickets for course/book](https://trello.com/b/wh69p8jr/cloud4data-course)
