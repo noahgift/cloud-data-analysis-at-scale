@@ -33,7 +33,9 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [loadtest-flask](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/loadtest-flask)
 * [flask-sklearn-kubernetes](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/flask-sklearn-kubernetes)
 
-### Virtualization and Containers: [Week3 & Week 4]
+### Challenges and Opportunities in Distributed Computing: [Week 5 & Week 6]
+
+
 
 ### General
 
