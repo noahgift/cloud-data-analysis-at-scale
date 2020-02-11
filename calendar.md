@@ -191,6 +191,9 @@
 *   CAP Theorem
 *   Eventual Consistency
 *   Amdahl's law
+*   High Availability
+*   Fault Tolerance
+*   Elasticity
 
 **Learning Objectives**
 
