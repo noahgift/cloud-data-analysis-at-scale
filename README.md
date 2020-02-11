@@ -35,7 +35,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 ### Challenges and Opportunities in Distributed Computing: [Week 5 & Week 6]
 
-
+* [distributed systems](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/distributed-systems)
 
 ### General
 
