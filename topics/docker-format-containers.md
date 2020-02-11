@@ -1,3 +1,5 @@
+## Containers:  Docker
+
 ### Getting started with Docker
 
 There are two main components of Docker:  [Docker Desktop](https://www.docker.com/products/docker-desktop) and [Docker Hub](https://www.docker.com/products/docker-hub).
@@ -105,3 +107,231 @@ docker run -it --cpus=".25" ubuntu /bin/bash
 ```
 
 This tells this container to use at max only 25% of the CPU every second.
+
+
+#### [TO DO:  Docker GPU example]
+
+
+## Container Registries
+
+### Build containerized application from Zero on AWS Cloud9
+
+
+#### Screencast
+
+[![Docker Python from Zero in Cloud9!](https://img.youtube.com/vi/WVifwRIwSmo/0.jpg)](https://youtu.be/WVifwRIwSmo)
+
+* [Docker Project Source Code](https://github.com/noahgift/dockerproj)
+
+1.  Launch AWS Cloud9
+2.  Create Github repo
+3.  Create ssh keys and upload to Github
+4.  Git clone
+5.  Create structure
+6.  Create a local python virtual environment and source *MUST HAVE!*:  ```python 3 -m venv ~/.dockerproj && source ~/.dockerproj/bin/activate```
+
+* `Dockerfile`
+
+```bash
+FROM python:3.7.3-stretch
+
+# Working Directory
+WORKDIR /app
+
+# Copy source code to working directory
+COPY . app.py /app/
+
+# Install packages from requirements.txt
+# hadolint ignore=DL3013
+RUN pip install --upgrade pip &&\
+    pip install --trusted-host pypi.python.org -r requirements.txt
+```
+
+
+* `requirements.txt`
+* `Makefile`
+
+```bash
+setup:
+	python3 -m venv ~/.dockerproj
+
+install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
+
+test:
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
+
+validate-circleci:
+	# See https://circleci.com/docs/2.0/local-cli/#processing-a-config
+	circleci config process .circleci/config.yml
+
+run-circleci-local:
+	# See https://circleci.com/docs/2.0/local-cli/#running-a-job
+	circleci local execute
+
+
+lint:
+	hadolint Dockerfile 
+	pylint --disable=R,C,W1203 app.py
+
+all: install lint test
+```
+
+
+* `app.py`
+
+6.  Install hadolint (you may want to become root: i.e. ```sudo su -``` run this command then exit by typing ```exit```.
+
+```bash
+wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 &&\
+                chmod +x /bin/hadolint
+```
+
+7. Create cirleci config
+
+```yaml
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+    # Use the same Docker base as the project
+      - image: python:3.7.3-stretch
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            make install
+            # Install hadolint
+            wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.5/hadolint-Linux-x86_64 &&\
+                chmod +x /bin/hadolint
+
+      - save_cache:
+          paths:
+            - ./venv
+          key: v1-dependencies-{{ checksum "requirements.txt" }}
+
+      # run lint!
+      - run:
+          name: run lint
+          command: |
+            . venv/bin/activate
+            make lint           
+```
+
+8.  Install [local circleci](https://circleci.com/docs/2.0/local-cli/) (optional)
+9. setup requirements.txt
+
+```bash
+pylint
+click
+```
+10.  Create app.py
+
+```python
+#!/usr/bin/env python
+import click
+
+@click.command()
+def hello():
+    click.echo('Hello World!')
+
+if __name__ == '__main__':
+    hello()
+```
+
+11. Run in container
+
+```bash
+docker build --tag=app .
+```
+```
+docker run -it app bash 
+```
+
+12.  test app in shell
+
+**REMEMBER Virtualenv**:  ```python3 -m venv ~/.dockerproj && source ~/.dockerproj/bin/activate```
+
+```python app.py``` or ```chmod +x && ./app.py```
+
+13.  Test local circleci and local make lint and then configure circleci.
+
+```bash
+ec2-user:~/environment $ sudo su -
+[root@ip-172-31-65-112 ~]# curl -fLSs https://circle.ci/cli | bash
+Starting installation.
+Installing CircleCI CLI v0.1.5879
+Installing to /usr/local/bin
+/usr/local/bin/circleci
+```
+
+14.  Setup [Docker Hub Account](https://docs.docker.com/docker-hub/) and deploy it!
+15.  To deploy you will need something like this (bash script)
+
+#!/usr/bin/env bash
+# This tags and uploads an image to Docker Hub
+
+**Change to your repo**
+
+This is a sample script you could change do this or something like this:  ```touch push-docker.sh && chmod +x push-docker.sh && ./push-docker.sh```.
+
+```bash
+#!/usr/bin/env bash
+# This tags and uploads an image to Docker Hub
+
+#Assumes this is built
+#docker build --tag=app .
+
+
+dockerpath="noahgift/app"
+
+# Authenticate & Tag
+echo "Docker ID and Image: $dockerpath"
+docker login &&\
+    docker image tag app $dockerpath
+
+# Push Image
+docker image push $dockerpath 
+```
+
+Any person can "pull now"
+```docker pull noahgift/app```
+
+![Screen Shot 2020-02-04 at 3 51 15 PM](https://user-images.githubusercontent.com/58792/73785934-50706180-4766-11ea-80cc-b7faaf6f4d9f.png)
+
+
+#### An advanced version is here:  https://github.com/noahgift/container-revolution-devops-microservices/tree/master/demos/flask-sklearn
+
+### Exercise
+
+* Topic:  Create Hello World Container in AWS Cloud9 and Publish to Docker Hub
+* Estimated time:  20-30 minutes
+* People:  Individual or Final Project Team
+* Slack Channel:  #noisy-exercise-chatter
+* Directions:
+    * Part A:  Build a hello world Docker container in AWS Cloud9 that uses the official Python base image.  You can use the [sample command-line tools](https://github.com/noahgift/python-devops-course) in this repository for ideas.
+    * Part B:  Create an account on Docker Hub and publish there
+    * Part C:  Share your Docker Hub container in slack
+    * Part D:  Pull down another students container and run it
+    * (Optional for the ambitious):  Containerize a flask application and publish
+
