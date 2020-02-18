@@ -27,7 +27,7 @@ Sources: https://storage.googleapis.com/nexttpu/index.html
 
 ### Using GPUs and JIT
 
-*Screencast* [![Do GPU Programming with CUDA, Numba and Colab!](https://img.youtube.com/vi/ny7a_OQdyvc/0.jpg)](https://youtu.be/ny7a_OQdyvc)
+*Screencast* [![Do GPU Programming with CUDA, Numba and Colab!](https://img.youtube.com/vi/3dHJ00mAQAY/0.jpg)](https://youtu.be/3dHJ00mAQAY)
 
 One of the easiest ways to use a Just in Time compiler (JIT) or a GPU is to use a library like [numba](https://numba.pydata.org/numba-doc/latest/cuda/overview.html) and a hosted runtime like [Google Colab](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/GPU_Programming.ipynb).  
 
