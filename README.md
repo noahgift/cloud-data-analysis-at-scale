@@ -38,6 +38,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [distributed systems](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/distributed-systems)
 * [elastic machine learning with notebooks](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/elastic-machine-learning-with-notebooks)
 * [end of moore's law](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/end-of-moores-law)
+* [Sagemaker Scavenger Hunt](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/sagemaker-scavenger-hunt)
 
 ### General
 
