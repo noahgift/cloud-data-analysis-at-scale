@@ -40,6 +40,11 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [end of moore's law](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/end-of-moores-law)
 * [Sagemaker Scavenger Hunt](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/sagemaker-scavenger-hunt)
 
+### Cloud Storage [Week 7 & Week 8]
+
+* [Cloud ETL](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-etl)
+* [Cloud Databases](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-databases)
+
 ### General
 
 * [Key Terms](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/key-terms)
