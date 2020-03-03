@@ -136,3 +136,6 @@ Another advantage is that Kubernetes is cloud agnostic and it could be a solutio
     * Part A:  Complete Lab
     * Part B:  Try to convert Docker project to Kubernetes (In class or at home)
 
+### References
+
+* [Kubeflow Fairing:  ML models with kubernetes](https://github.com/kubeflow/fairing)
