@@ -44,6 +44,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 * [Cloud ETL](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-etl)
 * [Cloud Databases](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-databases)
+* [Cloud Object Storage](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-object-storage)
 
 ### General
 
