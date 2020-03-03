@@ -54,7 +54,7 @@ Is the actual size of the data larger than what a workstation can handle?  Perha
 
 #### Streaming
 
-* Continously polled or pushed
+* Continuously polled or pushed
 * More complex method of prediction
 * Many Services on AWS Capable of Streaming
  - Kinesis
