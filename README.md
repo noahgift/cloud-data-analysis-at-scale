@@ -46,7 +46,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [Cloud Databases](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-databases)
 * [Cloud Object Storage](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-object-storage)
 * [Cloud Datawarehouse](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-datawarehouse)
-* [Data Governance]((https://noahgift.github.io/cloud-data-analysis-at-scale/topics/data-governance)
+* [Data Governance](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/data-governance)
 
 ### General
 
