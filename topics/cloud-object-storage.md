@@ -6,7 +6,7 @@ At the heart of a Big Data is a Cloud Object storage system.
 
 The best known cloud object storage system is [Amazon S3](https://aws.amazon.com/s3/).
 
-[![Amazon S3 Screencast](https://img.youtube.com/vi/1gauWMpmf_E/0.jpg)](https://youtu.be/1gauWMpmf_E
+[![Amazon S3 Screencast](https://img.youtube.com/vi/1gauWMpmf_E/0.jpg)](https://youtu.be/1gauWMpmf_E)
 
 ### The Three "Vs" of Big Data:  Variety, Velocity and Volume
 
