@@ -27,6 +27,7 @@ def lambda_handler(event, context):
 def lambda_handler(event, context):
   if event["name"] == "Polo":
     return "Marco"
+```
 
 ## Developing AWS Lambda Functions with AWS Cloud9
 
@@ -39,7 +40,7 @@ SCREENCAST:  Develop AWS Lambda functions with AWS Cloud9
 
 The following code can be used as an API via API Gateway.
 
-**Python Lambda Function**
+*Python Lambda API Gateway Example*
 
 ```python
 import json
@@ -86,6 +87,36 @@ SCREENCAST:  Develop AWS Lambda functions with AWS Cloud9
 [![Hello World Lambda](https://img.youtube.com/vi/UFGwKXe9NtQ/0.jpg)](https://youtu.be/UFGwKXe9NtQ)
 
 Reference:  [Web Scraping Pipeline Github Project](https://github.com/noahgift/web_scraping_python)
+
+
+Here is a Marco Polo Step Function:
+
+* [gist of marco polo step function](https://gist.github.com/noahgift/017a083fcd3f008567aca581e5fd29ea)
+
+```json
+{
+  "Comment": "This is Marco Polo",
+  "StartAt": "Marco",
+  "States": {
+    "Marco": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:561744971673:function:marco20",
+      "Next": "Polo"
+    },
+    "Polo": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:561744971673:function:polo",
+      "Next": "Finish"
+    },
+    "Finish": {
+      "Type": "Pass",
+      "Result": "Finished",
+      "End": true
+    }
+  }
+}
+```
+
 
 ## Building a serverless data engineering pipeline
 
