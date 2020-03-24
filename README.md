@@ -48,10 +48,17 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [Cloud Datawarehouse](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-datawarehouse)
 * [Data Governance](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/data-governance)
 
-### Cloud Storage [Week 9 & Week 10]
+### Serverless [Week 9 & Week 10]
 
 * [Beginner's Guide AWS Lambda](https://github.com/noahgift/awslambda)
 
+### Big Data Platforms [Week 11]
+
+### Managed Machine Learning Systems [Week 12]
+
+### Edge Computing [Week 13]
+
+* [Edge Computer Vision Notebooks and Code](https://github.com/noahgift/edge-computer-vision)
 
 ### General
 

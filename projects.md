@@ -32,12 +32,27 @@ Reference Reading:  [https://learning.oreilly.com/library/view/python-for-devops
 Reference Source Code: [https://github.com/noahgift/container-revolution-devops-microservices](https://github.com/noahgift/container-revolution-devops-microservices)
 
 ### [Project 3](#project-3)
-### Cloud Map Reduce
+### Cloud Map Reduce and Distributed Jobs
 
-*   Read Chapter 16 in Python for Programmers and implement it on Azure using a free Azure for education account:  [https://azure.microsoft.com/en-us/education/](https://azure.microsoft.com/en-us/education/)
-*   Port the example to run on either the GCP or AWS cloud
+* Use a distributed computing platform and perform a task suited to the platform.  You can demo one of the reference labs or you can implement a custom project (say word count on Spark on AWS EMR).
 
-Reference Reading:  [https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16](https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16)
+Reference Labs:
+
+* [Launching Dataproc Jobs with Cloud Computer-Qwiklabs](https://www.qwiklabs.com/focuses/3357?catalog_rank=%7B%22rank%22%3A9%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=4914241)
+* [Distributed Image Processing in Cloud Dataproc-Qwiklabs](https://www.qwiklabs.com/focuses/5834?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=4914974)
+* [Perform advanced streaming data transformations with Apache Spark and Kafka in Azure HDInsight-Microsoft Learn](https://docs.microsoft.com/en-us/learn/modules/perform-advanced-streaming-data-transformations-with-spark-kafka/)
+* [Getting Started: K-Means Clustering on SageMaker with SageMaker Spark SDK](https://github.com/aws/sagemaker-spark/blob/master/README.md)
+
+Reference Readings:
+
+* [Read Yahoo! Hadoop Tutorial](https://developer.yahoo.com/hadoop/tutorial/)
+* [A very brief introduction to MapReduce](https://hci.stanford.edu/courses/cs448g/a2/files/map_reduce_tutorial.pdf)
+
+(Optional) Reference Readings:  
+
+* [https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16](https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16)
+* [Programming Hive](https://learning.oreilly.com/library/view/programming-hive/9781449326944/ch01.html)
+
 
 ### [Project 4](#project-4)
 ### Serverless Data Engineering Pipeline
@@ -47,7 +62,7 @@ Reference Reading:  [https://learning.oreilly.com/library/view/python-for-progra
 
 Reference Reading:  [https://github.com/noahgift/awslambda](https://github.com/noahgift/awslambda)
 
-Reference Media:  [https://learning.oreilly.com/videos/data-engineering-with/9780135964330](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
+(Optional) Reference Media:  [https://learning.oreilly.com/videos/data-engineering-with/9780135964330](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
 
 Reference Architecture Diagram:  [https://user-images.githubusercontent.com/58792/55354483-bae7af80-547a-11e9-9909-a5621251065b.png](https://user-images.githubusercontent.com/58792/55354483-bae7af80-547a-11e9-9909-a5621251065b.png)
 
