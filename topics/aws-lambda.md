@@ -85,6 +85,8 @@ A key advantage of AWS Step functions is ability to pipeline actions together.
 SCREENCAST:  Develop AWS Lambda functions with AWS Cloud9
 [![Hello World Lambda](https://img.youtube.com/vi/UFGwKXe9NtQ/0.jpg)](https://youtu.be/UFGwKXe9NtQ)
 
+Reference:  [Web Scraping Pipeline Github Project](https://github.com/noahgift/web_scraping_python)
+
 ## Building a serverless data engineering pipeline
 
 One strong use case for AWS Lambda is to build serverless data engineering pipelines.
@@ -96,7 +98,7 @@ SCREENCAST:  Build Serverless Data Engineering Pipeline
 
 * [Reference Github Project AWS Lambda](https://github.com/noahgift/awslambda)
 
-### Exercise:  Sagemaker Scavenger Hunt
+### Exercise:  AWS Lambda + Step Functions
 
 * Topic:  Build a step function pipeline
 * Estimated time:  20 minutes
