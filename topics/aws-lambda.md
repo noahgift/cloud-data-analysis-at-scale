@@ -79,7 +79,7 @@ def lambda_handler(event, context):
 
 ## AWS Step Functions
 
-A key advantage of AWS Step functions is ability to pipeline actions together.
+A key advantage of AWS Step functions is the ability to pipeline actions together.
 
 ![Screen Shot 2020-03-24 at 2 24 27 PM](https://user-images.githubusercontent.com/58792/77462944-30126a00-6ddb-11ea-8fbc-bdc2e19bab25.png)
 
@@ -116,6 +116,10 @@ Here is a Marco Polo Step Function:
   }
 }
 ```
+Note that the input of one Lambda goes into the input of another:
+
+![Screen Shot 2020-03-24 at 6 38 40 PM](https://user-images.githubusercontent.com/58792/77483553-cf952400-6dfe-11ea-8659-4904214210ec.png)
+
 
 
 ## Building a serverless data engineering pipeline
@@ -138,5 +142,5 @@ SCREENCAST:  Build Serverless Data Engineering Pipeline
 * Directions (Do one or both):
 
     * Basic Version: Create an AWS Lambda function that takes an input and run it inside of a Step Function
-    * Advanced Version: Create an AWS Lambda function that takes an input and run it inside of a Step Function, send the ouput to another AWS Lambda
+    * Advanced Version: Create an AWS Lambda function that takes an input and run it inside of a Step Function, then send the output to another AWS Lambda.  See the Marco Polo Step Function above.
     * Share screenshot + gist in slack.
