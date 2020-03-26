@@ -157,6 +157,63 @@ result: Facebook is an American online social media and social networking servic
   Inc.
 ```
 
+Can we go further and call an AI API?  Yes, we can.
+First add this library to the requirements.txt
+
+```bash
+# Function dependencies, for example:
+# package>=version
+google-cloud-translate
+wikipedia
+```
+
+Next run this function.
+
+
+```python
+import wikipedia
+
+from google.cloud import translate
+
+def sample_translate_text(text="YOUR_TEXT_TO_TRANSLATE", project_id="YOUR_PROJECT_ID"):
+    """Translating Text."""
+
+    client = translate.TranslationServiceClient()
+
+    parent = client.location_path(project_id, "global")
+
+    # Detail on supported types can be found here:
+    # https://cloud.google.com/translate/docs/supported-formats
+    response = client.translate_text(
+        parent=parent,
+        contents=[text],
+        mime_type="text/plain",  # mime types: text/plain, text/html
+        source_language_code="en-US",
+        target_language_code="fr",
+    )
+    # Display the translation for each input text provided
+    for translation in response.translations:
+        print(u"Translated text: {}".format(translation.translated_text))
+    return u"Translated text: {}".format(translation.translated_text)
+
+def translate_test(request):
+    """Takes JSON Payload {"entity": "google"}
+    """
+    request_json = request.get_json()
+
+    if request_json and 'entity' in request_json:
+        entity = request_json['entity']
+        print(entity)
+        res = wikipedia.summary(entity, sentences=1)
+        trans=sample_translate_text(text=res, project_id="cloudai-194723")
+        return trans
+    else:
+        return f'No Payload'
+```
+
+![Screen Shot 2020-03-26 at 3 05 52 PM](https://user-images.githubusercontent.com/58792/77686419-510dc300-6f73-11ea-830a-983dc2131f37.png)
+
+
 Reference GCP Qwiklabs
 
 * [Cloud Functions: Qwik Start - Console](https://www.qwiklabs.com/focuses/1763?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=4929264)
