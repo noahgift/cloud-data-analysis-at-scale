@@ -87,7 +87,11 @@ def handler(event):
 ## Google Cloud Functions
 
 Google Cloud Functions have much in common with AWS Lambda.  They work by invoking a function in response to an event.
+You can view a screencast of this workflow here.
 
+*Screencast* 
+
+[![Google Cloud Screencast!](https://img.youtube.com/vi/SqxdFykehRs/0.jpg)](https://youtu.be/SqxdFykehRs)
 
 Why would you use Cloud Functions on GCP?  According the official docs the use cases include ETL, Webooks, APIs, Mobile Backends and IoT.
 
@@ -212,6 +216,69 @@ def translate_test(request):
 ```
 
 ![Screen Shot 2020-03-26 at 3 05 52 PM](https://user-images.githubusercontent.com/58792/77686419-510dc300-6f73-11ea-830a-983dc2131f37.png)
+
+Can you expand this even further to accept a payload that allows any language from the list of languages gcp [supports here](https://cloud.google.com/translate/docs/languages)?  Here is a [gist of this code](https://gist.github.com/noahgift/de40ac37b3d51b22835c9260d41599bc).
+
+```python
+import wikipedia
+
+from google.cloud import translate
+
+def sample_translate_text(text="YOUR_TEXT_TO_TRANSLATE", 
+    project_id="YOUR_PROJECT_ID", language="fr"):
+    """Translating Text."""
+
+    client = translate.TranslationServiceClient()
+
+    parent = client.location_path(project_id, "global")
+
+    # Detail on supported types can be found here:
+    # https://cloud.google.com/translate/docs/supported-formats
+    response = client.translate_text(
+        parent=parent,
+        contents=[text],
+        mime_type="text/plain",  # mime types: text/plain, text/html
+        source_language_code="en-US",
+        target_language_code=language,
+    )
+    # Display the translation for each input text provided
+    for translation in response.translations:
+        print(u"Translated text: {}".format(translation.translated_text))
+    return u"Translated text: {}".format(translation.translated_text)
+
+def translate_test(request):
+    """Takes JSON Payload {"entity": "google"}
+    """
+    request_json = request.get_json()
+    print(f"This is my payload {request_json}")
+    if request_json and 'entity' in request_json:
+        entity = request_json['entity']
+        language = request_json['language']
+        print(f"This is the entity {entity}")
+        print(f"This is the language {language}")
+        res = wikipedia.summary(entity, sentences=1)
+        trans=sample_translate_text(text=res, 
+            project_id="cloudai-194723", language=language)
+        return trans
+    else:
+        return f'No Payload'
+```
+
+The main takeaway in this change is grabbing another value from the `request_json` payload.  In this case `language`.  To test it the trigger accepts a new payload with the `language` added.
+
+```json
+{"entity": "google", "language": "af"}
+```
+
+![Screen Shot 2020-03-28 at 1 12 11 PM](https://user-images.githubusercontent.com/58792/77829053-d8833f80-70f5-11ea-916c-24a1bbd1c6e4.png)
+
+
+Another item to mention is that you also may want to use the `curl` command to test out your cloud function.  Here is an example of a curl command that you could tweak.
+
+```bash
+curl --header "Content-Type: application/json"   --request POST   --data '{"entity":"google"}' https://us-central1-<yourproject>.
+cloudfunctions.net/<yourfunction>
+```
 
 
 Reference GCP Qwiklabs
