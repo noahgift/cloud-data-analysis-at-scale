@@ -51,6 +51,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 ### Serverless [Week 9 & Week 10]
 
 * [AWS Lambda](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/aws-lambda)
+* [Function as a Service & GCP Cloud Functions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/faas)
 
 ### Big Data Platforms [Week 11]
 
