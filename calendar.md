@@ -12,8 +12,6 @@
 
 **Learning Objectives**
 
-
-
 *   Summarize the fundamentals of cloud computing
 *   Evaluate the economics of cloud computing
 
@@ -23,10 +21,7 @@
 * [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-project-management)
 * [Cloud Onboarding](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-onboarding)
 
-
 **Readings/Media**
-
-
 
 *   [Berkeley View of Cloud Computing](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf)
 *   [Udemy and the Empire of Skills: ](https://www.forbes.com/sites/michaelbernick/2018/11/14/udemy-and-the-empire-of-skills/)
@@ -40,14 +35,11 @@
 
 **Lab**
 
-
-
 *   [GCP Essentials Qwiklabs](https://www.qwiklabs.com/quests/23?catalog_rank=%7B"rank"%3A2%2C"num_filters"%3A0%2C"has_search"%3Afalse%7D)
-*   (Optional if Available) AWS Academy CloudFoundations Lab 1-3:  Introduction to EC2, Working with EBS, Build your VPC and Launch a Web Server
+*   AWS Academy CloudFoundations:  Introduction to EC2, Working with EBS, Build your VPC and Launch a Web Server
+*   [Microsoft Learn:  Azure Fundamentals](https://docs.microsoft.com/en-us/learn/paths/azure-fundamentals/)
 
 **Discussions/Assignments**
-
-
 
 *   What are the problems solved economically by cloud computing vs traditional infrastructure?
 *   What skills are you going to learn by the end of this year, why and how?
@@ -59,15 +51,11 @@
 
 **Topics**
 
-
-
 *   Cloud Service Models:  SaaS, PaaS, IaaS, MaaS, Serverless
 *   IaC (Infrastructure as Code) w/ Terraform
 *   Continuous Delivery
 
 **Learning Objectives**
-
-
 
 *   Evaluate different cloud service paradigms (IaaS, MaaS,PaaS, SaaS, serverless) and choose the correct paradigm for the problem at hand.
 *   Compose IAC (Infrastructure as Code) solutions
@@ -80,20 +68,14 @@
 
 **Readings/Media**
 
-
-
 *   [Cloud Computer Chapter 9-Python For DevOps](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html#CloudComputing)
 *   [Infrastructure as Code Chapter 10-Python for DevOps](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html#infra-as-code)
 
 **Lab**
 
-
-
 *   [Terraform Fundamentals](https://www.qwiklabs.com/focuses/1208?catalog_rank=%7B%22rank%22%3A8%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=2850927)
 
 **Discussions/Assignments**
-
-
 
 *   What is IAC and what problem does it solve?
 *   How should a company decide on what level of cloud abstraction to use for a project:   SaaS, PaaS, IaaS, MaaS, Serverless?
@@ -105,22 +87,16 @@
 
 **Topics**
 
-
-
 *   CPU, Memory, I/O
 *   SDN (Software Defined Networks)
 *   SDS (Software Defined Storage)
 
 **Learning Objectives**
 
-
-
 *   Summarize key components of virtualization:  CPU, Memory and I/O
 *   Summarize Software Defined Networks and Software Defined Storage
 
 **Readings/Media**
-
-
 
 *   [AWS Slides:  Compute, Storage, VCP, Infrastructure](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
 *   [Learn to launch AWS Deep Learning Spot Instances using AWS Cloud9](https://www.youtube.com/watch?v=tzgzQow5OrE)
@@ -128,14 +104,10 @@
 
 **Lab**
 
-
-
 *  AWS Educate Lab: Launch Spot Virtual Machine using AWS Deep Learning AMI into VPC and ssh to instance via Cloud9]
 *  (Optional if Available) AWS Academy CloudFoundations Lab 4, 6: Build a Database Servers, Introduction to AWS IAM
 
 **Discussions/Assignments**
-
-
 
 *   What are the different layers of network security on AWS and what unique problems do each solve?
 *   What problem do AWS Spot instances solve and how could you use them in your projects?
@@ -146,23 +118,17 @@
 
 **Topics**
 
-
-
 *   Containers:  Docker, Kubernetes, 
 *   Hosted Services: EKS (Elastic Kubernetes Service), Google Kubernetes Engine, 
 *   Container Registries:  Dockerhub, ECR, Google Container Registry
 
 **Learning Objectives**
 
-
-
 *   Create Docker format containers and recommend how to use them
 *   Evaluate container management services like Kubernetes and hosted Kubernetes and create solutions with them
 *   Summarize container registries and how to use them to create custom containers
 
 **Readings/Media**
-
-
 
 *   [Python for DevOps: Docker Container Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html#containers-docker)
 *   [Python for DevOps:  Container Orchestration](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html)
@@ -175,8 +141,6 @@
 
 **Discussions/Assignments**
 
-
-
 *   What are containers?
 *   What problem do containers solve?
 *   What is the relationship between Kubernetes and containers?
@@ -187,7 +151,6 @@
 
 **Topics**
 
-
 *   CAP Theorem
 *   Eventual Consistency
 *   Amdahl's law
@@ -197,13 +160,10 @@
 
 **Learning Objectives**
 
-
 *   Accurately evaluate distributed computing challenges and opportunities and apply this knowledge to real-world projects.
 *   Summarize how eventual consistency places a role in Cloud-Native Applications
 
 **Readings/Media**
-
-
 
 *   [Toward Robust Distributed Systems](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)
 *   [CAP Twelve Years Later: How the "Rules" Have Changed](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)
@@ -212,13 +172,9 @@
 
 **Lab**
 
-
-
 *   (Optional if Available) AWS Academy Cloud Foundations Lab 5: Scale & Load Balance your Architecture
 
 **Discussions/Assignments**
-
-
 
 *   How does the CAP Theorem play a role in designing for the cloud?
 *   What are the implications of Amdahl's law for Machine Learning projects?
@@ -229,34 +185,24 @@
 
 **Topics**
 
-
-
 *   End of Moore’s Law
 *   ASICS:  GPUs, TPUs, FPGAs
 
 **Learning Objectives**
-
-
 
 *   Recommend appropriate use cases for ASICS.
 *   Consider the implications of the end of Moore’s Law
 
 **Readings/Media**
 
-
-
 *   [A New Golden Age for Computer Architecture](https://cacm.acm.org/magazines/2019/2/234352-a-new-golden-age-for-computer-architecture/fulltext?mobile=false)
 *   [MML-Chips](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_Chips.ipynb)
 
 **Lab**
 
-
-
 *   [Keras Fashion MNIST colab seedbank project](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/fashion_mnist.ipynb)
 
 **Discussions/Assignments**
-
-
 
 *   How could ASICs play an important role in Machine Learning going forward?
 *   Find, run and extend a notebook in seedbank and share along with your comments on what you learned.
@@ -266,34 +212,24 @@
 
 **Topics**
 
-
-
 *   Cloud Databases:  HBase, MongoDB, Cassandra, DynamoDB, Google BigQuery
 
 **Learning Objectives**
-
-
 
 *   Evaluate different cloud service paradigms (IaaS, MaaS, PaaS, SaaS, serverless) and choose the correct paradigm for the problem at hand.
 *   Compose IAC (Infrastructure as Code) solutions
 
 **Readings/Media**
 
-
-
 *   [One Size Database Doesn't Fit Anyone](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
 *   [AWS Slides:  AWS Databases](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
 
 **Lab**
 
-
-
 *   [BigQuery for Data Analysis](https://www.qwiklabs.com/quests/55?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373471)
 *   (Optional if Available) AWS Academy Data Analytics Lab:  Query Data in Amazon Athena, Analyze Data with Amazon Redshift
 
 **Discussions/Assignments**
-
-
 
 *   What are the problems with a “one size fits all” approach to relational databases?
 *   How could a service like Google BigQuery change the way you deal with Data?
@@ -305,20 +241,14 @@
 
 **Topics**
 
-
-
 *   Cloud Object Storage:  Amazon S3, GCP Cloud Storage, Amazon Glacier, Data Lakes, OpenStack Swift
 *   Distributed File Systems: Red Hat Ceph, Amazon EFS (Elastic File System), HDFS 
 
 **Learning Objectives**
 
-
-
 *   Compare different types of cloud storage (Object, File System and Database) and know how to use them in the right context.
 
 **Readings/Media**
-
-
 
 *   [AWS Slides:  AWS Storage](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
 *   [AWS Storage Whitepaper](https://d0.awsstatic.com/whitepapers/AWS%20Storage%20Services%20Whitepaper-v9.pdf)
@@ -327,14 +257,10 @@
 
 **Lab**
 
-
-
 *   (Optional if Available) AWS Academy Data Analytics Lab:  Store data in Amazon S3, Query data in Amazon S3 with Amazon Athena and AWS Glue
 *   [Use the Cloud SDK Command Line](https://www.qwiklabs.com/quests/95?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373512)
 
 **Discussions/Assignments**
-
-
 
 *   What are the key differences between block and object storage?
 *   What are the key problems do a Data Lake solve?
@@ -345,21 +271,15 @@
 
 **Topics**
 
-
-
 *   Cloud 9 Development Environment
 *   FaaS (Function as a Service): AWS Lambda, GCP Cloud Functions, Azure Functions
 *   Cloud-Native Primitives: AWS Step Machines, AWS SQS, AWS SNS, AWS Cognito, AWS API Gateway
 
 **Learning Objectives**
 
-
-
 *   Design serverless applications (AWS Lambda, GCP Cloud Functions) and create cloud-native applications with them.
 
 **Readings/Media**
-
-
 
 *   [Python for DevOps:  Serverless Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch11.html#idm45360319254664)
 *   **_Data Engineering with Python and AWS Lambda:  _**[https://learning.oreilly.com/videos/data-engineering-with/9780135964330](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
@@ -368,8 +288,6 @@
 *   Learn to write AWS Lambda Functions in Python:  https://youtu.be/AlRUeNFuObk
 
 **Lab**
-
-
 
 *   [AWS Educate Lab:  Build timed AWS lambda in Python with Cloud9]
 *   (Optional if Available) AWS Academy Cloud Developing Lab:  Module 10 - Lab 5: Developing with AWS Lambda and Amazon API Gateway
@@ -385,33 +303,29 @@ Week-10: Serverless-Part2
 
 **Topics**
 
-
-
+*   Platform as a Service:  Azure App Services, AWS Elastic Beanstalk and  Google App Engine
+*   Azure Cloud Shell Development Environment
 *   Google Cloud Shell Development Environment
-*   Google App Engine
+*   AWS Cloud9 Development Environment
 
 **Learning Objectives**
 
-
-
-*   Design Google App Engine PaaS applications
+*   Design PaaS applications Using Cloud-Native Tools
 
 **Readings/Media**
 
 
-
-*   **_Building AI & ML Applications on Google Cloud Platform:  [https://learning.oreilly.com/videos/building-ai-applications/9780135973462](https://learning.oreilly.com/videos/building-ai-applications/9780135973462)_**
+*  [Setup Continuous Delivery on GCP Platform with Google App Engine and Cloud Build](https://www.youtube.com/watch?v=_TfWdOvQXwU)
+* [ML+AI Cooking with Cloud Services (Video)](https://www.youtube.com/watch?v=b-Ee3NtFJYs)
+* [Azure Flask ML Serverless Project and Video](https://github.com/noahgift/flask-ml-azure-serverless)
 *   Reference Source Code: [https://github.com/noahgift/gcp-hello-ml](https://github.com/noahgift/gcp-hello-ml)
 
 **Lab**
 
-
-
-*   [GCP App Development Python](https://www.qwiklabs.com/quests/41?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373705)
+*  [GCP App Development Python](https://www.qwiklabs.com/quests/41?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373705)
+* [Build a Flask app with Azure Cognitive Services](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/tutorial-build-flask-app-translation-synthesis)
 
 **Discussions/Assignments**
-
-
 
 *   What problems does Google App Engine solve?
 *   What problems does the Cloud Shell environment solve?
@@ -422,35 +336,29 @@ Week-10: Serverless-Part2
 
 **Topics**
 
-
-
 *   Batch Processing:  EMR/Hadoop, AWS Batch
 *   ETL (Extract Transform Load):  AWS Glue, AWS Athena
 *   Stream Processing:  EMR/Spark, AWS Kinesis, Kafka
 
 **Learning Objectives**
 
-
 *   Recommend Big Data technology and design Big Data technology solutions to real-world problems.
 
 **Readings/Media**
-
-
 
 *   Python for Programmers Big Data: [https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16](https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16)
 
 **Lab**
 
+*   [Analyze Big Data with Hadoop](https://www.qwiklabs.com/focuses/14214?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=7047043)
+*   [Introduction to Cloud Dataproc](https://google.qwiklabs.com/focuses/672?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=7047116)
+*   [Provisioning and Using a Managed Hadoop/Spark Cluster with Cloud Dataproc (Command Line)](https://google.qwiklabs.com/focuses/3398?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=7047139)
+*   [Dataproc: Qwik Start - Command Line](https://google.qwiklabs.com/focuses/585?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=7047159)
+*   Academy Data Analytics Lab: Analyze Streaming Data with Amazon Kinesis Firehose, Amazon Elasticsearch and Kibana
+* [Perform Zero ETL analytics with HDInsight Interactive Query](https://docs.microsoft.com/en-us/learn/modules/perform-zero-etl-analytics-hdinsight-interactive-query/)
+* [Qwiklabs—Data Engineering](https://google.qwiklabs.com/quests/25)
 
-
-*   [Analyze Big Data with Hadoop](https://www.qwiklabs.com/focuses/3660?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=3373752)
-*   [Introduction to Cloud Dataproc](https://www.qwiklabs.com/focuses/672?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=3373752)
-*   [Provisioning and Using a Managed Hadoop/Spark Cluster with Cloud Dataproc (Command Line)](https://www.qwiklabs.com/focuses/3398?catalog_rank=%7B"rank"%3A3%2C"num_filters"%3A0%2C"has_search"%3Atrue%7D&parent=catalog&search_id=3373752)
-*   [Dataproc: Qwik Start - Command Line](https://www.qwiklabs.com/focuses/585?catalog_rank=%7B%22rank%22%3A5%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=3373752)
-*   (Optional if Available) Academy Data Analytics Lab: Analyze Streaming Data with Amazon Kinesis Firehose, Amazon Elasticsearch and Kibana
 **Discussions/Assignments**
-
-
 
 *   What problems does Hadoop Solve?
 *   What are the key differences between Hadoop and Spark?
@@ -461,21 +369,18 @@ Week-10: Serverless-Part2
 
 **Topics**
 
-
-
 *   AWS Sagemaker
 
 **Learning Objectives**
-
-
 
 *   Design big data machine learning solutions using Machine Learning platforms (AWS Sagemaker, GCP Big Query ML) 
 
 **Readings/Media**
 
-
-
 *   [Getting Started with Sagemaker](https://aws.amazon.com/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/)
+*   [Video:  Sagemaker from Zero](https://www.youtube.com/watch?v=H3AcLM_8P4s&t=86s)
+*   [Configure automated ML experiments in Python](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train)
+*   [Gift, N (2020). Python for DevOps:  Chapter 14:  ML Ops and ML Engineering](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch14.html)
 *   [Lesson 6 Create Production Machine Learning Applications](https://learning.oreilly.com/videos/aws-certified-machine/9780135556597/9780135556597-ACML_01_06_00)
 *   Part D: [Managed ML & AutoML Overview](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_Overview_managed_ml_automl.ipynb)
 *   Part E: [AWS Managed ML & AutoML](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_AWS_managed_ml_automl.ipynb)
@@ -484,16 +389,16 @@ Week-10: Serverless-Part2
 
 **Lab**
 
-
-
 *   [AWS Educate:  [County Census Project in Sagemaker](https://aws.amazon.com/blogs/machine-learning/analyze-us-census-data-for-population-segmentation-using-amazon-sagemaker/)]
-*   (Optional if Available) Academy Data Analytics Lab:  Analyze Data with Amazon Sagemaker, Jupyter Notebooks and Bokeh
+*   Academy Data Analytics Lab:  Analyze Data with Amazon Sagemaker, Jupyter Notebooks and Bokeh
+*   AWS Academy Machine Learning Foundations
+*   [Start the machine learning lifecycle with MLOps](https://docs.microsoft.com/en-us/learn/modules/start-ml-lifecycle-mlops/)
+
 **Discussions/Assignments**
-
-
 
 *   What problems does Sagemaker solve?
 *   What are competitive offerings to Sagemaker?
+*   What is MLOps?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
 
 ## [Week 13](#week-13)
@@ -501,33 +406,24 @@ Week-10: Serverless-Part2
 
 **Topics**
 
-
-
 *   IoT:  AWS Greengrass, Raspberry Pi
 *   Edge Machine Learning: Tensorflow lite, Intel Movidius, Apple X12
 
 **Learning Objectives**
 
-
-
 *   Recommend edge computing technologies (IoT and edge ML Inference) to solve problems uniquely suited to the edge (privacy, latency, etc).
 
 **Readings/Media**
 
-
-
-*   [Edge Machine Learning Notebook](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_Edge_Machine_Learning.ipynb)
-*   Reference Source Code: [https://github.com/noahgift/gcp-hello-ml](https://github.com/noahgift/gcp-hello-ml)
+*   [Edge Computer Vision](https://github.com/noahgift/edge-computer-vision)
 
 **Lab**
 
-
-
 *   [Classifying Images with Vision and Core ML](https://developer.apple.com/documentation/vision/classifying_images_with_vision_and_core_ml)
-*   (Optional if Available) Academy Data Analytics Lab: Analyze Iot Data with AWS IoT Analytics
+*   [Classify Images of Clouds in the Cloud with AutoML Vision](https://google.qwiklabs.com/focuses/8406?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=7047526)
+*   Academy Data Analytics Lab: Analyze Iot Data with AWS IoT Analytics
+
 **Discussions/Assignments**
-
-
 
 *   What problems does edge-based machine learning solve?
 *   What are the ML frameworks most widely used with edge inference?
