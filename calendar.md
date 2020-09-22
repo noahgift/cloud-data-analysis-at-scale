@@ -222,6 +222,7 @@
 **Readings/Media**
 
 *   [One Size Database Doesn't Fit Anyone](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
+*   [Azure Datastore Overview](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview)
 *   [AWS Slides:  AWS Databases](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
 
 **Lab**
