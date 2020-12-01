@@ -66,6 +66,9 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [Key Terms](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/key-terms)
 * [(Q&A) Question Answer](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/Question-Answer)
 
+### Student Example Projects
+
+
 ## References:
 
 ### [Cloud Computing for Data Analysis Book](http://leanpub.com/cloud4data/c/CMwSpMi7HIr5)
