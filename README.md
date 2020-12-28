@@ -1,3 +1,6 @@
+# Note:  All Content Has Been Permanently Moved Here: https://paiml.com/docs/home/books/cloud-computing-for-data/
+
+
 # Data Analysis at Scale in the Cloud
 
 Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 2020 by [Noah Gift](https://www.noahgift.com/).  
@@ -9,7 +12,6 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * This is the [FAQ](https://noahgift.github.io/cloud-data-analysis-at-scale/faq)
 
 ## Lecture Topics:
-*(Permanent Home Moved to: https://paiml.com/docs/home/books/cloud-computing-for-data/)
 
 ### Getting Started: [Week1]
 
