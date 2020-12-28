@@ -8,7 +8,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * This is the [grading for the course](https://noahgift.github.io/cloud-data-analysis-at-scale/grading)
 * This is the [FAQ](https://noahgift.github.io/cloud-data-analysis-at-scale/faq)
 
-## Lecture Topics:
+## Lecture Topics:(Moved to https://paiml.com/docs/home/books/cloud-computing-for-data/)
 
 ### Getting Started: [Week1]
 
