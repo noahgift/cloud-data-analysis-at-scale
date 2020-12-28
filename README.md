@@ -8,11 +8,12 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * This is the [grading for the course](https://noahgift.github.io/cloud-data-analysis-at-scale/grading)
 * This is the [FAQ](https://noahgift.github.io/cloud-data-analysis-at-scale/faq)
 
-## Lecture Topics:(Moved to https://paiml.com/docs/home/books/cloud-computing-for-data/)
+## Lecture Topics:
+*(Permanent Home Moved to: https://paiml.com/docs/home/books/cloud-computing-for-data/)
 
 ### Getting Started: [Week1]
 
-* [Effective Async Technical Discussions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
+* [Effective Async Technical Discussions](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/#effective-async-technical-discussions)
 * [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-project-management)
 * [Cloud Onboarding](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-onboarding)
 
