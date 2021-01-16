@@ -1,6 +1,3 @@
-# Note:  All Content Has Been Permanently Moved Here: https://paiml.com/docs/home/books/cloud-computing-for-data/
-
-
 # Data Analysis at Scale in the Cloud
 
 Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 2020 by [Noah Gift](https://www.noahgift.com/).  
@@ -10,58 +7,37 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * This is the [rubric for grading assignments](https://noahgift.github.io/cloud-data-analysis-at-scale/rubric)
 * This is the [grading for the course](https://noahgift.github.io/cloud-data-analysis-at-scale/grading)
 * This is the [FAQ](https://noahgift.github.io/cloud-data-analysis-at-scale/faq)
+* A complete [online book with screencast videos is available here](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/).
 
 ## Lecture Topics:
 
 ### Getting Started: [Week1]
 
-* [Effective Async Technical Discussions](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/#effective-async-technical-discussions)
-* [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-project-management)
-* [Cloud Onboarding](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-onboarding)
+* [Getting Started](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/)
 
 ### Cloud Computing Foundations: [Week2]
 
-* [Cloud Service Model](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-service-model)
-* [IaC](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/iac)
-* [Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/continuous-delivery)
+* [Cloud Computing Foundations](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter02-cloud-foundations/)
 
 ### Virtualization and Containers: [Week3 & Week 4]
 
-* [Elastic Resources](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/elastic-resources)
-* [Using APIs](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/using-apis)
-* [GCP App Engine Paas Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/paas-continuous-delivery)
-* [Docker Format Containers](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/docker-format-containers)
-* [Kubernetes](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/kubernetes)
-* [Operationalizing Microservice](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/operationalizing-microservice)
-* [loadtest-flask](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/loadtest-flask)
-* [flask-sklearn-kubernetes](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/flask-sklearn-kubernetes)
+* [Containers, Virtualization and Elasticity](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter03-virtualization-containers-elasticity/)
 
 ### Challenges and Opportunities in Distributed Computing: [Week 5 & Week 6]
 
-* [distributed systems](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/distributed-systems)
-* [elastic machine learning with notebooks](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/elastic-machine-learning-with-notebooks)
-* [end of moore's law](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/end-of-moores-law)
-* [Sagemaker Scavenger Hunt](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/sagemaker-scavenger-hunt)
+* [Distributed Computing](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter04-distributed-computing/)
 
 ### Cloud Storage [Week 7 & Week 8]
 
-* [Cloud ETL](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-etl)
-* [Cloud Databases](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-databases)
-* [Cloud Object Storage](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-object-storage)
-* [Cloud Datawarehouse](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-datawarehouse)
-* [Data Governance](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/data-governance)
+* [Cloud Storage](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter05-cloud-storage/)
 
 ### Serverless [Week 9 & Week 10]
 
-* [AWS Lambda](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/aws-lambda)
-* [Function as a Service & GCP Cloud Functions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/faas)
+* [Serverless](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter06-serverless-etl/)
 
-### Big Data Platforms [Week 11]
+### Managed ML Systems, Big Data and Edge Computer Vision [Week 11 & Week 12 & Week 13]
 
-### Managed Machine Learning Systems [Week 12]
-
-### Edge Computing [Week 13]
-
+* [Managed ML Systems](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter07-managed-ml/)
 * [Edge Computer Vision Notebooks and Code](https://github.com/noahgift/edge-computer-vision)
 
 ### General
