@@ -17,9 +17,7 @@
 
 **Lectures**
 
-* [Effective Async Technical Discussions](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-discussions)
-* [Effective Async Technical Project Management](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/effective-async-technical-project-management)
-* [Cloud Onboarding](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-onboarding)
+* [Getting Started](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/)
 
 **Readings/Media**
 
@@ -62,9 +60,7 @@
 
 **Lectures**
 
-* [Cloud Service Model](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/cloud-service-model)
-* [IaC](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/iac)
-* [Continuous Delivery](https://noahgift.github.io/cloud-data-analysis-at-scale/topics/continuous-delivery)
+* [Cloud Computing Foundations](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter02-cloud-foundations/)
 
 **Readings/Media**
 
@@ -80,7 +76,6 @@
 *   What is IAC and what problem does it solve?
 *   How should a company decide on what level of cloud abstraction to use for a project:   SaaS, PaaS, IaaS, MaaS, Serverless?
 *   Post a screenshot of a lab where you had difficulty with a concept or learned something.
-
 
 ## [Week 3](#week-3)
 ## Virtualization and Containers-Part 1
@@ -98,14 +93,12 @@
 
 **Readings/Media**
 
-*   [AWS Slides:  Compute, Storage, VCP, Infrastructure](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
-*   [Learn to launch AWS Deep Learning Spot Instances using AWS Cloud9](https://www.youtube.com/watch?v=tzgzQow5OrE)
-*   [Launch AWS Spot Instances with Python](https://www.youtube.com/watch?v=UvYabSrKYXM&t=14s)
+* [Containers, Virtualization and Elasticity](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter03-virtualization-containers-elasticity/)
 
 **Lab**
 
 *  AWS Educate Lab: Launch Spot Virtual Machine using AWS Deep Learning AMI into VPC and ssh to instance via Cloud9]
-*  (Optional if Available) AWS Academy CloudFoundations Lab 4, 6: Build a Database Servers, Introduction to AWS IAM
+*  AWS Academy CloudFoundations Lab 4, 6: Build a Database Servers, Introduction to AWS IAM
 
 **Discussions/Assignments**
 
@@ -130,14 +123,16 @@
 
 **Readings/Media**
 
+* [Containers, Virtualization and Elasticity](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter03-virtualization-containers-elasticity/)
+
+*(Optional)*
+
 *   [Python for DevOps: Docker Container Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html#containers-docker)
 *   [Python for DevOps:  Container Orchestration](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html)
-*   [TBD:  Video Build Container on AWS Cloud9]
 
 **Lab**
 
 *   [Kubernetes in the Cloud](https://www.qwiklabs.com/quests/29?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3372991)
-*   (Optional if Available) Academy Cloud Developing Lab:  Module 7 - Lab 4:  Working with Docker Containers
 
 **Discussions/Assignments**
 
@@ -165,6 +160,7 @@
 
 **Readings/Media**
 
+*   [Distributed Computing](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter04-distributed-computing/)
 *   [Toward Robust Distributed Systems](https://people.eecs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf)
 *   [CAP Twelve Years Later: How the "Rules" Have Changed](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)
 *   [AWS Slides:  Balancing, Scaling and Monitoring](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
@@ -172,7 +168,7 @@
 
 **Lab**
 
-*   (Optional if Available) AWS Academy Cloud Foundations Lab 5: Scale & Load Balance your Architecture
+*   AWS Academy Cloud Foundations Lab 5: Scale & Load Balance your Architecture
 
 **Discussions/Assignments**
 
@@ -195,6 +191,7 @@
 
 **Readings/Media**
 
+*   [Distributed Computing](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter04-distributed-computing/)
 *   [A New Golden Age for Computer Architecture](https://cacm.acm.org/magazines/2019/2/234352-a-new-golden-age-for-computer-architecture/fulltext?mobile=false)
 *   [MML-Chips](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_Chips.ipynb)
 
@@ -221,6 +218,7 @@
 
 **Readings/Media**
 
+*   [Cloud Storage](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter05-cloud-storage/)
 *   [One Size Database Doesn't Fit Anyone](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
 *   [Azure Datastore Overview](https://docs.microsoft.com/en-us/azure/architecture/guide/technology-choices/data-store-overview)
 *   [AWS Slides:  AWS Databases](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
@@ -228,7 +226,7 @@
 **Lab**
 
 *   [BigQuery for Data Analysis](https://www.qwiklabs.com/quests/55?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=3373471)
-*   (Optional if Available) AWS Academy Data Analytics Lab:  Query Data in Amazon Athena, Analyze Data with Amazon Redshift
+*   AWS Academy Data Analytics Lab:  Query Data in Amazon Athena, Analyze Data with Amazon Redshift
 
 **Discussions/Assignments**
 
@@ -251,9 +249,12 @@
 
 **Readings/Media**
 
+*   [Cloud Storage](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter05-cloud-storage/)
 *   [AWS Slides:  AWS Storage](https://drive.google.com/drive/u/0/folders/1fD_3fG5nyVaWvXHEuaqA4IRBy43vfCUt)
 *   [AWS Storage Whitepaper](https://d0.awsstatic.com/whitepapers/AWS%20Storage%20Services%20Whitepaper-v9.pdf)
-*   [Python for DevOps:  Data Engineering Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/)(Not yet published, but written)
+
+*(Optional)*
+*   [Python for DevOps:  Data Engineering Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/)
 *   [AWS Data Lake](https://docs.aws.amazon.com/en_pv/solutions/latest/data-lake-solution/overview.html)
 
 **Lab**
@@ -282,11 +283,14 @@
 
 **Readings/Media**
 
-*   [Python for DevOps:  Serverless Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch11.html#idm45360319254664)
-*   **_Data Engineering with Python and AWS Lambda:  _**[https://learning.oreilly.com/videos/data-engineering-with/9780135964330](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
+*   [Serverless](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter06-serverless-etl/)
 *   [https://github.com/noahgift/awslambda](https://github.com/noahgift/awslambda)
 *   [https://github.com/noahgift/web_scraping_python](https://github.com/noahgift/web_scraping_python)
 *   Learn to write AWS Lambda Functions in Python:  https://youtu.be/AlRUeNFuObk
+
+*(Optional)*
+*   [Python for DevOps:  Serverless Chapter](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch11.html#idm45360319254664)
+*   **_Data Engineering with Python and AWS Lambda:  _**[https://learning.oreilly.com/videos/data-engineering-with/9780135964330](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
 
 **Lab**
 
@@ -315,7 +319,7 @@ Week-10: Serverless-Part2
 
 **Readings/Media**
 
-
+*   [Serverless](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter06-serverless-etl/)
 *  [Setup Continuous Delivery on GCP Platform with Google App Engine and Cloud Build](https://www.youtube.com/watch?v=_TfWdOvQXwU)
 * [ML+AI Cooking with Cloud Services (Video)](https://www.youtube.com/watch?v=b-Ee3NtFJYs)
 * [Azure Flask ML Serverless Project and Video](https://github.com/noahgift/flask-ml-azure-serverless)
@@ -347,6 +351,9 @@ Week-10: Serverless-Part2
 
 **Readings/Media**
 
+* [Managed ML Systems](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter07-managed-ml/)
+
+*(Optional)*
 *   Python for Programmers Big Data: [https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16](https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/ch16.xhtml#ch16)
 
 **Lab**
@@ -378,15 +385,19 @@ Week-10: Serverless-Part2
 
 **Readings/Media**
 
+* [Managed ML Systems](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter07-managed-ml/)
 *   [Getting Started with Sagemaker](https://aws.amazon.com/getting-started/tutorials/build-train-deploy-machine-learning-model-sagemaker/)
 *   [Video:  Sagemaker from Zero](https://www.youtube.com/watch?v=H3AcLM_8P4s&t=86s)
 *   [Configure automated ML experiments in Python](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train)
-*   [Gift, N (2020). Python for DevOps:  Chapter 14:  ML Ops and ML Engineering](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch14.html)
-*   [Lesson 6 Create Production Machine Learning Applications](https://learning.oreilly.com/videos/aws-certified-machine/9780135556597/9780135556597-ACML_01_06_00)
 *   Part D: [Managed ML & AutoML Overview](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_Overview_managed_ml_automl.ipynb)
 *   Part E: [AWS Managed ML & AutoML](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_AWS_managed_ml_automl.ipynb)
 *   Part F: [GCP Managed ML & AutoML](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_GCP_managed_ml_automl.ipynb)
 *   Part G: [Azure Managed ML & AutoML](https://github.com/noahgift/managed_ml_systems_and_iot/blob/master/PROD_AZURE_managed_ml_automl.ipynb)
+
+*(Optional)*
+
+*   [Gift, N (2020). Python for DevOps:  Chapter 14:  ML Ops and ML Engineering](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch14.html)
+*   [Lesson 6 Create Production Machine Learning Applications](https://learning.oreilly.com/videos/aws-certified-machine/9780135556597/9780135556597-ACML_01_06_00)
 
 **Lab**
 
@@ -416,6 +427,7 @@ Week-10: Serverless-Part2
 
 **Readings/Media**
 
+*   [Managed ML Systems](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter07-managed-ml/)
 *   [Edge Computer Vision](https://github.com/noahgift/edge-computer-vision)
 
 **Lab**
