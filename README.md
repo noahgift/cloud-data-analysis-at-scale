@@ -48,16 +48,11 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 ### Student Example Projects
 
 
-## References:
-
-### [Cloud Computing for Data Analysis Book](http://leanpub.com/cloud4data/c/CMwSpMi7HIr5)
-
 #### *A practical guide to Data Science, Machine Learning Engineering and Data Engineering*
 
-
-This book is being written "just in time", with a weekly release schedule.
-
+[Read Cloud Computing for Data Book](https://paiml.com/docs/home/books/cloud-computing-for-data/)
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
+
 
 ### Text and Code License
 The text and code content of notebooks and documents is released under the [CC-BY-NC-ND license](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/license.md)
