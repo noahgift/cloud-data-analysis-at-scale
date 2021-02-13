@@ -9,6 +9,14 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * This is the [FAQ](https://noahgift.github.io/cloud-data-analysis-at-scale/faq)
 * A complete [online book with screencast videos is available here](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/).
 
+## Github Repos Referenced Duke Coursera Course
+
+### Course 1 Cloud Computing Foundations
+
+* [Practice Markdown](https://github.com/noahgift/duke-coursera-ccf-lab1/blob/main/Practice-Markdown.ipynb)
+* [Github Actions-Pytest](https://github.com/noahgift/github-actions-pytest)
+* [Google App Engine Continuous Delivery](https://github.com/noahgift/gcp-flask-ml-deploy)
+
 ## Lecture Topics:
 
 ### Getting Started: [Week1]
