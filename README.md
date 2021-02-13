@@ -16,6 +16,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [Practice Markdown](https://github.com/noahgift/duke-coursera-ccf-lab1/blob/main/Practice-Markdown.ipynb)
 * [Github Actions-Pytest](https://github.com/noahgift/github-actions-pytest)
 * [Google App Engine Continuous Delivery](https://github.com/noahgift/gcp-flask-ml-deploy)
+* [Hello World Flask](https://github.com/noahgift/flask-hello-coursera)
 
 ## Lecture Topics:
 
