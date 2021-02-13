@@ -17,6 +17,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * [Github Actions-Pytest](https://github.com/noahgift/github-actions-pytest)
 * [Google App Engine Continuous Delivery](https://github.com/noahgift/gcp-flask-ml-deploy)
 * [Hello World Flask](https://github.com/noahgift/flask-hello-coursera)
+* [Hugo Continuous Delivery on AWS](https://github.com/noahgift/dukehugofeb1)
 
 ## Lecture Topics:
 
