@@ -11,13 +11,19 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 ## Github Repos Referenced Duke Coursera Course
 
-### Course 1 Cloud Computing Foundations
+### Course 1: Cloud Computing Foundations
 
 * [Practice Markdown](https://github.com/noahgift/duke-coursera-ccf-lab1/blob/main/Practice-Markdown.ipynb)
 * [Github Actions-Pytest](https://github.com/noahgift/github-actions-pytest)
 * [Google App Engine Continuous Delivery](https://github.com/noahgift/gcp-flask-ml-deploy)
 * [Hello World Flask](https://github.com/noahgift/flask-hello-coursera)
 * [Hugo Continuous Delivery on AWS](https://github.com/noahgift/dukehugofeb1)
+
+### Course 2:  Cloud Computing Building Blocks
+
+* [Lint Dockerfile](https://github.com/noahgift/duke-coursera-ccb-lab1)
+* [Flask Change Microservice]
+
 
 ## Lecture Topics:
 
