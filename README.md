@@ -70,6 +70,17 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
 
 
+#### Next Steps:  Take Coursera MLOps Course
+
+![cloud-specialization](https://user-images.githubusercontent.com/58792/121041040-650ca180-c780-11eb-956e-8d1ecb134641.png)
+
+* [Take the Specialization](https://www.coursera.org/learn/cloud-computing-foundations-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Computing Foundations](https://www.coursera.org/learn/cloud-computing-foundations-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Virtualization, Containers and APIs](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Data Engineering](https://www.coursera.org/learn/cloud-data-engineering-duke?specialization=building-cloud-computing-solutions-at-scale)
+* [Cloud Machine Learning Engineering and MLOps](https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke?specialization=building-cloud-computing-solutions-at-scale)
+
+
 ### Text and Code License
 The text and code content of notebooks and documents is released under the [CC-BY-NC-ND license](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/license.md)
 
