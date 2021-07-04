@@ -8,7 +8,7 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * This is the [grading for the course](https://noahgift.github.io/cloud-data-analysis-at-scale/grading)
 * This is the [FAQ](https://noahgift.github.io/cloud-data-analysis-at-scale/faq)
 * A complete [online book with screencast videos is available here](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/).
-* [Coursera Course, Building Cloud Computing Solutions at Scale Specialization, can be found here: Building Cloud Computing Solutions at Scale Specialization](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
+* [Coursera Course, Building Cloud Computing Solutions at Scale Specialization, can be found here: https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
 ## Github Repos Referenced Duke Coursera Course
 
