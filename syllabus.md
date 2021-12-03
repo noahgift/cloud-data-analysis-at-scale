@@ -103,7 +103,7 @@ This course will make sure of several free resources that allow students to use 
 *   [Python for Programmers-Book](https://learning.oreilly.com/library/view/python-for-programmers/9780135231364/)
 *   [Data Engineering with Python and AWS Lambda-Video](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
 *   [Duke+Coursera:  Cloud Computing for Data Coursera Course](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
-*   Gift, N (2020) [Python for DevOps](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/) Sebastopol, CA: O'Reilly. 
+*   Gift, N (2021) [Practical MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/), Sebastopol, CA: O'Reilly
 *   Gift, N (2021) [Cloud Computing for Data Analysis](https://paiml.com/docs/home/books/cloud-computing-for-data/)
 *   Gift, N (2020) [Pragmatic AI:  An Introduction to Cloud-Based Machine Learning](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/)
 
