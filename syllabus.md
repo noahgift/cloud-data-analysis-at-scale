@@ -153,6 +153,7 @@ This course will make sure of several free resources that allow students to use 
 * [Learn to build Data Pipelines](https://learning.oreilly.com/videos/learn-to-build/10272021VIDEOPAIML/)
 * [Hello World IAC with AWS CDK](https://learning.oreilly.com/videos/hello-world-iac/10262021VIDEOPAIML/)
 * [Github Actions vs AWS Code Build for CI](https://learning.oreilly.com/videos/github-actions-vs/10232021VIDEOPAIML/)
+* [AWS Sagemaker Autopilot from Zero](https://learning.oreilly.com/videos/aws-sagemaker-autopilot/60262021VIDEOPAIML/)
 * AWS Cloud Practitioner
     * AWS Certified Cloud Practitioner Video Course: [https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/](https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/)
     * [https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/](https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/)
@@ -178,20 +179,31 @@ This course will make sure of several free resources that allow students to use 
 * [Build a useful Python decorator](https://learning.oreilly.com/videos/build-a-useful/50123VIDEOPAIML/) 
 * [Python Functions in One Hour](https://learning.oreilly.com/videos/python-function-in/11092021VIDEOPAIML/)
 * [Python command-line in one hour](https://learning.oreilly.com/videos/python-command-line/11102021VIDEOPAIML/)
-
+* [Fast, documented Machine Learning APIs with FastAPI](https://learning.oreilly.com/videos/fast-documented-machine/50117VIDEOPAIML/)
 
 ##### Development Environment
 
 * [Create a Vim Plugin](https://learning.oreilly.com/videos/create-a-vim/50122VIDEOPAIML/)
+* [Automating Jenkins with Python](https://learning.oreilly.com/videos/automating-jenkins-with/50118VIDEOPAIML/)
 
 ##### Linux and Systems Engineering
 
 * Docker containers: \
 [https://learning.oreilly.com/videos/learn-docker-containers/50103VIDEOPAIML/](https://learning.oreilly.com/videos/learn-docker-containers/50103VIDEOPAIML/) 
-* Learn the Vim Text Editor: [https://learning.oreilly.com/videos/learn-vim-in/50100VIDEOPAIML/](https://learning.oreilly.com/videos/learn-vim-in/50100VIDEOPAIML/) 
+* Learn the Vim Text Editor: [https://learning.oreilly.com/videos/learn-vim-in/50100VIDEOPAIML/](https://learning.oreilly.com/videos/learn-vim-in/50100VIDEOPAIML/)
+*  
 
 ##### Containers and Kubernetes
 
 * [Learn Docker containers in One Hour Video](https://learning.oreilly.com/videos/learn-docker-containers/50103VIDEOPAIML/)
 * [Setup a Remote Kubernetes Environment](https://learning.oreilly.com/videos/setup-a-remote/50124VIDEOPAIML/)
+* [Packaging Machine Learning Models with Docker](https://learning.oreilly.com/videos/packaging-machine-learning/50116VIDEOPAIML/)
 
+##### MLOps and DataOps
+
+* [Six Key Elements of MLOps](https://learning.oreilly.com/videos/six-key-elements/609022521VIDEOPAIML/)
+* [Introduction to MLOps Walkthrough](https://learning.oreilly.com/videos/introduction-to-mlops/607312021VIDEOPAIML/)
+* [MLOPs Foundations: Chapter 2 Walkthrough of Practical MLOps](https://learning.oreilly.com/videos/mlops-foundations-chapter/607082021VIDEOPAIML/)
+* [AutoML and KaizenML - Chapter 5 Walkthrough Practical MLOps](https://learning.oreilly.com/videos/automl-and-kaizenml/608142021VIDEOPAIML/)
+* [Computer Vision MVPS](https://learning.oreilly.com/videos/computer-vision-mvps/608282021VIDEOPAIML/)
+* [MLOps with AWS App Runner](https://learning.oreilly.com/videos/mlops-with-aws/605232021VIDEOPAIML/)
