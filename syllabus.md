@@ -146,6 +146,7 @@ This course will make sure of several free resources that allow students to use 
 ##### AWS
 
 * [AWS Bootcamp](https://github.com/noahgift/aws-bootcamp)
+* [Learn AWS Cloudshell](https://learning.oreilly.com/videos/learn-aws-cloudshell/11212021VIDEOPAIML/)
 * AWS Cloud Practitioner
     * AWS Certified Cloud Practitioner Video Course: [https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/](https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/)
     * [https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/](https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/)
@@ -180,6 +181,8 @@ This course will make sure of several free resources that allow students to use 
 [https://learning.oreilly.com/videos/learn-docker-containers/50103VIDEOPAIML/](https://learning.oreilly.com/videos/learn-docker-containers/50103VIDEOPAIML/) 
 * Learn the Vim Text Editor: [https://learning.oreilly.com/videos/learn-vim-in/50100VIDEOPAIML/](https://learning.oreilly.com/videos/learn-vim-in/50100VIDEOPAIML/) 
 
+##### Containers and Kubernetes
 
-
+* [Learn Docker containers in One Hour Video](https://learning.oreilly.com/videos/learn-docker-containers/50103VIDEOPAIML/)
+* [Setup a Remote Kubernetes Environment](https://learning.oreilly.com/videos/setup-a-remote/50124VIDEOPAIML/)
 
