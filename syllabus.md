@@ -207,3 +207,4 @@ This course will make sure of several free resources that allow students to use 
 * [AutoML and KaizenML - Chapter 5 Walkthrough Practical MLOps](https://learning.oreilly.com/videos/automl-and-kaizenml/608142021VIDEOPAIML/)
 * [Computer Vision MVPS](https://learning.oreilly.com/videos/computer-vision-mvps/608282021VIDEOPAIML/)
 * [MLOps with AWS App Runner](https://learning.oreilly.com/videos/mlops-with-aws/605232021VIDEOPAIML/)
+* [Kicking the Tires on the MLOPs framework MLRun](https://learning.oreilly.com/videos/kicking-the-tires/11292021VIDEOPAIML/)
