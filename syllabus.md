@@ -147,6 +147,7 @@ This course will make sure of several free resources that allow students to use 
 
 * [AWS Bootcamp](https://github.com/noahgift/aws-bootcamp)
 * [Logic to Live](https://learning.oreilly.com/videos/logic-to-live/12022021VIDEOPAIML/)
+* [AWS Lambda Python Cloud9 and Boto3 One Hour](https://learning.oreilly.com/videos/aws-lambda-python/11112021VIDEOPAIML/)
 * [Learn AWS Cloudshell](https://learning.oreilly.com/videos/learn-aws-cloudshell/11212021VIDEOPAIML/)
 * [Using AWS Sagemaker](https://learning.oreilly.com/videos/using-aws-sagemaker/11172021VIDEOPAIML/)
 * AWS Cloud Practitioner
@@ -174,6 +175,8 @@ This course will make sure of several free resources that allow students to use 
 * Python Command-line Tools: [https://learning.oreilly.com/videos/learn-python-command-line/50102VIDEOPAIML/](https://learning.oreilly.com/videos/learn-python-command-line/50102VIDEOPAIML/)
 * [Build a useful Python decorator](https://learning.oreilly.com/videos/build-a-useful/50123VIDEOPAIML/) 
 * [Python Functions in One Hour](https://learning.oreilly.com/videos/python-function-in/11092021VIDEOPAIML/)
+* [Python command-line in one hour](https://learning.oreilly.com/videos/python-command-line/11102021VIDEOPAIML/)
+
 
 ##### Development Environment
 
