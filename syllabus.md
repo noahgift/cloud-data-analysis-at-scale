@@ -147,6 +147,7 @@ This course will make sure of several free resources that allow students to use 
 
 * [AWS Bootcamp](https://github.com/noahgift/aws-bootcamp)
 * [Learn AWS Cloudshell](https://learning.oreilly.com/videos/learn-aws-cloudshell/11212021VIDEOPAIML/)
+* [Using AWS Sagemaker](https://learning.oreilly.com/videos/using-aws-sagemaker/11172021VIDEOPAIML/)
 * AWS Cloud Practitioner
     * AWS Certified Cloud Practitioner Video Course: [https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/](https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/)
     * [https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/](https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/)
@@ -166,14 +167,11 @@ This course will make sure of several free resources that allow students to use 
 
 ##### Python
 
-* Data Science, Pandas, and Colab
+* Data Science, Pandas, and Colab: [https://learning.oreilly.com/videos/python-for-data/62062021VIDEOPAIML/](https://learning.oreilly.com/videos/python-for-data/62062021VIDEOPAIML/) 
 
-[https://learning.oreilly.com/videos/python-for-data/62062021VIDEOPAIML/](https://learning.oreilly.com/videos/python-for-data/62062021VIDEOPAIML/) 
-
-* Python and DevOps  \
-[https://learning.oreilly.com/videos/python-devops-in/61272021VIDEOPAIML/](https://learning.oreilly.com/videos/python-devops-in/61272021VIDEOPAIML/) 
-* Python Command-line Tools \
-[https://learning.oreilly.com/videos/learn-python-command-line/50102VIDEOPAIML/](https://learning.oreilly.com/videos/learn-python-command-line/50102VIDEOPAIML/) 
+* Python and DevOps: [https://learning.oreilly.com/videos/python-devops-in/61272021VIDEOPAIML/](https://learning.oreilly.com/videos/python-devops-in/61272021VIDEOPAIML/) 
+* Python Command-line Tools: [https://learning.oreilly.com/videos/learn-python-command-line/50102VIDEOPAIML/](https://learning.oreilly.com/videos/learn-python-command-line/50102VIDEOPAIML/)
+* [Build a useful Python decorator](https://learning.oreilly.com/videos/build-a-useful/50123VIDEOPAIML/) 
 
 ##### Linux and Systems Engineering
 
