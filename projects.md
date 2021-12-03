@@ -7,11 +7,14 @@ There are four individual projects.  The deliverables for each project are:
 *   30 second to one minute Demo video showing how it works.  This demo video should be submitted into group discussion for the week it is due.  This will allow other students to learn from each other and exchange ideas.
 
 ### [Project 1](#project-1)
-### Continuous Delivery of Flask Application on GCP
+### Cloud Continuous Delivery of Microservice (MLOps or Data Engineering Focused)
 
-*   Create a Google App Engine application using GCP Cloud Shell environment
+*   Create a Microservice in Flask or Fast API
 *   Push source code to Github
-*   Configure Cloud Build to Deploy Changes on build
+*   Configure Build System to Deploy changes
+*   Use IaC (Infrastructure as Code) to deploy code
+*   Use either AWS, Azure, GCP (recommended services include Google App Engine, AWS App Runner or Azure App Services)
+*   Containerization is optional, but recommended
 
 Reference Video(s):
 
@@ -21,20 +24,22 @@ Reference Video(s):
 Reference Source Code: [https://github.com/noahgift/gcp-hello-ml](https://github.com/noahgift/gcp-hello-ml)
 
 ### [Project 2](#project-2)
-### Docker Container Project
+### Kubernetes based Continuous Delivery
 
 *   Create a customized Docker container from the current version of Python that deploys a simple python script.
-*   Push image to DockerHub
-*   Pull the image down and run it on a cloud platform cloud shell:  Google Cloud Shell or AWS Cloud9.
+*   Push image to DockerHub, or Cloud based Container Registery (ECR)
+*   Project should deploy automatically to Kubernetes cluster
+*   Deployment should be to some form of Kubernetes service (can be hosted like Google Cloud Run or Amazon EKS, etc)
 
 Reference Reading:  [https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html#containers-docker](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html#containers-docker)
 
 Reference Source Code: [https://github.com/noahgift/container-revolution-devops-microservices](https://github.com/noahgift/container-revolution-devops-microservices)
 
 ### [Project 3](#project-3)
-### Cloud Map Reduce and Distributed Jobs
+### Cloud-based Big Data Systems Project
 
-* Use a distributed computing platform and perform a task suited to the platform.  You can demo one of the reference labs or you can implement a custom project (say word count on Spark on AWS EMR).
+* Use a major Big Data system to perform a Data Engineering related task
+* Example systems could be:  (AWS Athena, AWS Spark/EMR, AWS Sagemaker, Databricks, Snowflake)
 
 Reference Labs:
 
@@ -57,8 +62,8 @@ Reference Readings:
 ### [Project 4](#project-4)
 ### Serverless Data Engineering Pipeline
 
-*   Reproduce the architecture of the example serverless data engineering project.
-*   Enhance the project by extending the functionality of the NLP analysis:  adding entity extraction, key phrase extraction, or some other NLP feature.
+*   Reproduce the architecture of the example serverless data engineering project or perform something similar using only serverless technologies
+*   Enhance the project by extending the functionality of the NLP analysis:  adding entity extraction, key phrase extraction, or some other NLP feature or doing Applied Computer Vision.
 
 Reference Reading:  [https://github.com/noahgift/awslambda](https://github.com/noahgift/awslambda)
 
