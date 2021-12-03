@@ -150,6 +150,9 @@ This course will make sure of several free resources that allow students to use 
 * [AWS Lambda Python Cloud9 and Boto3 One Hour](https://learning.oreilly.com/videos/aws-lambda-python/11112021VIDEOPAIML/)
 * [Learn AWS Cloudshell](https://learning.oreilly.com/videos/learn-aws-cloudshell/11212021VIDEOPAIML/)
 * [Using AWS Sagemaker](https://learning.oreilly.com/videos/using-aws-sagemaker/11172021VIDEOPAIML/)
+* [Learn to build Data Pipelines](https://learning.oreilly.com/videos/learn-to-build/10272021VIDEOPAIML/)
+* [Hello World IAC with AWS CDK](https://learning.oreilly.com/videos/hello-world-iac/10262021VIDEOPAIML/)
+* [Github Actions vs AWS Code Build for CI](https://learning.oreilly.com/videos/github-actions-vs/10232021VIDEOPAIML/)
 * AWS Cloud Practitioner
     * AWS Certified Cloud Practitioner Video Course: [https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/](https://learning.oreilly.com/videos/aws-certified-cloud/60644VIDEOPAIML/)
     * [https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/](https://learning.oreilly.com/library/view/cloud-computing-for/20201229PAIML/)
@@ -163,9 +166,8 @@ This course will make sure of several free resources that allow students to use 
 ##### GCP
 
 * Building AI Applications with GCP: [https://learning.oreilly.com/videos/building-ai-applications/9780135973462/](https://learning.oreilly.com/videos/building-ai-applications/9780135973462/)
-* Build GCP Cloud Functions:
-
-    [https://learning.oreilly.com/videos/learn-gcp-cloud/50101VIDEOPAIML/](https://learning.oreilly.com/videos/learn-gcp-cloud/50101VIDEOPAIML/) 
+* Build GCP Cloud Functions: [https://learning.oreilly.com/videos/learn-gcp-cloud/50101VIDEOPAIML/](https://learning.oreilly.com/videos/learn-gcp-cloud/50101VIDEOPAIML/) 
+* [Google Cloud Functions for the Impatient](https://learning.oreilly.com/videos/google-cloud-functions/6152021VIDEOPAIML/)
 
 ##### Python
 
