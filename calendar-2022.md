@@ -231,21 +231,8 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 
 ### Demo
 
-## [Week 11](#week-11)
-## Cloud Computing Foundations-Part 1
-
-### Topics
-
-### Readings/Media
-
-### Lab
-
-### Discussion
-
-### Demo
-
 ## [Week 12](#week-12)
-## Cloud Computing Foundations-Part 1
+## MLOps:
 
 ### Topics
 
@@ -258,7 +245,7 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 ### Demo
 
 ## [Week 13](#week-13)
-## Cloud Computing Foundations-Part 1
+## MLOps:
 
 ### Topics
 
@@ -271,7 +258,7 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 ### Demo
 
 ## [Week 14](#week-14)
-## Cloud Computing Foundations-Part 1
+## MLOps:
 
 ### Topics
 
@@ -284,7 +271,7 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 ### Demo
 
 ## [Week 15](#week-15)
-## Cloud Computing Foundations-Part 1
+## MLOps:  Edge Computer Vision
 
 ### Topics
 
