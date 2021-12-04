@@ -54,6 +54,7 @@
 * [Pragmatic AI Book-Chapter-8-Finding Project Management Insights from a GitHub Organization](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/ch08.xhtml#ch08lev1)
 * [Pragmatic AI Book-Chapter-2-AI and ML Toolchain](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/ch02.xhtml#ch02lev5sub2)
 * [O'Reilly-Pytest Master Class](https://learning.oreilly.com/videos/pytest-master-class/10132021VIDEOPAIML/)
+* [Hello World IAC with AWS CDK](https://learning.oreilly.com/videos/hello-world-iac/10262021VIDEOPAIML/)
 
 ### Lab
 
