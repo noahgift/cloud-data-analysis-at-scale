@@ -69,7 +69,56 @@
 
 * Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 1-Introduction to MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch01.html#idm45917457567624) by applying to one of your individual projects.
 
-## [Week 3](#week-3)
+## [Week 4](#week-4)
+## Cloud Virtualization, Containers and API: Virtualization and Containers
+
+### Topics
+
+* Evaluate different virtualization abstractions.
+* Build solutions with containers.
+* Build solutions with virtual machines.
+
+### Readings/Media
+
+* [Getting Started with Cloud Building Blocks](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/1)
+* [Virtualization and Containers](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/2)
+* [O'Reilly-Practical MLOps-Chapter 3-MLOps For Containers And Edge Devices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch03.html)
+* [O'Reilly-Setup a Remote Kubernetes Environment](https://learning.oreilly.com/videos/setup-a-remote/50124VIDEOPAIML/)
+* [Learn Docker containers in One Hour Video Course](https://learning.oreilly.com/videos/learn-docker-containers/50103VIDEOPAIML/)
+* [O'Reilly-Python for DevOps-Chapter 12. Container Orchestration: Kubernetes](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch12.html#idm46114702378280)
+
+### Lab
+
+* [Qwiklabs-App Dev: Deploying the Application into Kubernetes Engine - Python](https://www.qwiklabs.com/focuses/1073?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=14750098)
+* [Microsoft Learn-Automate development tasks by using GitHub Actions](https://docs.microsoft.com/en-us/learn/modules/github-actions-automate-tasks/)
+* AWS Academy Cloud Architecting-Module 4 - Adding a Compute Layer
+
+### Discussion
+
+* Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 3-MLOps For Containers And Edge Devices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch03.html#idm45917452711864)
+
+### Demo
+
+* Demo one of the exercises in [O'Reilly-Python for DevOps-Chapter 12. Container Orchestration: Kubernetes](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch12.html#idm46114702035624) by applying to one of your individual projects.
+
+## [Week 5](#week-5)
+## Cloud Virtualization, Containers and API: Microservices
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+* [Qwiklabs-Serverless Cloud Run Development](https://www.qwiklabs.com/quests/152?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14750106)
+* AWS Academy Cloud Architecting-Module 13 - Building Microservices and Serverless Architectures
+
+
+### Discussion
+
+### Demo
+
+## [Week 6](#week-6)
 ## Cloud Computing Foundations-Part 1
 
 ### Topics
@@ -83,8 +132,139 @@
 ### Demo
 
 
+## [Week 7](#week-7)
+## Cloud Computing Foundations-Part 1
 
+### Topics
 
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 3](#week-3)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 8](#week-8)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 9](#week-9)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 10](#week-10)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 11](#week-11)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 12](#week-12)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 13](#week-13)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 14](#week-14)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 15](#week-15)
+## Cloud Computing Foundations-Part 1
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 16](#week-16)
+
+* Final Projects Demo
 
 
 
