@@ -107,6 +107,11 @@
 
 ### Topics
 
+* Evaluate Microservice architectures.
+* Build Microservices with Python Flask and Python FastAPI.
+* Apply DevOps best practices for Serverless Microservices.
+
+
 ### Readings/Media
 
 * [Coursera-Microservices](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/3)
