@@ -1,6 +1,6 @@
 # Data Analysis in the Cloud at Scale
 
-**Spring 2021**
+**Spring 2020-2022**
 
 **Duke MIDS** 
 
@@ -78,9 +78,13 @@ Upon successful completion of this course, you will be able to:
     
 #### Discussion Forum
 
-The purpose of the async discussion forum is to facilitate a free exchange of ideas.  Remain respectful of other ideas.  Active, relevant and timely discussion is encouraged.  Please refrain from simple replies such as "I agree".
+The purpose of the async discussion forum is to facilitate a free exchange of ideas.  Remain respectful of other ideas.  Active, relevant and timely discussion is encouraged.  Please refrain from simple replies such as "I agree".  Use the [Critical Thinking framework as described in the O'Reilly book Practical MLOps Preface](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/preface01.html#idm45917468434120).
 
 The requirements each week is to both create a post according to the assignment but to also comment in a meaningful way on posts by two other students.
+
+#### Weekly Demo
+
+* Each week you will do 1-5 minute demo (hard capped at 5 minutes).  This trains your metacognitive abilities.
 
 #### Cloud Resources (Labs, Credits, and Accounts)
 
