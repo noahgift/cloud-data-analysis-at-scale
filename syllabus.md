@@ -17,6 +17,7 @@ Upon successful completion of this course, you will be able to:
 3. Accurately evaluate distributed computing challenges and opportunities and apply this knowledge to real-world projects.
 4. Develop non-linear life-long learning skills
 5. Build, share and present compelling portfolios using:  Github, YouTube, and Linkedin.
+6. Develop Metacognition skills
 
 #### Conceptual Topics
 
@@ -125,6 +126,7 @@ This course will make sure of several free resources that allow students to use 
 *   [Google Qwiklabs](https://www.qwiklabs.com/)
 *   [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
 *   [Python in One Hour](https://github.com/noahgift/functional_intro_to_python/blob/master/README.md#python-in-one-hour)
+*   [Know Thyself: The Science of Self-Awareness ](https://www.amazon.com/gp/product/1541672844)
 * [DataCamp - CLI Automation Python](https://www.datacamp.com/courses/command-line-automation-in-python)
 * [AWS Training & Certification](https://www.aws.training/)
 * [AWS Educate](https://www.awseducate.com/educator/s/pathways)
