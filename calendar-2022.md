@@ -109,15 +109,25 @@
 
 ### Readings/Media
 
+* [Coursera-Microservices](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/3)
+* [O'Reilly-Practical MLOps-Chapter 7-MLOps For AWS](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch07.html)
+* [Fast, documented Machine Learning APIs with FastAPI](https://learning.oreilly.com/videos/fast-documented-machine/50117VIDEOPAIML/)
+* [Zero to One: AWS Lambda with SAM and Python in One Hour](https://learning.oreilly.com/videos/zero-to-one/60304VIDEOPAIML/)
+* [Mastering Core Concepts in Python Functions](https://learning.oreilly.com/videos/mastering-core-concepts/609032521VIDEOPAIML/)
+
 ### Lab
 
 * [Qwiklabs-Serverless Cloud Run Development](https://www.qwiklabs.com/quests/152?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14750106)
 * AWS Academy Cloud Architecting-Module 13 - Building Microservices and Serverless Architectures
-
+* [Configure Azure App Services](https://docs.microsoft.com/en-us/learn/modules/configure-azure-app-services/)
 
 ### Discussion
 
+* Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 7-MLOps For AWS](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch03.html#idm45917452711864)
+
 ### Demo
+
+* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 7-MLOps For AWS](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch07.html#idm45917443191768) by applying to one of your individual projects.
 
 ## [Week 6](#week-6)
 ## Cloud Computing Foundations-Part 1
