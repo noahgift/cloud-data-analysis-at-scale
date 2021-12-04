@@ -111,7 +111,6 @@
 * Build Microservices with Python Flask and Python FastAPI.
 * Apply DevOps best practices for Serverless Microservices.
 
-
 ### Readings/Media
 
 * [Coursera-Microservices](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/3)
@@ -139,30 +138,36 @@
 
 ### Topics
 
+* Build effective and actionable monitoring and alerting.
+* Evaluate different infrastructure configurations that optimize Cloud computing performance.
+* Evaluate best practices for Operations including alerts, load testing and Kaizen methodology.
+
 ### Readings/Media
+
+* [O'Reilly-Practical MLOps-Chapter 6-Monitoring and Logging](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch06.html)
+* [O'Reilly-Python for DevOps-Chapter 16. DevOps War Stories and Interviews](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch16.html)
+* [Coursera-Operations](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/4)
+* [O'Reilly-AWS Certified DevOps Engineer - Professional-Lesson 4: Monitoring and Logging](https://learning.oreilly.com/videos/aws-certified-devops/9780136612919/9780136612919-ACDE_01_04_00/)
+* [O'Reilly-Get started with Distributed Tracing](https://learning.oreilly.com/videos/get-started-with/50111VIDEOPAIML/)
+* [O'Reilly-Effective Python Exceptions](https://learning.oreilly.com/videos/effective-python-exceptions/50112VIDEOPAIML/)
+* [O'Reilly-Data Engineering with Python and AWS Lambda LiveLessons-Use AWS Cloudwatch logging with AWS Lambda](https://learning.oreilly.com/videos/data-engineering-with/9780135964330/9780135964330-depl_01_03_03_00/)
 
 ### Lab
 
+* [Monitor and Log with Google Cloud Operations Suite](https://www.qwiklabs.com/quests/143?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14750372)
+* AWS Academy Cloud Architecting-Module 9 - Implementing Elasticity, High Availability, and Monitoring
+* [Microsoft Learn-Choose the best monitoring service for visibility, insight, and outage mitigation](https://docs.microsoft.com/en-us/learn/modules/monitoring-fundamentals/)
+
 ### Discussion
+
+Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 6-Monitoring and Logging](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch06.html#idm45917447751352
 
 ### Demo
 
+Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and Logging](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch06.html#idm45917447854904) by applying to one of your individual projects.
 
 ## [Week 7](#week-7)
-## Cloud Computing Foundations-Part 1
-
-### Topics
-
-### Readings/Media
-
-### Lab
-
-### Discussion
-
-### Demo
-
-## [Week 3](#week-3)
-## Cloud Computing Foundations-Part 1
+## Cloud Data Engineering: Getting Started with Cloud Data Engineering
 
 ### Topics
 
@@ -175,7 +180,7 @@
 ### Demo
 
 ## [Week 8](#week-8)
-## Cloud Computing Foundations-Part 1
+## Cloud Data Engineering: Examining Principles of Data Engineering
 
 ### Topics
 
@@ -188,7 +193,7 @@
 ### Demo
 
 ## [Week 9](#week-9)
-## Cloud Computing Foundations-Part 1
+## Cloud Data Engineering: Building Data Engineering Pipelines
 
 ### Topics
 
@@ -201,7 +206,20 @@
 ### Demo
 
 ## [Week 10](#week-10)
-## Cloud Computing Foundations-Part 1
+## Cloud Data Engineering: Applying Key Data Engineering Tasks
+
+### Topics
+
+### Readings/Media
+
+### Lab
+
+### Discussion
+
+### Demo
+
+## [Week 11](#week-11)
+## MLOps: Cloud Machine Learning Engineering and MLOps
 
 ### Topics
 
