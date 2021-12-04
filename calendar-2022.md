@@ -67,7 +67,7 @@
 
 ### Demo
 
-* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 1-Introduction to MLOps][https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch01.html#idm45917457567624] by applying to one of your individual projects.
+* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 1-Introduction to MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch01.html#idm45917457567624) by applying to one of your individual projects.
 
 ## [Week 3](#week-3)
 ## Cloud Computing Foundations-Part 1
