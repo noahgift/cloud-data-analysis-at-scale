@@ -240,6 +240,7 @@ Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 11
 * [Coursera-Building Data Engineering Pipelines](https://www.coursera.org/learn/cloud-data-engineering-duke/home/week/3)
 * [O'Reilly-Python for DevOps-Chapter 15. Data Engineering](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch15.html)
 * [O'Reilly-Python for DevOps-Chapter 13. Serverless Technologies](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch13.html)
+* [Data Engineering with AWS Step Functions for the impatient](https://learning.oreilly.com/videos/data-engineering-with/6132021VIDEOPAIML/)
 
 ### Lab
 
@@ -276,6 +277,8 @@ Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 11
 
 ### Discussion
 
+* When are advantages of serverless cloud databases like Google Big Query or AWS Athena for Data Engineering?  How could incorporate these advantages into one of your project?
+
 ### Demo
 
 * Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 11-Building MLOps Command Line Tools and Microservices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch11.html) by applying to one of your individual projects.
@@ -285,61 +288,113 @@ Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 11
 
 ### Topics
 
+* Explore the overall structure and final project goals of this course.
+* Evaluate machine learning engineering best practices.
+* Build machine learning applications.
+
 ### Readings/Media
 
-Cloud Machine Learning Engineering and MLOps
-https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/1
+* [Coursera-Cloud Machine Learning Engineering and MLOps](https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/1)
+* [O'Reilly-Practical MLOps-Chapter 11-Introduction to MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch01.html)
+* [O'Reilly-Practical MLOps-Chapter 2. MLOps Foundations](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch02.html)
+* [O'Reilly-AWS Lambda Python Cloud9 and Boto3 One Hour](https://learning.oreilly.com/videos/aws-lambda-python/11112021VIDEOPAIML/)
+* [O'Reilly-Introduction to MLOps Walkthrough](https://learning.oreilly.com/videos/introduction-to-mlops/607312021VIDEOPAIML/)
+* [O'Reilly-MLOPs Foundations: Chapter 2 Walkthrough of Practical MLOps](https://learning.oreilly.com/videos/mlops-foundations-chapter/607082021VIDEOPAIML/)
 
 ### Lab
 
+* [Microsoft Learn-Build an AI web app by using Python and Flask](https://docs.microsoft.com/en-us/learn/modules/python-flask-build-ai-web-app/)
+* [Deploying a Python Flask Web Application to App Engine Flexible](https://www.qwiklabs.com/focuses/3339?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=14754598)
+* AWS Academy Machine Learning Foundations- Module 6 – Introducing Natural Language Processing
+
 ### Discussion
 
+Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 2. MLOps Foundations](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch02.html).
+
 ### Demo
+
+* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 2. MLOps Foundations](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch02.html) by applying to one of your individual projects.
 
 ## [Week 12](#week-12)
-## MLOps:
+## MLOps:Using AutoML
 
 ### Topics
 
+* Develop Cloud solutions with AutoML.
+* Evaluate open source and proprietary AutoML.
+* Evaluate AutoML strategies with Ludwig.
+
 ### Readings/Media
 
-Cloud Machine Learning Engineering and MLOps
-https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/2
+* [Coursera-Cloud Machine Learning Engineering and MLOps](https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/2)
+* [AWS Sagemaker Autopilot from Zero](https://learning.oreilly.com/videos/aws-sagemaker-autopilot/60262021VIDEOPAIML/)
+* [O'Reilly-Practical MLOps-Chapter 5. AutoML and KaizenML](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch05.html)
 
 ### Lab
 
+* [Qwiklabs-Classify Images of Clouds in the Cloud with AutoML Vision](https://www.qwiklabs.com/focuses/8406?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=14754638)
+* AWS Academy Machine Learning Foundations- Module 2 and Module 3
+* [Build and operate machine learning solutions with Azure Machine Learning](https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/)
+
 ### Discussion
 
+Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 5. AutoML and KaizenML](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch05.html).
+
 ### Demo
+
+* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 5. AutoML and KaizenML](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch05.html) by applying to one of your individual projects.
 
 ## [Week 13](#week-13)
-## MLOps:
+## MLOps:Emerging Topics in Machine Learning
 
 ### Topics
 
 ### Readings/Media
 
-Cloud Machine Learning Engineering and MLOps
-https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/3
+* [Cloud Machine Learning Engineering and MLOps](https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/3)
+* [O'Reilly--Practical MLOps-Chapter 10. Machine Learning Interoperability](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch10.html)
 
 ### Lab
 
+* [Qwiklabs-Intermediate ML: TensorFlow on Google Cloud](https://www.qwiklabs.com/quests/83?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14754728)
+* AWS Academy Data Analytics- Lab 8-Analyze IoT Data with AWS IoT Analytics
+* [Microsoft Learn-Build the intelligent edge with Azure IoT Edge](https://docs.microsoft.com/en-us/learn/paths/build-intelligent-edge-with-azure-iot-edge/)
+
 ### Discussion
 
+Answer two Critical Thinking questions from [O'Reilly--Practical MLOps-Chapter 10. Machine Learning Interoperability](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch10.html).
+
 ### Demo
+
+* Demo one of the exercises in [O'Reilly--Practical MLOps-Chapter 10. Machine Learning Interoperability](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch10.html) by applying to one of your individual projects.
 
 ## [Week 14](#week-14)
 ## MLOps:  Edge Computer Vision
 
 ### Topics
 
+* Learn to build Applied Computer Vision MVPS
+* Learn to use transfer learning to solve Computer Vision Problems
+* Learn to use AutoML to solve Computer Vision Problems
+
 ### Readings/Media
+
+* [O'Reilly-Practical MLOps-Chapter 12. Machine Learning Engineering and MLOps Case Studies](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch12.html)
+* [O'Reilly-Computer Vision MVPS](https://learning.oreilly.com/videos/computer-vision-mvps/608282021VIDEOPAIML/)
 
 ### Lab
 
+*  AWS Academy Machine Learning Foundations-Module 5 – Introducing Computer Vision (CV) 
+* [Classify Images of Cats and Dogs using Transfer Learning](https://www.qwiklabs.com/focuses/21228?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=14754802)
+* [Microsoft Learn-Microsoft Azure AI Fundamentals: Explore computer vision](https://docs.microsoft.com/en-us/learn/paths/explore-computer-vision-microsoft-azure/)
+
 ### Discussion
 
+Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 12. Machine Learning Engineering and MLOps Case Studies](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch12.html).
+
 ### Demo
+
+* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 12. Machine Learning Engineering and MLOps Case Studies](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch12.html) by applying to one of your individual projects.
 
 ## [Week 15](#week-15)
 ## Review Entire Course
