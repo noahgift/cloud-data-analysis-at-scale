@@ -168,55 +168,117 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 
 ## [Week 7](#week-7)
 ## Cloud Data Engineering: Getting Started with Cloud Data Engineering
-
 ### Topics
+
+* Explore the overall structure and final project goals of this course.
+* Evaluate best practices for dealing with the end of Moore's Law.
+* Develop distributed systems that apply software engineering best practices.
+* Explore Big Data Systems
 
 ### Readings/Media
 
+* [Applying Key Data Engineering Tasks](https://www.coursera.org/learn/cloud-data-engineering-duke/home/week/1)
+* [What is Databricks Data Science & Engineering?](https://docs.microsoft.com/en-us/azure/databricks/scenarios/what-is-azure-databricks-ws)
+* [Databricks Self-Paced Training for Students (Take Data Engineering)](https://drive.google.com/file/d/1_8UnwKhfeZsvHm5yL9-qiS54hn95BYr5/view)
+* [O'Reilly-Python for DevOps-Chapter 9-Cloud Computing](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch09.html)
+
 ### Lab
+
+* AWS Academy Data Analytics-Intro and Lab 1
+* [Snowflake Data Warehousing Workshop-Badge 1](https://learn.snowflake.com/courses/course-v1:snowflake+ESS_DWW_101+2021/about)
+* [Azure-Quickstart: Run a Spark job on Azure Databricks Workspace using the Azure portal](https://docs.microsoft.com/en-us/azure/databricks/scenarios/quickstart-create-databricks-workspace-portal?tabs=azure-portal)
+* [Qwiklabs-Distributed Image Processing in Cloud Dataproc](https://www.qwiklabs.com/focuses/5834?parent=catalog)
 
 ### Discussion
 
+* How could use the [Numba library to do CUDA GPU programming](http://numba.pydata.org/numba-doc/latest/cuda/overview.html)?  Give a small working example using a colab notebook with GPU enabled and explain how it works.
+
 ### Demo
+
+* Demo one of the big data systems as it applies to your individual project by running a job on a cluster:  [Snowflake](https://www.snowflake.com), [EMR/Spark](https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark.html), [Databricks](https://databricks.com).
 
 ## [Week 8](#week-8)
 ## Cloud Data Engineering: Examining Principles of Data Engineering
 
 ### Topics
 
+* Analyze best practices in Data Engineering.
+* Build Python Command-line tools.
+* Apply software engineering best practices in testing to Command-line tools.
+
 ### Readings/Media
+
+* [Examining Principles of Data Engineering](https://www.coursera.org/learn/cloud-data-engineering-duke/home/week/2)
+* [Python Command Line Tools](https://learning.oreilly.com/library/view/python-command-line/61619PAIML/)
+* [Learn Python Command-line tools in One Hour Video Course](https://learning.oreilly.com/videos/learn-python-command-line/50102VIDEOPAIML/)
+* [Python CI/CD for the Command-Line](https://learning.oreilly.com/videos/python-ci-cd-for/10092021VIDEOPAIML/)
+* [O'Reilly-Practical MLOps-Chapter 11-Building MLOps Command Line Tools and Microservices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch11.html)
+* [O'Reilly-Python for DevOps-Chapter 3. Working with the Command Line](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch03.html)
 
 ### Lab
 
+* [Cloud Storage: Qwik Start - CLI/SDK](https://www.qwiklabs.com/focuses/569?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&parent=catalog&search_id=14754344)
+
 ### Discussion
 
+Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 11-Building MLOps Command Line Tools and Microservices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch11.html).
+
 ### Demo
+
+* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 11-Building MLOps Command Line Tools and Microservices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch11.html) by applying to one of your individual projects.
 
 ## [Week 9](#week-9)
 ## Cloud Data Engineering: Building Data Engineering Pipelines
 
 ### Topics
 
+* Build a serverless Data Engineering system.
+* Evaluate effective Data Governance in Cloud solutions.
+
 ### Readings/Media
+
+* [Coursera-Building Data Engineering Pipelines](https://www.coursera.org/learn/cloud-data-engineering-duke/home/week/3)
+* [O'Reilly-Python for DevOps-Chapter 15. Data Engineering](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch15.html)
+* [O'Reilly-Python for DevOps-Chapter 13. Serverless Technologies](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch13.html)
 
 ### Lab
 
+* AWS Academy Data Analytics-Intro and Lab 2 and Lab 3
+* [Qwiklabs-Baseline: Infrastructure](https://www.qwiklabs.com/quests/33?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14754496)
+* [Microsoft Learn-Explore Azure Functions](https://docs.microsoft.com/en-us/learn/modules/explore-azure-functions/)
+
 ### Discussion
 
+* What are three big advantages to serverless technology and how can you leverage this in your projects?
+
 ### Demo
+
+* Demo one of the exercises in [O'Reilly-Python for DevOps-Chapter 13. Serverless Technologies](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch13.html) by applying to one of your individual projects.
+
 
 ## [Week 10](#week-10)
 ## Cloud Data Engineering: Applying Key Data Engineering Tasks
 
 ### Topics
 
+* Develop Cloud ETL (Extract, Load, Transfer) pipelines.
+* Evaluate best practices for Cloud databases and storage.
+
 ### Readings/Media
 
+* [Coursera-Applying Key Data Engineering Tasks](https://www.coursera.org/learn/cloud-data-engineering-duke/home/week/4)
+
 ### Lab
+
+* [Qwiklabs-Scientific Data Processing](https://www.qwiklabs.com/quests/28?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14754254)
+* AWS Academy Data Analytics-Intro and Lab 4, 5, 6,7
+* [Microsoft Learn-Introduction to Azure SQL](https://docs.microsoft.com/en-us/learn/modules/azure-sql-intro/)
 
 ### Discussion
 
 ### Demo
+
+* Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 11-Building MLOps Command Line Tools and Microservices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch11.html) by applying to one of your individual projects.
 
 ## [Week 11](#week-11)
 ## MLOps: Cloud Machine Learning Engineering and MLOps
@@ -224,6 +286,9 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 ### Topics
 
 ### Readings/Media
+
+Cloud Machine Learning Engineering and MLOps
+https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/1
 
 ### Lab
 
@@ -238,6 +303,9 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 
 ### Readings/Media
 
+Cloud Machine Learning Engineering and MLOps
+https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/2
+
 ### Lab
 
 ### Discussion
@@ -251,6 +319,9 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 
 ### Readings/Media
 
+Cloud Machine Learning Engineering and MLOps
+https://www.coursera.org/learn/cloud-machine-learning-engineering-mlops-duke/home/week/3
+
 ### Lab
 
 ### Discussion
@@ -258,7 +329,7 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 ### Demo
 
 ## [Week 14](#week-14)
-## MLOps:
+## MLOps:  Edge Computer Vision
 
 ### Topics
 
@@ -271,17 +342,7 @@ Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 6-Monitoring and 
 ### Demo
 
 ## [Week 15](#week-15)
-## MLOps:  Edge Computer Vision
-
-### Topics
-
-### Readings/Media
-
-### Lab
-
-### Discussion
-
-### Demo
+## Review Entire Course
 
 ## [Week 16](#week-16)
 
