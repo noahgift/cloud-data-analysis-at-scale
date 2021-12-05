@@ -39,26 +39,19 @@
 ### Topics
 
 *   Cloud Service Models:  SaaS, PaaS, IaaS, MaaS, Serverless
-*   IaC (Infrastructure as Code)
 *   Continuous Delivery
-*   DevOps Principles
 
 ### Readings/Media
 
 * [Coursera-Exploring Cloud Onboarding](https://www.coursera.org/learn/cloud-computing-foundations-duke/home/week/3)
 * [Coursera-Evaluating the Cloud Service Model](https://www.coursera.org/learn/cloud-computing-foundations-duke/home/week/4)
 * [Coursera-Applying DevOps Principles](https://www.coursera.org/learn/cloud-computing-foundations-duke/home/week/5)
-* [O'Reilly-Python for DevOps-Chapter 10-Infrastructure as Code](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html)
+
 * [O'Reilly-Python for DevOps-Chapter 6-Continuous Integration and Continuous Deployment](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch06.html)
-* [O'Reilly-Python Devops Two Hours](https://learning.oreilly.com/videos/python-devops-in/61272021VIDEOPAIML/61272021VIDEOPAIML-c1_s0/)
-* [Pragmatic AI Book-Chapter-8-Finding Project Management Insights from a GitHub Organization](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/ch08.xhtml#ch08lev1)
-* [Pragmatic AI Book-Chapter-2-AI and ML Toolchain](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/ch02.xhtml#ch02lev5sub2)
-* [O'Reilly-Pytest Master Class](https://learning.oreilly.com/videos/pytest-master-class/10132021VIDEOPAIML/)
-* [Hello World IAC with AWS CDK](https://learning.oreilly.com/videos/hello-world-iac/10262021VIDEOPAIML/)
+
 
 ### Lab
 
-* [Automating Infrastructure on Google Cloud with Terraform](https://www.qwiklabs.com/quests/159?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14749711)
 * [Azure Fundamentals part 2: Describe core Azure services](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-core-azure-services/)
 * AWS Academy Cloud Foundations-Module 5-10 (Networking and Content Delivery, Compute, Storage, Databases, Cloud Architecture)
 
@@ -69,6 +62,36 @@
 ### Demo
 
 * Demo one of the exercises in [O'Reilly-Practical MLOps-Chapter 1-Introduction to MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch01.html#idm45917457567624) by applying to one of your individual projects.
+
+## [Week 3](#week-2)
+## Cloud Computing Foundations-Part 3
+
+### Topics
+
+*   IaC (Infrastructure as Code)
+*   DevOps Principles
+
+### Readings/Media
+
+* [O'Reilly-Python for DevOps-Chapter 10-Infrastructure as Code](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html)
+* [O'Reilly-Python Devops Two Hours](https://learning.oreilly.com/videos/python-devops-in/61272021VIDEOPAIML/61272021VIDEOPAIML-c1_s0/)
+* [Pragmatic AI Book-Chapter-8-Finding Project Management Insights from a GitHub Organization](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/ch08.xhtml#ch08lev1)
+* [Pragmatic AI Book-Chapter-2-AI and ML Toolchain](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/ch02.xhtml#ch02lev5sub2)
+* [O'Reilly-Pytest Master Class](https://learning.oreilly.com/videos/pytest-master-class/10132021VIDEOPAIML/)
+* [Hello World IAC with AWS CDK](https://learning.oreilly.com/videos/hello-world-iac/10262021VIDEOPAIML/)
+
+### Lab
+
+* [Automating Infrastructure on Google Cloud with Terraform](https://www.qwiklabs.com/quests/159?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=14749711)
+
+### Discussion
+
+* Answer two different Critical Thinking Questions from [O'Reilly-Practical MLOps-Chapter 1-Introduction to MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch01.html#idm45917457567624)
+
+### Demo
+
+* Demo one of the exercises in [O'Reilly-Python for DevOps-Chapter 10-Infrastructure as Code](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch10.html by applying to one of your individual projects.
+
 
 ## [Week 4](#week-4)
 ## Cloud Virtualization, Containers and API: Virtualization and Containers
@@ -81,7 +104,7 @@
 
 ### Readings/Media
 
-* [Getting Started with Cloud Building Blocks](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/1)
+* [Coursera-Getting Started with Cloud Building Blocks](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/1)
 * [Virtualization and Containers](https://www.coursera.org/learn/cloud-virtualization-containers-api-duke/home/week/2)
 * [O'Reilly-Practical MLOps-Chapter 3-MLOps For Containers And Edge Devices](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/ch03.html)
 * [O'Reilly-Setup a Remote Kubernetes Environment](https://learning.oreilly.com/videos/setup-a-remote/50124VIDEOPAIML/)
