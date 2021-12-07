@@ -74,6 +74,8 @@ Reference Architecture Diagram:  [https://user-images.githubusercontent.com/5879
 ### [Team Project](#team-project)
 ### Team Final Project Description (Team: 3-4)
 
+#### Option A:
+
 *   Build a containerized or PaaS machine learning prediction model and deploy it in a scalable, and elastic platform:
     *   Options:
         *   ML Framework
@@ -96,7 +98,11 @@ Reference Architecture Diagram:  [https://user-images.githubusercontent.com/5879
     *   Data Engineering with Python and AWS Lambda:  [https://learning.oreilly.com/videos/data-engineering-with/9780135964330](https://learning.oreilly.com/videos/data-engineering-with/9780135964330)
     *   Building AI & ML Applications on Google Cloud Platform:  [https://learning.oreilly.com/videos/building-ai-applications/9780135973462](https://learning.oreilly.com/videos/building-ai-applications/9780135973462)
     *   AWS Certified Machine Learning: _[https://learning.oreilly.com/videos/aws-certified-machine/9780135556597](https://learning.oreilly.com/videos/aws-certified-machine/9780135556597)
-    
+
+#### Option B:  Pick Project from Practical MLOPs Book-Appendix E. Building a Technical Portfolio for MLOps
+
+* [Appendix E. Building a Technical Portfolio for MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/app05.html#idm45917434442872)
+
 #### Additional considerations for final project
 
 * Are you utilizing each person for what they do best:  Presentation, Coding, Math/Statistics/Data Science?
