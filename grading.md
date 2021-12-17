@@ -23,7 +23,7 @@ I will act if the Standard is compromised.
    </td>
   </tr>
   <tr>
-   <td><strong>Weekly Async Discussion & Assignment</strong>
+   <td><strong>Weekly Async Discussion (In Person and In Teams) & Assignment</strong>
    </td>
    <td><strong>40%</strong>
    </td>
