@@ -64,6 +64,8 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 
 ### Student Example Projects
 
+* [434 Analytics Application Development by Steve Depp](http://www.stevedepp.com/learn/school/msds/de/434.html)
+* [462 Computer Vision by Steve Depp](http://www.stevedepp.com/learn/school/msds/ai/462.html)
 
 #### *A practical guide to Data Science, Machine Learning Engineering and Data Engineering*
 
