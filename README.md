@@ -10,6 +10,37 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * A complete [online book with screencast videos is available here](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/).
 * [Coursera Course, Building Cloud Computing Solutions at Scale Specialization, can be found here: https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
+## Prequel Material
+
+These resources could be helpful before starting this course.
+
+### Duke/Coursera:  Foundations of Data Engineering Course (Launching early 2022)
+
+#### Course1: Python and Pandas for Data Engineering
+#### Course2: Linux and Bash for Data Engineering
+
+##### Github Repos for Projects in Course
+
+###### Week1:  Using Linux
+
+  * [Lesson 1:  Using Linux Shell Lab](https://github.com/noahgift/Coursera-DE-C2-Using-Linux)
+  * [Lesson 2:  How shell piping works](https://github.com/noahgift/Coursera-DE-C2-Shell-Piping)
+  * [Lesson 3: Using SSH](https://github.com/noahgift/ssh-tips-tricks)
+ 
+###### Week2: Using Bash 
+
+  * [Lesson 1: Create and Use .bashrc](https://github.com/noahgift/Coursera-DE-C2-configure-shell)
+  * [Lesson 2: Sourcing shell variables from a script](https://github.com/noahgift/Coursera-DE-C2-shell-variables)
+  * [Lesson3:  Using stdout and stdin](https://github.com/noahgift/Coursera-DE-C2-Standard-Streams)
+
+###### Week3: Building Bash Scripts 
+
+###### Week4: Composing File and Data Management Solutions with Linux
+
+
+#### Course3: Python and SQL for Data Engineering
+#### Course4: Command-Line Tools in Python for Data Engineering
+
 ## Github Repos Referenced Duke Coursera Course
 
 ### Course 1: Cloud Computing Foundations
