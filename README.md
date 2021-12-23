@@ -35,8 +35,15 @@ These resources could be helpful before starting this course.
 
 ###### Week3: Building Bash Scripts 
 
+ * [Lesson 1:  Build a for loop in Bash](https://github.com/noahgift/Coursera-DE-C2-Use-Shell-Logic-and-Control-Flow)
+ * [Lesson 2:  Truncate large files with Bash](https://github.com/noahgift/coursera-de-c2-truncate-file)
+ * [Lesson 3: Building a command-line tool for data processing](https://github.com/noahgift/Coursera-DE-C2-bash-cli-reverse-string)
+
 ###### Week4: Composing File and Data Management Solutions with Linux
 
+* [Lesson 1: Understand the search commands](https://github.com/noahgift/Coursera-DE-C2-search-commands)
+* [Lesson 2: Setting permissions](https://github.com/noahgift/Coursera-DE-C2-Files-Directories-Permissions)
+* [Lesson 3: Using regex to process text from file](https://github.com/noahgift/Coursera-DE-C2-using-regex-search)
 
 #### Course3: Python and SQL for Data Engineering
 #### Course4: Command-Line Tools in Python for Data Engineering
