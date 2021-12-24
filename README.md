@@ -45,6 +45,7 @@ These resources could be helpful before starting this course.
 * [Lesson 1: Understand the search commands](https://github.com/noahgift/Coursera-DE-C2-search-commands)
 * [Lesson 2: Setting permissions](https://github.com/noahgift/Coursera-DE-C2-Files-Directories-Permissions)
 * [Lesson 3: Using regex to process text from file](https://github.com/noahgift/Coursera-DE-C2-using-regex-search)
+* [Lesson 4: Search the filesystem with find](https://github.com/noahgift/Coursera-DE-C2-Lab4-Composing-File-Data-Solutions)
 
 #### Course3: Python and SQL for Data Engineering
 #### Course4: Building Data Engineering Solutions with Python for Web Applications, Command-Line Tools and Notebooks
