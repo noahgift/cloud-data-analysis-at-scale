@@ -47,7 +47,7 @@ These resources could be helpful before starting this course.
 * [Lesson 3: Using regex to process text from file](https://github.com/noahgift/Coursera-DE-C2-using-regex-search)
 
 #### Course3: Python and SQL for Data Engineering
-#### Course4: Command-Line Tools in Python for Data Engineering
+#### Course4: Building Data Engineering Solutions with Python for Web Applications, Command-Line Tools and Notebooks
 
 ## Github Repos Referenced Duke Coursera Course
 
