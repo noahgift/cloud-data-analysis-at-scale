@@ -49,6 +49,13 @@ These resources could be helpful before starting this course.
 #### Course3: Python and SQL for Data Engineering
 #### Course4: Building Data Engineering Solutions with Python for Web Applications, Command-Line Tools and Notebooks
 
+## Sequel Material
+
+These resources could be helpful after starting this course.
+
+### Duke/Coursera: Applied Data Engineering Course (Launching late 2022)
+
+
 ## Github Repos Referenced Duke Coursera Course
 
 ### Course 1: Cloud Computing Foundations
