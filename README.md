@@ -38,6 +38,7 @@ These resources could be helpful before starting this course.
  * [Lesson 1:  Build a for loop in Bash](https://github.com/noahgift/Coursera-DE-C2-Use-Shell-Logic-and-Control-Flow)
  * [Lesson 2:  Truncate large files with Bash](https://github.com/noahgift/coursera-de-c2-truncate-file)
  * [Lesson 3: Building a command-line tool for data processing](https://github.com/noahgift/Coursera-DE-C2-bash-cli-reverse-string)
+ * [Lesson 4: Build Bash CLI with options ](https://github.com/noahgift/Coursera-DE-C2-Lab3-Building-Bash-Scripts.git)
 
 ###### Week4: Composing File and Data Management Solutions with Linux
 
