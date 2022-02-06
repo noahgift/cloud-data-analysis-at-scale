@@ -10,6 +10,12 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * A complete [online book with screencast videos is available here](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/).
 * [Coursera Course, Building Cloud Computing Solutions at Scale Specialization, can be found here: https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
+## Guest Lecture 2022-March 7th
+
+*GPT 3*:  https://learning.oreilly.com/library/view/gpt-3/9781098113612/ 
+Shubham Saboo 
+Sandra Kublik 
+
 ## Prequel Material
 
 These resources could be helpful before starting this course.
