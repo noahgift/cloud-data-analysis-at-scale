@@ -13,8 +13,8 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 ## Guest Lecture 2022-March 7th
 
 *GPT 3*:  https://learning.oreilly.com/library/view/gpt-3/9781098113612/ 
-Shubham Saboo 
-Sandra Kublik 
+* Shubham Saboo 
+* Sandra Kublik 
 
 ## Prequel Material
 
