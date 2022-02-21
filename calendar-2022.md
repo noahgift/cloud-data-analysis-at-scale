@@ -264,6 +264,7 @@ Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 11
 * [O'Reilly-Python for DevOps-Chapter 15. Data Engineering](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch15.html)
 * [O'Reilly-Python for DevOps-Chapter 13. Serverless Technologies](https://learning.oreilly.com/library/view/python-for-devops/9781492057680/ch13.html)
 * [Data Engineering with AWS Step Functions for the impatient](https://learning.oreilly.com/videos/data-engineering-with/6132021VIDEOPAIML/)
+* [AWS Serverless Talks](https://reinvent.awsevents.com/2021highlights/watch/?trk=335f32af-c0ab-4488-9eeb-d4a4f5f3006c&sc_channel=em&mkt_tok=MTEyLVRaTS03NjYAAAGCu8qg0jSgOrzN84bBPuCYUDApECJq4GaGxkaMbFwdOySyUsQIBhzx5nsP659CIismoa6czlwAv3uCMT2BEa2g4Tezw-kkN3neNiD42ONHAF-a3Iy3iFQ#most-watched)
 
 ### Lab
 
@@ -291,6 +292,7 @@ Answer two Critical Thinking questions from [O'Reilly-Practical MLOps-Chapter 11
 ### Readings/Media
 
 * [Coursera-Applying Key Data Engineering Tasks](https://www.coursera.org/learn/cloud-data-engineering-duke/home/week/4)
+* [Databricks zero to MLOps](https://github.com/noahgift/databricks-zero-to-mlops)
 
 ### Lab
 
