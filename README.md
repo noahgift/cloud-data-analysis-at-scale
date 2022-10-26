@@ -107,10 +107,12 @@ These resources could be helpful after starting this course.
 
 * [Serverless](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter06-serverless-etl/)
 
-### Managed ML Systems, Big Data and Edge Computer Vision [Week 11 & Week 12 & Week 13]
+### MLOps, Big Data and Edge Computer Vision [Week 11 & Week 12 & Week 13]
 
 * [Managed ML Systems](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter07-managed-ml/)
 * [Edge Computer Vision Notebooks and Code](https://github.com/noahgift/edge-computer-vision)
+* [HuggingFace](https://learning.oreilly.com/videos/applied-hugging-face/10212022VIDEOPAIML/)
+* [OpenAI](https://learning.oreilly.com/videos/assimilate-openai/08252022VIDEOPAIML/)
 
 ### General
 
