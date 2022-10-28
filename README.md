@@ -129,6 +129,7 @@ These resources could be helpful after starting this course.
 [Read Cloud Computing for Data Book](https://paiml.com/docs/home/books/cloud-computing-for-data/)
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
 
+[Free book Developing-on-AWS-with-CSharp](https://d1.awsstatic.com/developer-center/Developing-on-AWS-with-CSharp.pdf)
 
 #### Next Steps:  Take Coursera MLOps Course
 
