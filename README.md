@@ -130,6 +130,7 @@ These resources could be helpful after starting this course.
 ![cloud4data books](https://d2sofvawe08yqg.cloudfront.net/cloud4data/hero2x?1578933644)
 
 [Free book Developing-on-AWS-with-CSharp](https://d1.awsstatic.com/developer-center/Developing-on-AWS-with-CSharp.pdf)
+![Screenshot 2022-10-28 at 7 12 09 AM](https://user-images.githubusercontent.com/58792/198574661-c631cffa-4fca-4b7e-836f-a82bef7d77f6.png)
 
 #### Next Steps:  Take Coursera MLOps Course
 
