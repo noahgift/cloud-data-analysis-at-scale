@@ -16,7 +16,7 @@ Upon successful completion of this course, you will be able to:
 2. Evaluate the economics of cloud computing
 3. Accurately evaluate distributed computing challenges and opportunities and apply this knowledge to real-world projects.
 4. Develop non-linear life-long learning skills
-5. Build, share and present compelling portfolios using:  Github, YouTube, and Linkedin.
+5. Build, share and present compelling portfolios using:  Github, Hugging Face, YouTube, and Linkedin.
 6. Develop [Metacognition skills](https://www.amazon.com/Know-Thyself-Self-Awareness-Stephen-Fleming-ebook/dp/B08F4ZMZQW/) (By teaching we learn)
 
 #### Conceptual Topics
