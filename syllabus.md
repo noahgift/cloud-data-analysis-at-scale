@@ -82,9 +82,14 @@ The purpose of the async discussion forum is to facilitate a free exchange of id
 
 The requirements each week is to both create a post according to the assignment but to also comment in a meaningful way on posts by two other students.
 
+#### MLOps Template GitHub Pull Requests
+
+Students can choose to either do a discussion question each week or create a pull request to work on a ticket on the [MLOps Template project](https://github.com/nogibjj/mlops-template).  The [queue of work](https://github.com/nogibjj/mlops-template/issues) will be organized by the TAs and advanced can also create a ticket, then work on it.
+
 #### Weekly Demo
 
 * Each week you will do 1-5 minute demo (hard capped at 5 minutes).  This trains your metacognitive abilities.
+* You have the option of doing a demo on work from GitHub contributions related to class or class projects.
 
 #### Cloud Resources (Labs, Credits, and Accounts)
 
@@ -111,6 +116,7 @@ This course will make sure of several free resources that allow students to use 
 *   Gift, N (2021) [Practical MLOps](https://learning.oreilly.com/library/view/practical-mlops/9781098103002/), Sebastopol, CA: O'Reilly
 *   Gift, N (2021) [Cloud Computing for Data Analysis](https://paiml.com/docs/home/books/cloud-computing-for-data/)
 *   Gift, N (2020) [Pragmatic AI:  An Introduction to Cloud-Based Machine Learning](https://learning.oreilly.com/library/view/pragmatic-ai-an/9780134863924/)
+*   Gift, N (2022)[Developing on AWS with CSharp](https://d1.awsstatic.com/developer-center/Developing-on-AWS-with-CSharp.pdf)
 
 ### Optional Readings & Media
 
@@ -123,14 +129,14 @@ This course will make sure of several free resources that allow students to use 
 
 #### Supplementary Readings & Media
 
-*   [DataCamp Data Engineering Track](https://www.datacamp.com/tracks/data-engineer-with-python)
-*   [AWS Training](https://www.aws.training/)
-*   [AWS Educate](https://www.awseducate.com/educator/s/pathways)
-*   [AWS Academy](https://aws.amazon.com/training/awsacademy/)
-*   [Google Qwiklabs](https://www.qwiklabs.com/)
-*   [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
-*   [Python in One Hour](https://github.com/noahgift/functional_intro_to_python/blob/master/README.md#python-in-one-hour)
-*   [Know Thyself: The Science of Self-Awareness ](https://www.amazon.com/gp/product/1541672844)
+
+* [AWS Training](https://www.aws.training/)
+* [AWS Educate](https://www.awseducate.com/educator/s/pathways)
+* [AWS Academy](https://aws.amazon.com/training/awsacademy/)
+* [Google Qwiklabs](https://www.qwiklabs.com/)
+* [Microsoft Learn](https://docs.microsoft.com/en-us/learn/)
+* [Python in One Hour](https://github.com/noahgift/functional_intro_to_python/blob/master/README.md#python-in-one-hour)
+* [Know Thyself: The Science of Self-Awareness ](https://www.amazon.com/gp/product/1541672844)
 * [DataCamp - CLI Automation Python](https://www.datacamp.com/courses/command-line-automation-in-python)
 * [AWS Training & Certification](https://www.aws.training/)
 * [AWS Educate](https://www.awseducate.com/educator/s/pathways)
@@ -214,3 +220,4 @@ This course will make sure of several free resources that allow students to use 
 * [Computer Vision MVPS](https://learning.oreilly.com/videos/computer-vision-mvps/608282021VIDEOPAIML/)
 * [MLOps with AWS App Runner](https://learning.oreilly.com/videos/mlops-with-aws/605232021VIDEOPAIML/)
 * [Kicking the Tires on the MLOPs framework MLRun](https://learning.oreilly.com/videos/kicking-the-tires/11292021VIDEOPAIML/)
+* [MLOps Key Concepts](https://learning.oreilly.com/videos/mlops-key-concepts/08192022VIDEOPAIML/)
