@@ -10,13 +10,21 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * A complete [online book with screencast videos is available here](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/).
 * [Coursera Course, Building Cloud Computing Solutions at Scale Specialization, can be found here: https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
-## Guest Lecture 2022-Async
+## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
 
-*GPT 3*:  
-* Book:  https://learning.oreilly.com/library/view/gpt-3/9781098113612/ 
-* Interview:  https://learning.oreilly.com/videos/52-weeks-of/021822022VIDEOPAIML/
-* Shubham Saboo 
-* Sandra Kublik 
+### 🔥 Hot Course Offers:
+* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
+* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
+* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
+* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
+* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
+
+### 🚀 Level Up Your Career:
+* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
+* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
+* 🏢 Trusted by Fortune 500 Teams
+
+Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
 
 ## Prequel Material
 
