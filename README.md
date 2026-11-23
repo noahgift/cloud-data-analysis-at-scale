@@ -10,22 +10,6 @@ Course taught at [Duke MIDS](https://datascience.duke.edu/noah-gift), Spring 202
 * A complete [online book with screencast videos is available here](https://paiml.com/docs/home/books/cloud-computing-for-data/chapter01-getting-started/).
 * [Coursera Course, Building Cloud Computing Solutions at Scale Specialization, can be found here: https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale)
 
-## 🎓 Pragmatic AI Labs | Join 1M+ ML Engineers
-
-### 🔥 Hot Course Offers:
-* 🤖 [Master GenAI Engineering](https://ds500.paiml.com/learn/course/0bbb5/) - Build Production AI Systems
-* 🦀 [Learn Professional Rust](https://ds500.paiml.com/learn/course/g6u1k/) - Industry-Grade Development
-* 📊 [AWS AI & Analytics](https://ds500.paiml.com/learn/course/31si1/) - Scale Your ML in Cloud
-* ⚡ [Production GenAI on AWS](https://ds500.paiml.com/learn/course/ehks1/) - Deploy at Enterprise Scale
-* 🛠️ [Rust DevOps Mastery](https://ds500.paiml.com/learn/course/ex8eu/) - Automate Everything
-
-### 🚀 Level Up Your Career:
-* 💼 [Production ML Program](https://paiml.com) - Complete MLOps & Cloud Mastery
-* 🎯 [Start Learning Now](https://ds500.paiml.com) - Fast-Track Your ML Career
-* 🏢 Trusted by Fortune 500 Teams
-
-Learn end-to-end ML engineering from industry veterans at [PAIML.COM](https://paiml.com)
-
 ## Prequel Material
 
 These resources could be helpful before starting this course.
@@ -154,4 +138,10 @@ These resources could be helpful after starting this course.
 ### Text and Code License
 The text and code content of notebooks and documents is released under the [CC-BY-NC-ND license](https://github.com/noahgift/cloud-data-analysis-at-scale/blob/master/license.md)
 
+<!-- funnel:start -->
+---
 
+**Learn cloud and serverless engineering:** [Building Cloud Computing Solutions at Scale, Duke (Coursera)](https://www.coursera.org/specializations/building-cloud-computing-solutions-at-scale?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=cloud-data-analysis-at-scale) · [Generative AI Development on AWS program (edX)](https://www.edx.org/certificates/professional-certificate/ai-generative-ai-development-on-aws?utm_source=github&utm_medium=readme&utm_campaign=funnel_2026q4&utm_content=cloud-data-analysis-at-scale)
+
+More courses from [Noah Gift](https://github.com/noahgift) and Pragmatic AI Labs.
+<!-- funnel:end -->
